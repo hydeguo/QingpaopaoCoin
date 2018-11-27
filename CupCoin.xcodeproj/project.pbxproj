@@ -165,6 +165,8 @@
 		C1C4295320D6AA1D0071532F /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C4293D20D6AA1D0071532F /* ShareSDK.framework */; };
 		C1C4295420D6AA1D0071532F /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C4293F20D6AA1D0071532F /* MOBFoundation.framework */; };
 		C1C9955A21A950F700E9B754 /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C9955921A950F600E9B754 /* ErrorCode.swift */; };
+		C1C9955C21AB7E8A00E9B754 /* AddWifiControllPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C9955B21AB7E8A00E9B754 /* AddWifiControllPage.swift */; };
+		C1C9966C21ACD7CE00E9B754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1C9966E21ACD7CE00E9B754 /* InfoPlist.strings */; };
 		C1CB58B22199706900DE1D4B /* MyCommentListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB58B12199706900DE1D4B /* MyCommentListController.swift */; };
 		C1D0AF732147A2A1005C682B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */; };
 		C1D5B60220F3B54F004DCE83 /* ReturnOrderNumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5B60120F3B54E004DCE83 /* ReturnOrderNumVC.swift */; };
@@ -290,9 +292,7 @@
 		C1662AF42150FA16008DA143 /* PaySDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaySDK.swift; sourceTree = "<group>"; };
 		C1662AF52150FA16008DA143 /* WechatAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatAuth.swift; sourceTree = "<group>"; };
 		C1662AF62150FA17008DA143 /* AlipayPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlipayPay.swift; sourceTree = "<group>"; };
-		C1663457219F97B000018097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C166345A219F982300018097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Shop.storyboard; sourceTree = "<group>"; };
-		C166345E219F9B5400018097 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16980DE20E8D3D20034E954 /* CleanCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCupViewController.swift; sourceTree = "<group>"; };
 		C16E04D620DDBEAA009ED462 /* libBLEManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLEManager.a; sourceTree = "<group>"; };
 		C16E04D720DDBEAA009ED462 /* BLEManagerAPIDoc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLEManagerAPIDoc.pdf; sourceTree = "<group>"; };
@@ -397,6 +397,12 @@
 		C1C4293D20D6AA1D0071532F /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
 		C1C4293F20D6AA1D0071532F /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		C1C9955921A950F600E9B754 /* ErrorCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
+		C1C9955B21AB7E8A00E9B754 /* AddWifiControllPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWifiControllPage.swift; sourceTree = "<group>"; };
+		C1C9966721ABB2F000E9B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		C1C9966821ABB46E00E9B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C1C9966921ABB50500E9B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C9966D21ACD7CE00E9B754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1C9966F21ACD7D000E9B754 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		C1CB58B12199706900DE1D4B /* MyCommentListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommentListController.swift; sourceTree = "<group>"; };
 		C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C1D5B60120F3B54E004DCE83 /* ReturnOrderNumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnOrderNumVC.swift; sourceTree = "<group>"; };
@@ -495,6 +501,7 @@
 				C11A100520EA1E9E000979B3 /* DeviceListViewController.swift */,
 				C1B9744C20FA3FDF00BC2EB9 /* ChangeDeviceNameVC.swift */,
 				C11A100220EA0D2C000979B3 /* AddDevice.swift */,
+				C1C9955B21AB7E8A00E9B754 /* AddWifiControllPage.swift */,
 				C11160EB20EBC61C00921C37 /* DeviceInfoVC.swift */,
 				C192AAA420C3FBBB004EE98D /* BLEViewController.swift */,
 				20327ADA21116227006935FB /* WifiTableViewController.swift */,
@@ -732,6 +739,7 @@
 				C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */,
 				C1C428CB20D651FE0071532F /* Mywopin-Bridging-Header.h */,
 				C1383A3420DF856D00F1EBE6 /* Localizable.strings */,
+				C1C9966E21ACD7CE00E9B754 /* InfoPlist.strings */,
 			);
 			path = Mywopin;
 			sourceTree = "<group>";
@@ -1144,6 +1152,7 @@
 				C1C4294820D6AA1D0071532F /* ShareSDK.bundle in Resources */,
 				C192AA1A20C23771004EE98D /* Assets.xcassets in Resources */,
 				C146744921A0186A00EAE7A7 /* Login.storyboard in Resources */,
+				C1C9966C21ACD7CE00E9B754 /* InfoPlist.strings in Resources */,
 				C1383A4220DF896200F1EBE6 /* iconfont.ttf in Resources */,
 				C14063602105692D00AB8914 /* Info.plist in Resources */,
 				C192AA1820C23770004EE98D /* Main.storyboard in Resources */,
@@ -1323,6 +1332,7 @@
 				C1C428D320D670DE0071532F /* UserAgreementVC.swift in Sources */,
 				C15AEF8B20F07F22009F4A0E /* ExchangeShopDetailVC.swift in Sources */,
 				20327AE12111943D006935FB /* WifiScanListVC.swift in Sources */,
+				C1C9955C21AB7E8A00E9B754 /* AddWifiControllPage.swift in Sources */,
 				C1BA807520D7980A007D2B48 /* WolfNetwork.swift in Sources */,
 				C16E273C2143C3BD00E26D8A /* OptionsTableView.swift in Sources */,
 				C192AA5020C37FCF004EE98D /* ColorPicker.swift in Sources */,
@@ -1428,6 +1438,7 @@
 			children = (
 				C12878D221A4EC8A00F0DD9E /* zh-Hans */,
 				C12878D421A4EC8E00F0DD9E /* en */,
+				C1C9966721ABB2F000E9B754 /* Base */,
 			);
 			name = Info.plist;
 			sourceTree = "<group>";
@@ -1436,7 +1447,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C1383A3720DF85DA00F1EBE6 /* zh-Hans */,
-				C1663457219F97B000018097 /* en */,
+				C1C9966821ABB46E00E9B754 /* Base */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1470,7 +1481,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C1383A3920DF862F00F1EBE6 /* zh-Hans */,
-				C166345E219F9B5400018097 /* en */,
+				C1C9966921ABB50500E9B754 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1481,6 +1492,15 @@
 				C1383A3820DF862300F1EBE6 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C9966E21ACD7CE00E9B754 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C9966D21ACD7CE00E9B754 /* en */,
+				C1C9966F21ACD7D000E9B754 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -97,7 +97,7 @@ class DeviceListViewController: UITableViewController {
     func addCallBack()
     {
         
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "addDeviceView")
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "wifiConnectPage")
         self.navigationController?.pushViewController(vc!, animated: true)
     }
 

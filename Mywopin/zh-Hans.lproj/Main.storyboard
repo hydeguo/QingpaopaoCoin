@@ -4487,10 +4487,10 @@
             </objects>
             <point key="canvasLocation" x="-95.200000000000003" y="-1338.08095952024"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Wifi Controll Page-->
         <scene sceneID="AVR-2c-8uN">
             <objects>
-                <viewController id="k3v-vW-esd" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wifiConnectPage" id="k3v-vW-esd" customClass="AddWifiControllPage" customModule="CupCoin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="coX-Bs-sM8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4945,7 +4945,7 @@ DQ
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFh-RQ-t5R" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-95.200000000000003" y="-640.02998500749629"/>
+            <point key="canvasLocation" x="-145" y="-609"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="DzO-cv-jeA">
@@ -4986,7 +4986,7 @@ DQ
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pVI-iU-yPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-790" y="-1299"/>
+            <point key="canvasLocation" x="-980" y="-1374"/>
         </scene>
         <!--积分商城-->
         <scene sceneID="dUi-nS-FQW">

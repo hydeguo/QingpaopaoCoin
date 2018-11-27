@@ -267,9 +267,9 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
     {
         if let _todayDrinks = todayDrinks
         {
-            self.drinkCupLabel.text = String(_todayDrinks.drinks!.count) + Language.getString("杯")
+            self.drinkCupLabel.text =  "\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯"))"
         }
-        self.drinkCupTotalLabel.text = String(Int(myClientVo?.drinks ?? 0)) + Language.getString("杯")
+        self.drinkCupTotalLabel.text = "\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯"))"
     }
     
     override func viewWillDisappear(_ animated: Bool) {

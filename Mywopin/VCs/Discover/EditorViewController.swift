@@ -221,7 +221,7 @@ class EditorViewController: UIViewController {
         nc.addObserver(self, selector: #selector(keyboardWillHide), name: .UIKeyboardWillHide, object: nil)
         
         let button: UIButton = UIButton(type: UIButtonType.custom)
-        button.setTitle("发布", for: .normal)
+        button.setTitle(Language.getString("发布"), for: .normal)
         button.addTarget(self, action: #selector(onSubmit(_:)), for: UIControlEvents.touchUpInside)
         button.frame = CGRect(x: 0, y: 0, width: 50, height: 50)//CGRectMake(0, 0, 53, 31)
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)

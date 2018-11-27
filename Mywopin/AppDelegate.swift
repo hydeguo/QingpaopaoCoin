@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        UIBarButtonItem.appearance().setTitleTextAttributes(attributes, for: .normal)
 //        UIBarButtonItem.appearance().setTitleTextAttributes(attributes, for: .highlighted)
         
-        Language.share.setLanguage("zh-Hans")
+//        Language.share.setLanguage("zh-Hans")
         
 //        WordPressWebServices.sharedInstance.loginWP(id: "") { (flag, err) in
 //            Log("WordPressWebServices login...\(flag)")

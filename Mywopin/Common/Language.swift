@@ -13,10 +13,10 @@ class Language: NSObject {
     
     
     var appLanguage: String {
-        guard let app = self.def.array(forKey: self.languageKey) else {
-            return ""
-        }
-        return app.first as! String
+//        guard let app = self.def.array(forKey: self.languageKey) else {
+            return NSLocale.preferredLanguages[0]
+//        }
+//        return app.first as! String
     }
     
     func setLanguage(_ lag: String) {
@@ -32,7 +32,14 @@ class Language: NSObject {
     
     class func getString(_ key: String) -> String {
         
-        guard let path = Bundle.main.path(forResource: Language.share.appLanguage, ofType: "lproj"), let bundle = Bundle(path: path) else {
+        Log(Language.share.appLanguage)
+        var lang = Language.share.appLanguage
+        if lang.contains("zh-Hans") || lang.contains("zh-Hant"){
+            lang = "zh-Hans"
+        }
+        
+        
+        guard let path = Bundle.main.path(forResource: lang, ofType: "lproj"), let bundle = Bundle(path: path) else {
             // 回傳基本文件資料
             guard let path = Bundle.main.path(forResource: "Base", ofType: "lproj"), let bundle = Bundle(path: path) else {
                 return ""
