@@ -129,9 +129,19 @@ class MyProfileViewController: AvatarViewController {
     {
         if let _todayDrinks = todayDrinks
         {
-            self.drinkCupLabel.text = "\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯"))"
+            if _todayDrinks.drinks!.count > 1{
+                self.drinkCupLabel.text = "\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯"))"
+            }else{
+                self.drinkCupLabel.text = "\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯1"))"
+            }
+            
         }
-        self.drinkCupTotalLabeL.text = "\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯"))"
+        if Int(myClientVo?.drinks ?? 0) > 1{
+            self.drinkCupTotalLabeL.text = "\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯"))"
+        }else{
+            self.drinkCupTotalLabeL.text = "\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯1"))"
+        }
+        
     }
     
     @IBAction func attendance()

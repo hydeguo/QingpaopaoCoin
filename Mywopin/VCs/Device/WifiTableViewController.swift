@@ -61,6 +61,10 @@ class WifiTableViewController: UITableViewController, QRCodeReaderViewController
         
         return spinnerView
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
     
     private func removeSpinner(spinner :UIView) {
         DispatchQueue.main.async {

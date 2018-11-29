@@ -149,7 +149,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 90 images.
+  /// This `R.image` struct is generated, and contains static references to 94 images.
   struct image {
     /// Image `AMCP_color_wheel`.
     static let amcp_color_wheel = Rswift.ImageResource(bundle: R.hostingBundle, name: "AMCP_color_wheel")
@@ -159,6 +159,12 @@ struct R: Rswift.Validatable {
     static let bg11 = Rswift.ImageResource(bundle: R.hostingBundle, name: "BG1-1")
     /// Image `Qrcode`.
     static let qrcode = Rswift.ImageResource(bundle: R.hostingBundle, name: "Qrcode")
+    /// Image `WechatIMG5242`.
+    static let wechatIMG5242 = Rswift.ImageResource(bundle: R.hostingBundle, name: "WechatIMG5242")
+    /// Image `WechatIMG5245`.
+    static let wechatIMG5245 = Rswift.ImageResource(bundle: R.hostingBundle, name: "WechatIMG5245")
+    /// Image `WechatIMG5246`.
+    static let wechatIMG5246 = Rswift.ImageResource(bundle: R.hostingBundle, name: "WechatIMG5246")
     /// Image `arrow`.
     static let arrow = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow")
     /// Image `back`.
@@ -301,6 +307,8 @@ struct R: Rswift.Validatable {
     static let 写评论 = Rswift.ImageResource(bundle: R.hostingBundle, name: "写评论")
     /// Image `分享`.
     static let 分享 = Rswift.ImageResource(bundle: R.hostingBundle, name: "分享")
+    /// Image `启动页`.
+    static let 启动页 = Rswift.ImageResource(bundle: R.hostingBundle, name: "启动页")
     /// Image `资源 10`.
     static let 资源10 = Rswift.ImageResource(bundle: R.hostingBundle, name: "资源 10")
     /// Image `资源 11`.
@@ -350,6 +358,21 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "Qrcode", bundle: ..., traitCollection: ...)`
     static func qrcode(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.qrcode, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "WechatIMG5242", bundle: ..., traitCollection: ...)`
+    static func wechatIMG5242(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.wechatIMG5242, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "WechatIMG5245", bundle: ..., traitCollection: ...)`
+    static func wechatIMG5245(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.wechatIMG5245, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "WechatIMG5246", bundle: ..., traitCollection: ...)`
+    static func wechatIMG5246(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.wechatIMG5246, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "arrow", bundle: ..., traitCollection: ...)`
@@ -705,6 +728,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "分享", bundle: ..., traitCollection: ...)`
     static func 分享(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.分享, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "启动页", bundle: ..., traitCollection: ...)`
+    static func 启动页(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.启动页, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "资源 10", bundle: ..., traitCollection: ...)`
@@ -1115,7 +1143,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.string` struct is generated, and contains static references to 2 localization tables.
+  /// This `R.string` struct is generated, and contains static references to 3 localization tables.
   struct string {
     /// This `R.string.infoPlist` struct is generated, and contains static references to 1 localization keys.
     struct infoPlist {
@@ -1134,7 +1162,12 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.localizable` struct is generated, and contains static references to 114 localization keys.
+    /// This `R.string.launchScreen` struct is generated, and contains static references to 0 localization keys.
+    struct launchScreen {
+      fileprivate init() {}
+    }
+    
+    /// This `R.string.localizable` struct is generated, and contains static references to 115 localization keys.
     struct localizable {
       /// Base translation: A link to reset your password has been sent to your email
       /// 
@@ -1216,6 +1249,10 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: zh-Hans, Base
       static let 连接异常请重试 = Rswift.StringResource(key: "连接异常，请重试", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Base translation: Cup
+      /// 
+      /// Locales: zh-Hans, Base
+      static let 杯1 = Rswift.StringResource(key: "杯1", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
       /// Base translation: Cup color
       /// 
       /// Locales: zh-Hans, Base
@@ -1731,6 +1768,13 @@ struct R: Rswift.Validatable {
       /// Locales: zh-Hans, Base
       static func 连接异常请重试(_: Void = ()) -> String {
         return NSLocalizedString("连接异常，请重试", bundle: R.hostingBundle, value: "Connection is abnormal, please try again", comment: "")
+      }
+      
+      /// Base translation: Cup
+      /// 
+      /// Locales: zh-Hans, Base
+      static func 杯1(_: Void = ()) -> String {
+        return NSLocalizedString("杯1", bundle: R.hostingBundle, value: "Cup", comment: "")
       }
       
       /// Base translation: Cup color

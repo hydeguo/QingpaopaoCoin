@@ -195,11 +195,15 @@ class DrinkHistory: UIViewController {
             partOneTitle.text = Language.getString("今天喝水统计")
             partOneLine1Title.text = Language.getString("喝水量")
             partOneLine2Title.text = Language.getString("最近一次喝水时间")
-            partOneLine1Value.text = "0" + Language.getString("杯")
+            partOneLine1Value.text = "0" + Language.getString("杯1")
             partOneLine2Value.text = "--"
             if let drinkData = todayDrink , let lastDrink = drinkData.drinks?.last
             {
-                partOneLine1Value.text = String(drinkData.drinks!.count) + Language.getString("杯")
+                if drinkData.drinks!.count > 1{
+                    partOneLine1Value.text = String(drinkData.drinks!.count) + Language.getString("杯")
+                }else{
+                    partOneLine1Value.text = String(drinkData.drinks!.count) + Language.getString("杯1")
+                }
                 partOneLine2Value.text = lastDrink.time
             }
            partTwoView.isHidden = true
@@ -210,7 +214,11 @@ class DrinkHistory: UIViewController {
             partTwoTitle.text = Language.getString("本周喝水状况")
             partOneLine1Title.text = Language.getString("总喝水量")
             partOneLine2Title.text = Language.getString("达标天数")
-            partOneLine1Value.text = String(self.total_week)  + Language.getString("杯")
+            if self.total_week > 1{
+                partOneLine1Value.text = String(self.total_week) + Language.getString("杯")
+            }else{
+                partOneLine1Value.text = String(self.total_week) + Language.getString("杯1")
+            }
             partOneLine2Value.text = String(self.standard_week)  + Language.getString("天")
             partTwoView.isHidden = false
             chartView1.isHidden = false
@@ -227,7 +235,11 @@ class DrinkHistory: UIViewController {
             partTwoTitle.text = Language.getString("本月喝水状况")
             partOneLine1Title.text = Language.getString("总喝水量")
             partOneLine2Title.text = Language.getString("达标天数")
-            partOneLine1Value.text = String(self.total_month) + Language.getString("杯")
+            if self.total_month > 1{
+                partOneLine1Value.text = String(self.total_month) + Language.getString("杯")
+            }else{
+                partOneLine1Value.text = String(self.total_month) + Language.getString("杯1")
+            }
             partOneLine2Value.text = String(self.standard_month) + Language.getString("天")
             partTwoView.isHidden = false
             chartView1.isHidden = true

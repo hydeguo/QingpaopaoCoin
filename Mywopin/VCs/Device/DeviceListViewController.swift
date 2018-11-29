@@ -190,7 +190,8 @@ class DeviceListViewController: UITableViewController {
         })
         
         
-        let config = UISwipeActionsConfiguration(actions: [deleteAction])
+//        let config = UISwipeActionsConfiguration(actions: [deleteAction])
+        let config = UISwipeActionsConfiguration(actions: [])
         
         config.performsFirstActionWithFullSwipe = false
         return config

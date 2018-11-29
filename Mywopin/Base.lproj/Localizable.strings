@@ -17,6 +17,7 @@
 "已连接"="Online";
 "未连接"="Offline";
 "杯"="Cups";
+"杯1"="Cup";
 "元"="Yuan";
 "绑定成功"="binding success";
 "绑定失败"="bind failed";

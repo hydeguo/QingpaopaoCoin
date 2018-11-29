@@ -116,9 +116,12 @@ class LoginVC: UIViewController , UITextFieldDelegate{
             _ = Wolf.request(type: MyAPI.resetEmailPassword(email: emailText), completion: { (user: BaseReponse?, msg, code) in
                 if(code == "0"){
                     _ = SweetAlert().showAlert(Language.getString("提示"), subTitle: Language.getString("已经发送重置密码的链接到您的E-mail"), style: AlertStyle.success)
-                }else{
+                }else if(code == "415"){
                     
                     _ = SweetAlert().showAlert(Language.getString("提示"), subTitle: Language.getString("您的E-mail未注册"), style: AlertStyle.warning)
+                }else{
+                    
+                    _ = SweetAlert().showAlert(Language.getString("提示"), subTitle: msg, style: AlertStyle.warning)
                 }
             }, failure: nil)
         }
