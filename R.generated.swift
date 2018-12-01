@@ -149,14 +149,20 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 94 images.
+  /// This `R.image` struct is generated, and contains static references to 98 images.
   struct image {
+    /// Image `750x1334`.
+    static let x1334 = Rswift.ImageResource(bundle: R.hostingBundle, name: "750x1334")
     /// Image `AMCP_color_wheel`.
     static let amcp_color_wheel = Rswift.ImageResource(bundle: R.hostingBundle, name: "AMCP_color_wheel")
     /// Image `AMCP_cursor`.
     static let amcp_cursor = Rswift.ImageResource(bundle: R.hostingBundle, name: "AMCP_cursor")
     /// Image `BG1-1`.
     static let bg11 = Rswift.ImageResource(bundle: R.hostingBundle, name: "BG1-1")
+    /// Image `CupCleaning_en`.
+    static let cupCleaning_en = Rswift.ImageResource(bundle: R.hostingBundle, name: "CupCleaning_en")
+    /// Image `Lighting_en`.
+    static let lighting_en = Rswift.ImageResource(bundle: R.hostingBundle, name: "Lighting_en")
     /// Image `Qrcode`.
     static let qrcode = Rswift.ImageResource(bundle: R.hostingBundle, name: "Qrcode")
     /// Image `WechatIMG5242`.
@@ -213,6 +219,8 @@ struct R: Rswift.Validatable {
     static let cup = Rswift.ImageResource(bundle: R.hostingBundle, name: "cup")
     /// Image `default profile`.
     static let defaultProfile = Rswift.ImageResource(bundle: R.hostingBundle, name: "default profile")
+    /// Image `device_en`.
+    static let device_en = Rswift.ImageResource(bundle: R.hostingBundle, name: "device_en")
     /// Image `device`.
     static let device = Rswift.ImageResource(bundle: R.hostingBundle, name: "device")
     /// Image `drinkIcon1`.
@@ -340,6 +348,11 @@ struct R: Rswift.Validatable {
     /// Image `资源 2`.
     static let 资源2 = Rswift.ImageResource(bundle: R.hostingBundle, name: "资源 2")
     
+    /// `UIImage(named: "750x1334", bundle: ..., traitCollection: ...)`
+    static func x1334(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.x1334, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "AMCP_color_wheel", bundle: ..., traitCollection: ...)`
     static func amcp_color_wheel(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.amcp_color_wheel, compatibleWith: traitCollection)
@@ -353,6 +366,16 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "BG1-1", bundle: ..., traitCollection: ...)`
     static func bg11(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.bg11, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "CupCleaning_en", bundle: ..., traitCollection: ...)`
+    static func cupCleaning_en(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.cupCleaning_en, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Lighting_en", bundle: ..., traitCollection: ...)`
+    static func lighting_en(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.lighting_en, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "Qrcode", bundle: ..., traitCollection: ...)`
@@ -498,6 +521,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "device", bundle: ..., traitCollection: ...)`
     static func device(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.device, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "device_en", bundle: ..., traitCollection: ...)`
+    static func device_en(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.device_en, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "drinkIcon1", bundle: ..., traitCollection: ...)`
@@ -1120,8 +1148,8 @@ struct R: Rswift.Validatable {
   struct storyboard {
     /// Storyboard `AttachmentDetailsViewController`.
     static let attachmentDetailsViewController = _R.storyboard.attachmentDetailsViewController()
-    /// Storyboard `LaunchScreen`.
-    static let launchScreen = _R.storyboard.launchScreen()
+    /// Storyboard `EnLaunchScreen`.
+    static let enLaunchScreen = _R.storyboard.enLaunchScreen()
     /// Storyboard `Shop`.
     static let shop = _R.storyboard.shop()
     
@@ -1130,9 +1158,9 @@ struct R: Rswift.Validatable {
       return UIKit.UIStoryboard(resource: R.storyboard.attachmentDetailsViewController)
     }
     
-    /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
-    static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
+    /// `UIStoryboard(name: "EnLaunchScreen", bundle: ...)`
+    static func enLaunchScreen(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.enLaunchScreen)
     }
     
     /// `UIStoryboard(name: "Shop", bundle: ...)`
@@ -1143,14 +1171,25 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.string` struct is generated, and contains static references to 3 localization tables.
+  /// This `R.string` struct is generated, and contains static references to 2 localization tables.
   struct string {
-    /// This `R.string.infoPlist` struct is generated, and contains static references to 1 localization keys.
+    /// This `R.string.infoPlist` struct is generated, and contains static references to 2 localization keys.
     struct infoPlist {
+      /// en translation: EnLaunchScreen
+      /// 
+      /// Locales: en, zh-Hans
+      static let uiLaunchStoryboardName = Rswift.StringResource(key: "UILaunchStoryboardName", tableName: "InfoPlist", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
       /// en translation: H-POPO
       /// 
       /// Locales: en, zh-Hans
       static let cfBundleDisplayName = Rswift.StringResource(key: "CFBundleDisplayName", tableName: "InfoPlist", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      
+      /// en translation: EnLaunchScreen
+      /// 
+      /// Locales: en, zh-Hans
+      static func uiLaunchStoryboardName(_: Void = ()) -> String {
+        return NSLocalizedString("UILaunchStoryboardName", tableName: "InfoPlist", bundle: R.hostingBundle, comment: "")
+      }
       
       /// en translation: H-POPO
       /// 
@@ -1162,12 +1201,7 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This `R.string.launchScreen` struct is generated, and contains static references to 0 localization keys.
-    struct launchScreen {
-      fileprivate init() {}
-    }
-    
-    /// This `R.string.localizable` struct is generated, and contains static references to 115 localization keys.
+    /// This `R.string.localizable` struct is generated, and contains static references to 117 localization keys.
     struct localizable {
       /// Base translation: A link to reset your password has been sent to your email
       /// 
@@ -1357,6 +1391,10 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: zh-Hans, Base
       static let 灯光设置 = Rswift.StringResource(key: "灯光设置", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Base translation: Likes
+      /// 
+      /// Locales: zh-Hans, Base
+      static let 我的赞 = Rswift.StringResource(key: "我的赞", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
       /// Base translation: Manual input
       /// 
       /// Locales: zh-Hans, Base
@@ -1493,6 +1531,10 @@ struct R: Rswift.Validatable {
       /// 
       /// Locales: zh-Hans, Base
       static let 保存失败 = Rswift.StringResource(key: "保存失败", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Base translation: Saved
+      /// 
+      /// Locales: zh-Hans, Base
+      static let 已保存 = Rswift.StringResource(key: "已保存", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
       /// Base translation: Select a cup
       /// 
       /// Locales: zh-Hans, Base
@@ -1959,6 +2001,13 @@ struct R: Rswift.Validatable {
         return NSLocalizedString("灯光设置", bundle: R.hostingBundle, value: "Light Settings", comment: "")
       }
       
+      /// Base translation: Likes
+      /// 
+      /// Locales: zh-Hans, Base
+      static func 我的赞(_: Void = ()) -> String {
+        return NSLocalizedString("我的赞", bundle: R.hostingBundle, value: "Likes", comment: "")
+      }
+      
       /// Base translation: Manual input
       /// 
       /// Locales: zh-Hans, Base
@@ -2195,6 +2244,13 @@ struct R: Rswift.Validatable {
       /// Locales: zh-Hans, Base
       static func 保存失败(_: Void = ()) -> String {
         return NSLocalizedString("保存失败", bundle: R.hostingBundle, value: "Save failed", comment: "")
+      }
+      
+      /// Base translation: Saved
+      /// 
+      /// Locales: zh-Hans, Base
+      static func 已保存(_: Void = ()) -> String {
+        return NSLocalizedString("已保存", bundle: R.hostingBundle, value: "Saved", comment: "")
       }
       
       /// Base translation: Select a cup
@@ -2465,9 +2521,9 @@ struct _R: Rswift.Validatable {
   
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
+      try enLaunchScreen.validate()
       try shop.validate()
       try attachmentDetailsViewController.validate()
-      try launchScreen.validate()
     }
     
     struct attachmentDetailsViewController: Rswift.StoryboardResourceType, Rswift.Validatable {
@@ -2486,14 +2542,14 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+    struct enLaunchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
       typealias InitialController = UIKit.UIViewController
       
       let bundle = R.hostingBundle
-      let name = "LaunchScreen"
+      let name = "EnLaunchScreen"
       
       static func validate() throws {
-        if UIKit.UIImage(named: "1242-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '1242-1' is used in storyboard 'LaunchScreen', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "750x1334") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '750x1334' is used in storyboard 'EnLaunchScreen', but couldn't be loaded.") }
       }
       
       fileprivate init() {}

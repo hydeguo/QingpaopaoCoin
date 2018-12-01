@@ -65,7 +65,10 @@ class ChangeEmailPassword: UIViewController  , UITextFieldDelegate{
                 {
 //                    let userInfo = ["userId" : phoneNum, "password" : psw,"platform":"0"]
 //                    UserDefaults.standard.set(userInfo, forKey: "userInformation")
-                    _ = SweetAlert().showAlert("修改成功", subTitle: "", style: AlertStyle.success)
+                    
+                    _ = SweetAlert().showAlert(Language.getString("修改成功"), subTitle: "", style: AlertStyle.success,buttonTitle: "确定", action: { _ in
+                        self.navigationController?.popViewController(animated: true)
+                    })
                     return
                 }
                 else

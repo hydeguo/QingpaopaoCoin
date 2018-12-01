@@ -98,7 +98,9 @@ class ChangePassword: UIViewController  , UITextFieldDelegate{
             changePassword(userID: phoneNum, password: psw, v_code: v_code) { (flag) in
                 if flag == true
                 {
-                    _ = SweetAlert().showAlert("修改成功", subTitle: "", style: AlertStyle.success)
+                    _ = SweetAlert().showAlert(Language.getString("修改成功"), subTitle: "", style: AlertStyle.success,buttonTitle: "确定", action: { _ in
+                        self.navigationController?.popViewController(animated: true)
+                    })
 //                    if UserDefaults.standard.dictionary(forKey: "userInformation") == nil {
 //                        login(phone: phoneNum, psw: psw, platform: 0) { (user) in
 //                            if user != nil

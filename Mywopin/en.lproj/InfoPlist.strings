@@ -6,3 +6,4 @@
   Copyright © 2018 Wopin. All rights reserved.
 */
 "CFBundleDisplayName" = "H-POPO";
+"UILaunchStoryboardName" = "EnLaunchScreen";
