@@ -231,7 +231,8 @@ class DeviceInfoVC: UITableViewController {
             destinationVC.setData(cupData: self.deviceInfo!)
 
         }
-        if segue.identifier == "signUp" {
+        
+        if segue.identifier! == "signUp" {
             let destinationVC = segue.destination as! SignUpCup
             destinationVC.myCupId = deviceInfo?.uuid
         }

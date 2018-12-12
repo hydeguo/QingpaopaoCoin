@@ -34,7 +34,7 @@ class Language: NSObject {
         
         Log(Language.share.appLanguage)
         var lang = Language.share.appLanguage
-        if lang.contains("zh-Hans"){
+        if lang.contains("zh-Hans") || lang.contains("zh-Hant"){
             lang = "zh-Hans"
         }
         

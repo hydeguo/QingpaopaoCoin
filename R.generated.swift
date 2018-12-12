@@ -925,12 +925,10 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    /// This struct is generated for `DeviceInfoVC`, and contains static references to 3 segues.
+    /// This struct is generated for `DeviceInfoVC`, and contains static references to 2 segues.
     struct deviceInfoVC {
       /// Segue identifier `changeCupName`.
       static let changeCupName: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, DeviceInfoVC, ChangeDeviceNameVC> = Rswift.StoryboardSegueIdentifier(identifier: "changeCupName")
-      /// Segue identifier `sginUp`.
-      static let sginUp: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, DeviceInfoVC, SignUpCup> = Rswift.StoryboardSegueIdentifier(identifier: "sginUp")
       /// Segue identifier `signUp`.
       static let signUp: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, DeviceInfoVC, SignUpCup> = Rswift.StoryboardSegueIdentifier(identifier: "signUp")
       
@@ -939,13 +937,6 @@ struct R: Rswift.Validatable {
       /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
       static func changeCupName(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, DeviceInfoVC, ChangeDeviceNameVC>? {
         return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.deviceInfoVC.changeCupName, segue: segue)
-      }
-      
-      /// Optionally returns a typed version of segue `sginUp`.
-      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
-      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
-      static func sginUp(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, DeviceInfoVC, SignUpCup>? {
-        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.deviceInfoVC.sginUp, segue: segue)
       }
       
       /// Optionally returns a typed version of segue `signUp`.
