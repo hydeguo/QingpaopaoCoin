@@ -1,10 +1,10 @@
-/* 
-  Localizable.strings
-  Mywopin
-
-  Created by Hydeguo on 2018/6/24.
-  Copyright © 2018 Hydeguo. All rights reserved.
-*/
+/*
+ Localizable.strings
+ Mywopin
+ 
+ Created by Hydeguo on 2018/6/24.
+ Copyright © 2018 Hydeguo. All rights reserved.
+ */
 
 "灯光设置"="Light Settings";
 "开始电解"="Start Electrolysis";
@@ -17,6 +17,7 @@
 "已连接"="Online";
 "未连接"="Offline";
 "杯"="Cups";
+"杯1"="Cup";
 "元"="Yuan";
 "绑定成功"="binding success";
 "绑定失败"="bind failed";
@@ -35,7 +36,7 @@
 "本周喝水状况"="Drinking water this week";
 "本月喝水状况"="Drinking water this month";
 "签到成功"="Attend success";
-"积分"="Bonus point";
+"积分"="Points";
 "积分商城"="Points Mall";
 "发布成功"="Published successfully";
 "探索"="Explore";
@@ -119,3 +120,7 @@
 "Email或者密码错误" = "Email or password is incorrect";
 "输入email已经注册" = "Enter email has been registered";
 "杯子已经被其他账号绑定" = "The cup has been bound by another account";
+"添加标题" = "Add a title";
+"发布" = "Publish";
+"我的赞" = "Likes";
+"已保存" = "Saved";

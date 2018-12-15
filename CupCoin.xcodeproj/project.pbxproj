@@ -28,7 +28,6 @@
 		C1315F6E20DB6740000DB991 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1315F6D20DB6740000DB991 /* User.swift */; };
 		C133C1F920F5B25800771FE6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C133C1F820F5B25800771FE6 /* R.generated.swift */; };
 		C1383A3220DF856D00F1EBE6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1383A3420DF856D00F1EBE6 /* Localizable.strings */; };
-		C1383A3C20DF865B00F1EBE6 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1383A3B20DF865A00F1EBE6 /* Language.swift */; };
 		C1383A4220DF896200F1EBE6 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1383A4120DF896200F1EBE6 /* iconfont.ttf */; };
 		C1383A4620DF985100F1EBE6 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1383A4520DF985100F1EBE6 /* ChangePassword.swift */; };
 		C1406353210460C800AB8914 /* GoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406352210460C800AB8914 /* GoodsModel.swift */; };
@@ -40,7 +39,6 @@
 		C1406362210619E900AB8914 /* ExchangeBuyBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406361210619E900AB8914 /* ExchangeBuyBtnVC.swift */; };
 		C1406364210A084500AB8914 /* WooCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406363210A084500AB8914 /* WooCommand.swift */; };
 		C1406366210D9D7800AB8914 /* ShopMainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406365210D9D7800AB8914 /* ShopMainPageVC.swift */; };
-		C146744921A0186A00EAE7A7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C146744B21A0186A00EAE7A7 /* Login.storyboard */; };
 		C146CB3320FC9E2F00AED9B2 /* BindingThirdpartAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146CB3220FC9E2F00AED9B2 /* BindingThirdpartAccountVC.swift */; };
 		C14DC3D5215F28D500DA4574 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14DC3D4215F28D500DA4574 /* NotificationService.swift */; };
 		C14DC3D9215F28D500DA4574 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C14DC3D2215F28D500DA4574 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -74,6 +72,10 @@
 		C1662AF92150FA17008DA143 /* WechatAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662AF52150FA16008DA143 /* WechatAuth.swift */; };
 		C1662AFA2150FA17008DA143 /* AlipayPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662AF62150FA17008DA143 /* AlipayPay.swift */; };
 		C1663459219F982300018097 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C166345B219F982300018097 /* Shop.storyboard */; };
+		C168FA4221C1E934009143F7 /* Main_cn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA3E21C1E931009143F7 /* Main_cn.storyboard */; };
+		C168FA4321C1E934009143F7 /* Login_cn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA3F21C1E932009143F7 /* Login_cn.storyboard */; };
+		C168FA4421C1E934009143F7 /* Login_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA4021C1E932009143F7 /* Login_en.storyboard */; };
+		C168FA4521C1E934009143F7 /* Main_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA4121C1E933009143F7 /* Main_en.storyboard */; };
 		C16980DF20E8D3D20034E954 /* CleanCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16980DE20E8D3D20034E954 /* CleanCupViewController.swift */; };
 		C16E04DD20DDBEAA009ED462 /* libBLEManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C16E04D620DDBEAA009ED462 /* libBLEManager.a */; };
 		C16E04DE20DDBEAA009ED462 /* BLEManagerAPIDoc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C16E04D720DDBEAA009ED462 /* BLEManagerAPIDoc.pdf */; };
@@ -100,6 +102,9 @@
 		C1803E0C2143D3310078D94C /* AttachmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1803E0B2143D3310078D94C /* AttachmentDetailsViewController.swift */; };
 		C1803E0F2143F6980078D94C /* MediaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1803E0E2143F6980078D94C /* MediaRequest.swift */; };
 		C1803E112144084B0078D94C /* AttachmentDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1803E102144084B0078D94C /* AttachmentDetailsViewController.storyboard */; };
+		C187D38621C13AD900474510 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187D38421C13AD800474510 /* Localizer.swift */; };
+		C187D38721C13AD900474510 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187D38521C13AD800474510 /* Language.swift */; };
+		C187D38921C1443E00474510 /* LanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187D38821C1443E00474510 /* LanguageController.swift */; };
 		C192AA1120C23770004EE98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192AA1020C23770004EE98D /* AppDelegate.swift */; };
 		C192AA1320C23770004EE98D /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192AA1220C23770004EE98D /* DrinkViewController.swift */; };
 		C192AA1820C23770004EE98D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C192AA1620C23770004EE98D /* Main.storyboard */; };
@@ -235,8 +240,6 @@
 		C11A100020E9CC50000979B3 /* MyHealth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHealth.swift; sourceTree = "<group>"; };
 		C11A100220EA0D2C000979B3 /* AddDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDevice.swift; sourceTree = "<group>"; };
 		C11A100520EA1E9E000979B3 /* DeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
-		C12878C621A2981100F0DD9E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Login.storyboard"; sourceTree = "<group>"; };
-		C12878C921A2985B00F0DD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Login.storyboard; sourceTree = "<group>"; };
 		C12878CA21A3DD8F00F0DD9E /* ChangeEmailPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailPassword.swift; sourceTree = "<group>"; };
 		C12878D221A4EC8A00F0DD9E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
 		C12878D421A4EC8E00F0DD9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
@@ -247,7 +250,6 @@
 		C1383A3720DF85DA00F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C1383A3820DF862300F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		C1383A3920DF862F00F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		C1383A3B20DF865A00F1EBE6 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		C1383A4120DF896200F1EBE6 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		C1383A4520DF985100F1EBE6 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
 		C1406352210460C800AB8914 /* GoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsModel.swift; sourceTree = "<group>"; };
@@ -296,6 +298,10 @@
 		C1662AF52150FA16008DA143 /* WechatAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatAuth.swift; sourceTree = "<group>"; };
 		C1662AF62150FA17008DA143 /* AlipayPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlipayPay.swift; sourceTree = "<group>"; };
 		C166345A219F982300018097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Shop.storyboard; sourceTree = "<group>"; };
+		C168FA3E21C1E931009143F7 /* Main_cn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_cn.storyboard; sourceTree = "<group>"; };
+		C168FA3F21C1E932009143F7 /* Login_cn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login_cn.storyboard; sourceTree = "<group>"; };
+		C168FA4021C1E932009143F7 /* Login_en.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login_en.storyboard; sourceTree = "<group>"; };
+		C168FA4121C1E933009143F7 /* Main_en.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_en.storyboard; sourceTree = "<group>"; };
 		C16980DE20E8D3D20034E954 /* CleanCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanCupViewController.swift; sourceTree = "<group>"; };
 		C16E04D620DDBEAA009ED462 /* libBLEManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLEManager.a; sourceTree = "<group>"; };
 		C16E04D720DDBEAA009ED462 /* BLEManagerAPIDoc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BLEManagerAPIDoc.pdf; sourceTree = "<group>"; };
@@ -327,6 +333,12 @@
 		C1803E0B2143D3310078D94C /* AttachmentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentDetailsViewController.swift; sourceTree = "<group>"; };
 		C1803E0E2143F6980078D94C /* MediaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRequest.swift; sourceTree = "<group>"; };
 		C1803E102144084B0078D94C /* AttachmentDetailsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AttachmentDetailsViewController.storyboard; sourceTree = "<group>"; };
+		C187D38421C13AD800474510 /* Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		C187D38521C13AD800474510 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		C187D38821C1443E00474510 /* LanguageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageController.swift; sourceTree = "<group>"; };
+		C187D38A21C14AB100474510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C187D38D21C14B8400474510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C187D39021C1501200474510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C192AA0D20C23770004EE98D /* CupCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C192AA1020C23770004EE98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C192AA1220C23770004EE98D /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
@@ -672,6 +684,7 @@
 				C17862CD20E2869F008F4042 /* BaseInfo.swift */,
 				C17862CB20E27C63008F4042 /* ChangeBaseInfo.swift */,
 				C195073521855E76008F88CF /* AvatarViewController.swift */,
+				C187D38821C1443E00474510 /* LanguageController.swift */,
 				C17D45F220F8A85A00029CAE /* ProfileEditVC.swift */,
 				C11A100020E9CC50000979B3 /* MyHealth.swift */,
 				C11A0FFE20E9B4E1000979B3 /* DrinkHistory.swift */,
@@ -736,8 +749,11 @@
 				C192AA1620C23770004EE98D /* Main.storyboard */,
 				C1803E102144084B0078D94C /* AttachmentDetailsViewController.storyboard */,
 				C166345B219F982300018097 /* Shop.storyboard */,
+				C168FA3F21C1E932009143F7 /* Login_cn.storyboard */,
+				C168FA4021C1E932009143F7 /* Login_en.storyboard */,
+				C168FA3E21C1E931009143F7 /* Main_cn.storyboard */,
+				C168FA4121C1E933009143F7 /* Main_en.storyboard */,
 				C117144621AFE73F006FD6F2 /* EnLaunchScreen.storyboard */,
-				C146744B21A0186A00EAE7A7 /* Login.storyboard */,
 				C192AA1920C23771004EE98D /* Assets.xcassets */,
 				C192AA1B20C23771004EE98D /* LaunchScreen.storyboard */,
 				C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */,
@@ -756,7 +772,6 @@
 				C1FC3501213909D10052DD6D /* InternetReachability.swift */,
 				C192AA2620C23EA9004EE98D /* DatePickerViewController.swift */,
 				C192AA2720C23EA9004EE98D /* View(Extension).swift */,
-				C1383A3B20DF865A00F1EBE6 /* Language.swift */,
 				C16E052C20DE4826009ED462 /* OtherExtensions.swift */,
 				C1BA806C20D7679A007D2B48 /* SwiftRx(Extension).swift */,
 				C192AA2820C23EA9004EE98D /* HttpRequest.swift */,
@@ -773,6 +788,8 @@
 			isa = PBXGroup;
 			children = (
 				C192AA3A20C23EB7004EE98D /* Vos.swift */,
+				C187D38521C13AD800474510 /* Language.swift */,
+				C187D38421C13AD800474510 /* Localizer.swift */,
 				C1406352210460C800AB8914 /* GoodsModel.swift */,
 				C15206222144D2D100F660B6 /* BlogVos.swift */,
 				C158F728213BB0470090EE1A /* PostModel.swift */,
@@ -1150,13 +1167,14 @@
 				C192AAA020C3EF66004EE98D /* mui-icons-extra.ttf in Resources */,
 				C1C4294220D6AA1D0071532F /* README.txt in Resources */,
 				C1C4294520D6AA1D0071532F /* README.md in Resources */,
+				C168FA4321C1E934009143F7 /* Login_cn.storyboard in Resources */,
 				C117144721AFE73F006FD6F2 /* EnLaunchScreen.storyboard in Resources */,
 				C192AA1D20C23771004EE98D /* LaunchScreen.storyboard in Resources */,
 				C16E04DE20DDBEAA009ED462 /* BLEManagerAPIDoc.pdf in Resources */,
+				C168FA4421C1E934009143F7 /* Login_en.storyboard in Resources */,
 				C1C4294920D6AA1D0071532F /* ShareSDKUI.bundle in Resources */,
 				C1C4294820D6AA1D0071532F /* ShareSDK.bundle in Resources */,
 				C192AA1A20C23771004EE98D /* Assets.xcassets in Resources */,
-				C146744921A0186A00EAE7A7 /* Login.storyboard in Resources */,
 				C1C9966C21ACD7CE00E9B754 /* InfoPlist.strings in Resources */,
 				C1383A4220DF896200F1EBE6 /* iconfont.ttf in Resources */,
 				C14063602105692D00AB8914 /* Info.plist in Resources */,
@@ -1167,8 +1185,10 @@
 				C15AEF9220F0D4C6009F4A0E /* address.json in Resources */,
 				C192AAA220C3EF66004EE98D /* SourceHanSans-Light.otf in Resources */,
 				C1D0AF732147A2A1005C682B /* GoogleService-Info.plist in Resources */,
+				C168FA4221C1E934009143F7 /* Main_cn.storyboard in Resources */,
 				C192AAA120C3EF66004EE98D /* mui.ttf in Resources */,
 				C1C4294020D6AA1D0071532F /* WeiboSDK.bundle in Resources */,
+				C168FA4521C1E934009143F7 /* Main_en.storyboard in Resources */,
 				C12878D121A4EC8A00F0DD9E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1326,6 +1346,7 @@
 				C11A100320EA0D2C000979B3 /* AddDevice.swift in Sources */,
 				C192AA3520C23EA9004EE98D /* PopupController.swift in Sources */,
 				C192AA3620C23EA9004EE98D /* SweetAlert.swift in Sources */,
+				C187D38921C1443E00474510 /* LanguageController.swift in Sources */,
 				C1662AF72150FA17008DA143 /* WechatPay.swift in Sources */,
 				C140635F2105692D00AB8914 /* FlexiblePageControl.swift in Sources */,
 				C1662AF82150FA17008DA143 /* PaySDK.swift in Sources */,
@@ -1373,7 +1394,6 @@
 				C1F226EE21295AFC0066C9EC /* ScoresShopList.swift in Sources */,
 				C192AA4420C23EB7004EE98D /* Vos.swift in Sources */,
 				C15AEF8D20F0A0EC009F4A0E /* ExchangeBuyVC.swift in Sources */,
-				C1383A3C20DF865B00F1EBE6 /* Language.swift in Sources */,
 				C192AAAA20C4C8FA004EE98D /* Cells.swift in Sources */,
 				C14063552104637C00AB8914 /* MoyaWoo.swift in Sources */,
 				C16E052D20DE4827009ED462 /* OtherExtensions.swift in Sources */,
@@ -1393,6 +1413,7 @@
 				C158F721213B7A220090EE1A /* DeliverPageViewController.swift in Sources */,
 				C1803E0F2143F6980078D94C /* MediaRequest.swift in Sources */,
 				C16439742196BEF6005D01A5 /* BlogMsgCells.swift in Sources */,
+				C187D38621C13AD900474510 /* Localizer.swift in Sources */,
 				C1F128292139150300BBD457 /* Toast.swift in Sources */,
 				C17FB86E21450ED7001F0030 /* PostDetailController.swift in Sources */,
 				C1406353210460C800AB8914 /* GoodsModel.swift in Sources */,
@@ -1409,6 +1430,7 @@
 				C192AA3220C23EA9004EE98D /* HttpRequest.swift in Sources */,
 				C192AA1320C23770004EE98D /* DrinkViewController.swift in Sources */,
 				C16980DF20E8D3D20034E954 /* CleanCupViewController.swift in Sources */,
+				C187D38721C13AD900474510 /* Language.swift in Sources */,
 				C1F6E04720C6D0060031200D /* WordPressWebServices.swift in Sources */,
 				C195073621855E76008F88CF /* AvatarViewController.swift in Sources */,
 				C11A100620EA1E9E000979B3 /* DeviceListViewController.swift in Sources */,
@@ -1453,17 +1475,9 @@
 			children = (
 				C1383A3720DF85DA00F1EBE6 /* zh-Hans */,
 				C1C9966821ABB46E00E9B754 /* Base */,
+				C187D38A21C14AB100474510 /* en */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		C146744B21A0186A00EAE7A7 /* Login.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C12878C621A2981100F0DD9E /* zh-Hans */,
-				C12878C921A2985B00F0DD9E /* en */,
-			);
-			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		C14DC3EA215F28E600DA4574 /* MainInterface.storyboard */ = {
@@ -1487,6 +1501,7 @@
 			children = (
 				C1383A3920DF862F00F1EBE6 /* zh-Hans */,
 				C1C9966921ABB50500E9B754 /* Base */,
+				C187D39021C1501200474510 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1496,6 +1511,7 @@
 			children = (
 				C1383A3820DF862300F1EBE6 /* zh-Hans */,
 				C117144521AFE462006FD6F2 /* Base */,
+				C187D38D21C14B8400474510 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

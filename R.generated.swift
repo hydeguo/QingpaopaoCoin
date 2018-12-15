@@ -149,7 +149,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 98 images.
+  /// This `R.image` struct is generated, and contains static references to 100 images.
   struct image {
     /// Image `750x1334`.
     static let x1334 = Rswift.ImageResource(bundle: R.hostingBundle, name: "750x1334")
@@ -191,6 +191,10 @@ struct R: Rswift.Validatable {
     static let checkbox_0 = Rswift.ImageResource(bundle: R.hostingBundle, name: "checkbox_0")
     /// Image `checkbox_1`.
     static let checkbox_1 = Rswift.ImageResource(bundle: R.hostingBundle, name: "checkbox_1")
+    /// Image `checkbox_normal`.
+    static let checkbox_normal = Rswift.ImageResource(bundle: R.hostingBundle, name: "checkbox_normal")
+    /// Image `checkbox_pressed`.
+    static let checkbox_pressed = Rswift.ImageResource(bundle: R.hostingBundle, name: "checkbox_pressed")
     /// Image `checkbox_selected1`.
     static let checkbox_selected1 = Rswift.ImageResource(bundle: R.hostingBundle, name: "checkbox_selected1")
     /// Image `cleanBtn`.
@@ -446,6 +450,16 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "checkbox_1", bundle: ..., traitCollection: ...)`
     static func checkbox_1(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.checkbox_1, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "checkbox_normal", bundle: ..., traitCollection: ...)`
+    static func checkbox_normal(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.checkbox_normal, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "checkbox_pressed", bundle: ..., traitCollection: ...)`
+    static func checkbox_pressed(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.checkbox_pressed, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "checkbox_selected1", bundle: ..., traitCollection: ...)`
@@ -1135,12 +1149,20 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.storyboard` struct is generated, and contains static references to 3 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 7 storyboards.
   struct storyboard {
     /// Storyboard `AttachmentDetailsViewController`.
     static let attachmentDetailsViewController = _R.storyboard.attachmentDetailsViewController()
     /// Storyboard `EnLaunchScreen`.
     static let enLaunchScreen = _R.storyboard.enLaunchScreen()
+    /// Storyboard `Login_cn`.
+    static let login_cn = _R.storyboard.login_cn()
+    /// Storyboard `Login_en`.
+    static let login_en = _R.storyboard.login_en()
+    /// Storyboard `Main_cn`.
+    static let main_cn = _R.storyboard.main_cn()
+    /// Storyboard `Main_en`.
+    static let main_en = _R.storyboard.main_en()
     /// Storyboard `Shop`.
     static let shop = _R.storyboard.shop()
     
@@ -1152,6 +1174,26 @@ struct R: Rswift.Validatable {
     /// `UIStoryboard(name: "EnLaunchScreen", bundle: ...)`
     static func enLaunchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.enLaunchScreen)
+    }
+    
+    /// `UIStoryboard(name: "Login_cn", bundle: ...)`
+    static func login_cn(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.login_cn)
+    }
+    
+    /// `UIStoryboard(name: "Login_en", bundle: ...)`
+    static func login_en(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.login_en)
+    }
+    
+    /// `UIStoryboard(name: "Main_cn", bundle: ...)`
+    static func main_cn(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.main_cn)
+    }
+    
+    /// `UIStoryboard(name: "Main_en", bundle: ...)`
+    static func main_en(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.main_en)
     }
     
     /// `UIStoryboard(name: "Shop", bundle: ...)`
@@ -1196,1288 +1238,1288 @@ struct R: Rswift.Validatable {
     struct localizable {
       /// Base translation: A link to reset your password has been sent to your email
       /// 
-      /// Locales: zh-Hans, Base
-      static let 已经发送重置密码的链接到您的EMail = Rswift.StringResource(key: "已经发送重置密码的链接到您的E-mail", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 已经发送重置密码的链接到您的EMail = Rswift.StringResource(key: "已经发送重置密码的链接到您的E-mail", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Activated
       /// 
-      /// Locales: zh-Hans, Base
-      static let 已激活 = Rswift.StringResource(key: "已激活", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 已激活 = Rswift.StringResource(key: "已激活", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Activation code error
       /// 
-      /// Locales: zh-Hans, Base
-      static let 激活码错误 = Rswift.StringResource(key: "激活码错误", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 激活码错误 = Rswift.StringResource(key: "激活码错误", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Activation succeeded
       /// 
-      /// Locales: zh-Hans, Base
-      static let 激活成功 = Rswift.StringResource(key: "激活成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 激活成功 = Rswift.StringResource(key: "激活成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Add a title
       /// 
-      /// Locales: zh-Hans, Base
-      static let 添加标题 = Rswift.StringResource(key: "添加标题", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 添加标题 = Rswift.StringResource(key: "添加标题", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Add new
       /// 
-      /// Locales: zh-Hans, Base
-      static let 新增 = Rswift.StringResource(key: "新增", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 新增 = Rswift.StringResource(key: "新增", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Are you disconnected?
       /// 
-      /// Locales: zh-Hans, Base
-      static let 是否断开连接 = Rswift.StringResource(key: "是否断开连接?", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 是否断开连接 = Rswift.StringResource(key: "是否断开连接?", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Attend success
       /// 
-      /// Locales: zh-Hans, Base
-      static let 签到成功 = Rswift.StringResource(key: "签到成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 签到成功 = Rswift.StringResource(key: "签到成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Attended
       /// 
-      /// Locales: zh-Hans, Base
-      static let 已签到 = Rswift.StringResource(key: "已签到", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 已签到 = Rswift.StringResource(key: "已签到", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Authorized
       /// 
-      /// Locales: zh-Hans, Base
-      static let 已授权 = Rswift.StringResource(key: "已授权", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 已授权 = Rswift.StringResource(key: "已授权", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Blue
       /// 
-      /// Locales: zh-Hans, Base
-      static let 蓝色 = Rswift.StringResource(key: "蓝色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
-      /// Base translation: Bonus point
-      /// 
-      /// Locales: zh-Hans, Base
-      static let 积分 = Rswift.StringResource(key: "积分", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 蓝色 = Rswift.StringResource(key: "蓝色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Browsing History
       /// 
-      /// Locales: zh-Hans, Base
-      static let 浏览历史 = Rswift.StringResource(key: "浏览历史", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 浏览历史 = Rswift.StringResource(key: "浏览历史", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Camera
       /// 
-      /// Locales: zh-Hans, Base
-      static let camera = Rswift.StringResource(key: "Camera", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let camera = Rswift.StringResource(key: "Camera", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Cancel
       /// 
-      /// Locales: zh-Hans, Base
-      static let cancel = Rswift.StringResource(key: "Cancel", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let cancel = Rswift.StringResource(key: "Cancel", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Cancel
       /// 
-      /// Locales: zh-Hans, Base
-      static let 取消 = Rswift.StringResource(key: "取消", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 取消 = Rswift.StringResource(key: "取消", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Choose the cup you want to operate
       /// 
-      /// Locales: zh-Hans, Base
-      static let 选择您想进行操作的杯子 = Rswift.StringResource(key: "选择您想进行操作的杯子", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 选择您想进行操作的杯子 = Rswift.StringResource(key: "选择您想进行操作的杯子", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Comment
       /// 
-      /// Locales: zh-Hans, Base
-      static let 评论 = Rswift.StringResource(key: "评论", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 评论 = Rswift.StringResource(key: "评论", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Compliance days
       /// 
-      /// Locales: zh-Hans, Base
-      static let 达标天数 = Rswift.StringResource(key: "达标天数", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 达标天数 = Rswift.StringResource(key: "达标天数", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Connection is abnormal, please try again
       /// 
-      /// Locales: zh-Hans, Base
-      static let 连接异常请重试 = Rswift.StringResource(key: "连接异常，请重试", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 连接异常请重试 = Rswift.StringResource(key: "连接异常，请重试", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Cup
       /// 
-      /// Locales: zh-Hans, Base
-      static let 杯1 = Rswift.StringResource(key: "杯1", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 杯1 = Rswift.StringResource(key: "杯1", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Cup color
       /// 
-      /// Locales: zh-Hans, Base
-      static let 杯子颜色 = Rswift.StringResource(key: "杯子颜色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 杯子颜色 = Rswift.StringResource(key: "杯子颜色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Cups
       /// 
-      /// Locales: zh-Hans, Base
-      static let 杯 = Rswift.StringResource(key: "杯", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 杯 = Rswift.StringResource(key: "杯", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Day
       /// 
-      /// Locales: zh-Hans, Base
-      static let 天 = Rswift.StringResource(key: "天", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 天 = Rswift.StringResource(key: "天", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Delete
       /// 
-      /// Locales: zh-Hans, Base
-      static let 删除 = Rswift.StringResource(key: "删除", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 删除 = Rswift.StringResource(key: "删除", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Device
       /// 
-      /// Locales: zh-Hans, Base
-      static let 设备 = Rswift.StringResource(key: "设备", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 设备 = Rswift.StringResource(key: "设备", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Device is connected to the network...
       /// 
-      /// Locales: zh-Hans, Base
-      static let 设备连接网络中 = Rswift.StringResource(key: "设备连接网络中...", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 设备连接网络中 = Rswift.StringResource(key: "设备连接网络中...", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Drinking water statistics this month
       /// 
-      /// Locales: zh-Hans, Base
-      static let 本月喝水统计 = Rswift.StringResource(key: "本月喝水统计", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 本月喝水统计 = Rswift.StringResource(key: "本月喝水统计", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Drinking water statistics this week
       /// 
-      /// Locales: zh-Hans, Base
-      static let 本周喝水统计 = Rswift.StringResource(key: "本周喝水统计", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 本周喝水统计 = Rswift.StringResource(key: "本周喝水统计", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Drinking water statistics today
       /// 
-      /// Locales: zh-Hans, Base
-      static let 今天喝水统计 = Rswift.StringResource(key: "今天喝水统计", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 今天喝水统计 = Rswift.StringResource(key: "今天喝水统计", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Drinking water this month
       /// 
-      /// Locales: zh-Hans, Base
-      static let 本月喝水状况 = Rswift.StringResource(key: "本月喝水状况", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 本月喝水状况 = Rswift.StringResource(key: "本月喝水状况", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Drinking water this week
       /// 
-      /// Locales: zh-Hans, Base
-      static let 本周喝水状况 = Rswift.StringResource(key: "本周喝水状况", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 本周喝水状况 = Rswift.StringResource(key: "本周喝水状况", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Email or password is incorrect
       /// 
-      /// Locales: zh-Hans, Base
-      static let email或者密码错误 = Rswift.StringResource(key: "Email或者密码错误", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let email或者密码错误 = Rswift.StringResource(key: "Email或者密码错误", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: End of cleaning
       /// 
-      /// Locales: zh-Hans, Base
-      static let 清洗结束 = Rswift.StringResource(key: "清洗结束", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 清洗结束 = Rswift.StringResource(key: "清洗结束", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Enter email has been registered
       /// 
-      /// Locales: zh-Hans, Base
-      static let 输入email已经注册 = Rswift.StringResource(key: "输入email已经注册", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 输入email已经注册 = Rswift.StringResource(key: "输入email已经注册", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Enter the detailed address
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请输入详细地址 = Rswift.StringResource(key: "请输入详细地址", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请输入详细地址 = Rswift.StringResource(key: "请输入详细地址", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Explore
       /// 
-      /// Locales: zh-Hans, Base
-      static let 探索 = Rswift.StringResource(key: "探索", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 探索 = Rswift.StringResource(key: "探索", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Followed topic
       /// 
-      /// Locales: zh-Hans, Base
-      static let 关注话题 = Rswift.StringResource(key: "关注话题", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 关注话题 = Rswift.StringResource(key: "关注话题", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Friday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期五 = Rswift.StringResource(key: "星期五", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期五 = Rswift.StringResource(key: "星期五", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Gallery
       /// 
-      /// Locales: zh-Hans, Base
-      static let gallery = Rswift.StringResource(key: "Gallery", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let gallery = Rswift.StringResource(key: "Gallery", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Gold
       /// 
-      /// Locales: zh-Hans, Base
-      static let 金色 = Rswift.StringResource(key: "金色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 金色 = Rswift.StringResource(key: "金色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Green
       /// 
-      /// Locales: zh-Hans, Base
-      static let 绿色 = Rswift.StringResource(key: "绿色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 绿色 = Rswift.StringResource(key: "绿色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: If you don't know what version?
       /// 
-      /// Locales: zh-Hans, Base
-      static let 如果不知道是什么版本 = Rswift.StringResource(key: "如果不知道是什么版本？", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 如果不知道是什么版本 = Rswift.StringResource(key: "如果不知道是什么版本？", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Ignore this version
       /// 
-      /// Locales: zh-Hans, Base
-      static let 忽略此版本 = Rswift.StringResource(key: "忽略此版本", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 忽略此版本 = Rswift.StringResource(key: "忽略此版本", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Last time drinking
       /// 
-      /// Locales: zh-Hans, Base
-      static let 最近一次喝水时间 = Rswift.StringResource(key: "最近一次喝水时间", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 最近一次喝水时间 = Rswift.StringResource(key: "最近一次喝水时间", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Latest Collection
       /// 
-      /// Locales: zh-Hans, Base
-      static let 最新收藏 = Rswift.StringResource(key: "最新收藏", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 最新收藏 = Rswift.StringResource(key: "最新收藏", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Light Settings
       /// 
-      /// Locales: zh-Hans, Base
-      static let 灯光设置 = Rswift.StringResource(key: "灯光设置", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 灯光设置 = Rswift.StringResource(key: "灯光设置", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Likes
       /// 
-      /// Locales: zh-Hans, Base
-      static let 我的赞 = Rswift.StringResource(key: "我的赞", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 我的赞 = Rswift.StringResource(key: "我的赞", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Manual input
       /// 
-      /// Locales: zh-Hans, Base
-      static let 手动输入 = Rswift.StringResource(key: "手动输入", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 手动输入 = Rswift.StringResource(key: "手动输入", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Message
       /// 
-      /// Locales: zh-Hans, Base
-      static let 消息 = Rswift.StringResource(key: "消息", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 消息 = Rswift.StringResource(key: "消息", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Monday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期一 = Rswift.StringResource(key: "星期一", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期一 = Rswift.StringResource(key: "星期一", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: My Favorites
       /// 
-      /// Locales: zh-Hans, Base
-      static let 我的收藏 = Rswift.StringResource(key: "我的收藏", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 我的收藏 = Rswift.StringResource(key: "我的收藏", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: My comment
       /// 
-      /// Locales: zh-Hans, Base
-      static let 我的评论 = Rswift.StringResource(key: "我的评论", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 我的评论 = Rswift.StringResource(key: "我的评论", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: My concern
       /// 
-      /// Locales: zh-Hans, Base
-      static let 我的关注 = Rswift.StringResource(key: "我的关注", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 我的关注 = Rswift.StringResource(key: "我的关注", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: My fans
       /// 
-      /// Locales: zh-Hans, Base
-      static let 我的粉丝 = Rswift.StringResource(key: "我的粉丝", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 我的粉丝 = Rswift.StringResource(key: "我的粉丝", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Name cannot be empty
       /// 
-      /// Locales: zh-Hans, Base
-      static let 名字不能为空 = Rswift.StringResource(key: "名字不能为空", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 名字不能为空 = Rswift.StringResource(key: "名字不能为空", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: New comment
       /// 
-      /// Locales: zh-Hans, Base
-      static let 新的评论 = Rswift.StringResource(key: "新的评论", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 新的评论 = Rswift.StringResource(key: "新的评论", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Newly received like
       /// 
-      /// Locales: zh-Hans, Base
-      static let 新获得的赞 = Rswift.StringResource(key: "新获得的赞", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 新获得的赞 = Rswift.StringResource(key: "新获得的赞", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Offline
       /// 
-      /// Locales: zh-Hans, Base
-      static let 未连接 = Rswift.StringResource(key: "未连接", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 未连接 = Rswift.StringResource(key: "未连接", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Ok
       /// 
-      /// Locales: zh-Hans, Base
-      static let 确定 = Rswift.StringResource(key: "确定", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 确定 = Rswift.StringResource(key: "确定", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Online
       /// 
-      /// Locales: zh-Hans, Base
-      static let 已连接 = Rswift.StringResource(key: "已连接", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 已连接 = Rswift.StringResource(key: "已连接", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Order submitted successfully
       /// 
-      /// Locales: zh-Hans, Base
-      static let 订单提交成功 = Rswift.StringResource(key: "订单提交成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 订单提交成功 = Rswift.StringResource(key: "订单提交成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please connect your device
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请链接设备 = Rswift.StringResource(key: "请链接设备", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请链接设备 = Rswift.StringResource(key: "请链接设备", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please enter correct E-mail
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请输入正确EMail = Rswift.StringResource(key: "请输入正确E-mail", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请输入正确EMail = Rswift.StringResource(key: "请输入正确E-mail", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please enter the activation code
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请输入激活码 = Rswift.StringResource(key: "请输入激活码", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请输入激活码 = Rswift.StringResource(key: "请输入激活码", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please enter the correct mobile number!
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请输入正确手机号码 = Rswift.StringResource(key: "请输入正确手机号码!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请输入正确手机号码 = Rswift.StringResource(key: "请输入正确手机号码!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please enter the verification code!
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请输入验证码 = Rswift.StringResource(key: "请输入验证码!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请输入验证码 = Rswift.StringResource(key: "请输入验证码!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please enter your password!
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请输入密码 = Rswift.StringResource(key: "请输入密码!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请输入密码 = Rswift.StringResource(key: "请输入密码!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please select the color of your cup
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请选取你杯子的颜色 = Rswift.StringResource(key: "请选取你杯子的颜色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请选取你杯子的颜色 = Rswift.StringResource(key: "请选取你杯子的颜色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Please wait...
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请稍候 = Rswift.StringResource(key: "请稍候...", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请稍候 = Rswift.StringResource(key: "请稍候...", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
+      /// Base translation: Points
+      /// 
+      /// Locales: zh-Hans, Base, en
+      static let 积分 = Rswift.StringResource(key: "积分", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Points Mall
       /// 
-      /// Locales: zh-Hans, Base
-      static let 积分商城 = Rswift.StringResource(key: "积分商城", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 积分商城 = Rswift.StringResource(key: "积分商城", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Prompt
       /// 
-      /// Locales: zh-Hans, Base
-      static let 提示 = Rswift.StringResource(key: "提示", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 提示 = Rswift.StringResource(key: "提示", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Publish
       /// 
-      /// Locales: zh-Hans, Base
-      static let 发布 = Rswift.StringResource(key: "发布", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 发布 = Rswift.StringResource(key: "发布", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Published successfully
       /// 
-      /// Locales: zh-Hans, Base
-      static let 发布成功 = Rswift.StringResource(key: "发布成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 发布成功 = Rswift.StringResource(key: "发布成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Read
       /// 
-      /// Locales: zh-Hans, Base
-      static let 阅读 = Rswift.StringResource(key: "阅读", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 阅读 = Rswift.StringResource(key: "阅读", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Red
       /// 
-      /// Locales: zh-Hans, Base
-      static let 红色 = Rswift.StringResource(key: "红色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 红色 = Rswift.StringResource(key: "红色", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Refreshing
       /// 
-      /// Locales: zh-Hans, Base
-      static let 刷新中 = Rswift.StringResource(key: "刷新中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 刷新中 = Rswift.StringResource(key: "刷新中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Reply: 
       /// 
-      /// Locales: zh-Hans, Base
-      static let 回复 = Rswift.StringResource(key: "回复:", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 回复 = Rswift.StringResource(key: "回复:", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Rose Gold
       /// 
-      /// Locales: zh-Hans, Base
-      static let 玫瑰金 = Rswift.StringResource(key: "玫瑰金", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 玫瑰金 = Rswift.StringResource(key: "玫瑰金", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Saturday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期六 = Rswift.StringResource(key: "星期六", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期六 = Rswift.StringResource(key: "星期六", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Save
       /// 
-      /// Locales: zh-Hans, Base
-      static let 保存 = Rswift.StringResource(key: "保存", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 保存 = Rswift.StringResource(key: "保存", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Save failed
       /// 
-      /// Locales: zh-Hans, Base
-      static let 保存失败 = Rswift.StringResource(key: "保存失败", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 保存失败 = Rswift.StringResource(key: "保存失败", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Saved
       /// 
-      /// Locales: zh-Hans, Base
-      static let 已保存 = Rswift.StringResource(key: "已保存", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 已保存 = Rswift.StringResource(key: "已保存", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Select a cup
       /// 
-      /// Locales: zh-Hans, Base
-      static let 选择杯子 = Rswift.StringResource(key: "选择杯子", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 选择杯子 = Rswift.StringResource(key: "选择杯子", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Select the source
       /// 
-      /// Locales: zh-Hans, Base
-      static let selectTheSource = Rswift.StringResource(key: "Select the source", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let selectTheSource = Rswift.StringResource(key: "Select the source", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Select your shipping address
       /// 
-      /// Locales: zh-Hans, Base
-      static let 请选择您的收货地址 = Rswift.StringResource(key: "请选择您的收货地址", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 请选择您的收货地址 = Rswift.StringResource(key: "请选择您的收货地址", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Start Electrolysis
       /// 
-      /// Locales: zh-Hans, Base
-      static let 开始电解 = Rswift.StringResource(key: "开始电解", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 开始电解 = Rswift.StringResource(key: "开始电解", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Stop Electrolysis
       /// 
-      /// Locales: zh-Hans, Base
-      static let 停止电解 = Rswift.StringResource(key: "停止电解", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 停止电解 = Rswift.StringResource(key: "停止电解", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Sunday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期日 = Rswift.StringResource(key: "星期日", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期日 = Rswift.StringResource(key: "星期日", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: System Message
       /// 
-      /// Locales: zh-Hans, Base
-      static let 系统消息 = Rswift.StringResource(key: "系统消息", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 系统消息 = Rswift.StringResource(key: "系统消息", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The app is already the latest version
       /// 
-      /// Locales: zh-Hans, Base
-      static let 氢泡泡应用程序已经是最新版本 = Rswift.StringResource(key: "氢泡泡应用程序已经是最新版本", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 氢泡泡应用程序已经是最新版本 = Rswift.StringResource(key: "氢泡泡应用程序已经是最新版本", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The battery is below 20% and cannot be cleaned
       /// 
-      /// Locales: zh-Hans, Base
-      static let 电量低于20不能清洗 = Rswift.StringResource(key: "电量低于20%，不能清洗", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 电量低于20不能清洗 = Rswift.StringResource(key: "电量低于20%，不能清洗", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The cleaning has been completed, please pour off the water and reopen the cup
       /// 
-      /// Locales: zh-Hans, Base
-      static let 清洗已经完成請倒掉水和重開水杯 = Rswift.StringResource(key: "清洗已经完成，請倒掉水和重開水杯", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 清洗已经完成請倒掉水和重開水杯 = Rswift.StringResource(key: "清洗已经完成，請倒掉水和重開水杯", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The cup connection network timed out, please confirm the wifi password and try again
       /// 
-      /// Locales: zh-Hans, Base
-      static let 杯子连接网络超时请确定wifi密码后重试 = Rswift.StringResource(key: "杯子连接网络超时，请确定wifi密码后重试", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 杯子连接网络超时请确定wifi密码后重试 = Rswift.StringResource(key: "杯子连接网络超时，请确定wifi密码后重试", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The cup has been bound by another account
       /// 
-      /// Locales: zh-Hans, Base
-      static let 杯子已经被其他账号绑定 = Rswift.StringResource(key: "杯子已经被其他账号绑定", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 杯子已经被其他账号绑定 = Rswift.StringResource(key: "杯子已经被其他账号绑定", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The input is incorrect
       /// 
-      /// Locales: zh-Hans, Base
-      static let 输入有误 = Rswift.StringResource(key: "输入有误", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 输入有误 = Rswift.StringResource(key: "输入有误", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The input password is inconsistent!
       /// 
-      /// Locales: zh-Hans, Base
-      static let 输入密码不一致 = Rswift.StringResource(key: "输入密码不一致!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 输入密码不一致 = Rswift.StringResource(key: "输入密码不一致!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: The new mobile number is the same as the current number!
       /// 
-      /// Locales: zh-Hans, Base
-      static let 新手机号码与当前号码相同 = Rswift.StringResource(key: "新手机号码与当前号码相同!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 新手机号码与当前号码相同 = Rswift.StringResource(key: "新手机号码与当前号码相同!", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Thursday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期四 = Rswift.StringResource(key: "星期四", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期四 = Rswift.StringResource(key: "星期四", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Tuesday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期二 = Rswift.StringResource(key: "星期二", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期二 = Rswift.StringResource(key: "星期二", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Unbound
       /// 
-      /// Locales: zh-Hans, Base
-      static let 未授权 = Rswift.StringResource(key: "未授权", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 未授权 = Rswift.StringResource(key: "未授权", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Update
       /// 
-      /// Locales: zh-Hans, Base
-      static let 更新 = Rswift.StringResource(key: "更新", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 更新 = Rswift.StringResource(key: "更新", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Version Information
       /// 
-      /// Locales: zh-Hans, Base
-      static let 版本信息 = Rswift.StringResource(key: "版本信息", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 版本信息 = Rswift.StringResource(key: "版本信息", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Water Consumption
       /// 
-      /// Locales: zh-Hans, Base
-      static let 喝水量 = Rswift.StringResource(key: "喝水量", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 喝水量 = Rswift.StringResource(key: "喝水量", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Water Consumption
       /// 
-      /// Locales: zh-Hans, Base
-      static let 总喝水量 = Rswift.StringResource(key: "总喝水量", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 总喝水量 = Rswift.StringResource(key: "总喝水量", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Wednesday
       /// 
-      /// Locales: zh-Hans, Base
-      static let 星期三 = Rswift.StringResource(key: "星期三", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 星期三 = Rswift.StringResource(key: "星期三", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: You can use the new version of the hydrogen bubble app, please update to the version 
       /// 
-      /// Locales: zh-Hans, Base
-      static let 可以使用新版本的氢泡泡应用程序请更新至版本 = Rswift.StringResource(key: "可以使用新版本的氢泡泡应用程序，请更新至版本 ", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 可以使用新版本的氢泡泡应用程序请更新至版本 = Rswift.StringResource(key: "可以使用新版本的氢泡泡应用程序，请更新至版本 ", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Your email is not registered
       /// 
-      /// Locales: zh-Hans, Base
-      static let 您的EMail未注册 = Rswift.StringResource(key: "您的E-mail未注册", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 您的EMail未注册 = Rswift.StringResource(key: "您的E-mail未注册", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Yuan
       /// 
-      /// Locales: zh-Hans, Base
-      static let 元 = Rswift.StringResource(key: "元", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 元 = Rswift.StringResource(key: "元", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: bind failed
       /// 
-      /// Locales: zh-Hans, Base
-      static let 绑定失败 = Rswift.StringResource(key: "绑定失败", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 绑定失败 = Rswift.StringResource(key: "绑定失败", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: binding success
       /// 
-      /// Locales: zh-Hans, Base
-      static let 绑定成功 = Rswift.StringResource(key: "绑定成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 绑定成功 = Rswift.StringResource(key: "绑定成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: cleaning
       /// 
-      /// Locales: zh-Hans, Base
-      static let 水杯清洗中 = Rswift.StringResource(key: "水杯清洗中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 水杯清洗中 = Rswift.StringResource(key: "水杯清洗中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: cleaning
       /// 
-      /// Locales: zh-Hans, Base
-      static let 清洗中 = Rswift.StringResource(key: "清洗中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 清洗中 = Rswift.StringResource(key: "清洗中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: in electrolysis
       /// 
-      /// Locales: zh-Hans, Base
-      static let 电解中 = Rswift.StringResource(key: "电解中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 电解中 = Rswift.StringResource(key: "电解中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: sec Resend
       /// 
-      /// Locales: zh-Hans, Base
-      static let 秒后重发 = Rswift.StringResource(key: "秒后重发", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 秒后重发 = Rswift.StringResource(key: "秒后重发", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: successful save
       /// 
-      /// Locales: zh-Hans, Base
-      static let 保存成功 = Rswift.StringResource(key: "保存成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 保存成功 = Rswift.StringResource(key: "保存成功", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: synchronizing
       /// 
-      /// Locales: zh-Hans, Base
-      static let 数据同步中 = Rswift.StringResource(key: "数据同步中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base"], comment: nil)
+      /// Locales: zh-Hans, Base, en
+      static let 数据同步中 = Rswift.StringResource(key: "数据同步中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       
       /// Base translation: A link to reset your password has been sent to your email
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 已经发送重置密码的链接到您的EMail(_: Void = ()) -> String {
         return NSLocalizedString("已经发送重置密码的链接到您的E-mail", bundle: R.hostingBundle, value: "A link to reset your password has been sent to your email", comment: "")
       }
       
       /// Base translation: Activated
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 已激活(_: Void = ()) -> String {
         return NSLocalizedString("已激活", bundle: R.hostingBundle, value: "Activated", comment: "")
       }
       
       /// Base translation: Activation code error
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 激活码错误(_: Void = ()) -> String {
         return NSLocalizedString("激活码错误", bundle: R.hostingBundle, value: "Activation code error", comment: "")
       }
       
       /// Base translation: Activation succeeded
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 激活成功(_: Void = ()) -> String {
         return NSLocalizedString("激活成功", bundle: R.hostingBundle, value: "Activation succeeded", comment: "")
       }
       
       /// Base translation: Add a title
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 添加标题(_: Void = ()) -> String {
         return NSLocalizedString("添加标题", bundle: R.hostingBundle, value: "Add a title", comment: "")
       }
       
       /// Base translation: Add new
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 新增(_: Void = ()) -> String {
         return NSLocalizedString("新增", bundle: R.hostingBundle, value: "Add new", comment: "")
       }
       
       /// Base translation: Are you disconnected?
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 是否断开连接(_: Void = ()) -> String {
         return NSLocalizedString("是否断开连接?", bundle: R.hostingBundle, value: "Are you disconnected?", comment: "")
       }
       
       /// Base translation: Attend success
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 签到成功(_: Void = ()) -> String {
         return NSLocalizedString("签到成功", bundle: R.hostingBundle, value: "Attend success", comment: "")
       }
       
       /// Base translation: Attended
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 已签到(_: Void = ()) -> String {
         return NSLocalizedString("已签到", bundle: R.hostingBundle, value: "Attended", comment: "")
       }
       
       /// Base translation: Authorized
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 已授权(_: Void = ()) -> String {
         return NSLocalizedString("已授权", bundle: R.hostingBundle, value: "Authorized", comment: "")
       }
       
       /// Base translation: Blue
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 蓝色(_: Void = ()) -> String {
         return NSLocalizedString("蓝色", bundle: R.hostingBundle, value: "Blue", comment: "")
       }
       
-      /// Base translation: Bonus point
-      /// 
-      /// Locales: zh-Hans, Base
-      static func 积分(_: Void = ()) -> String {
-        return NSLocalizedString("积分", bundle: R.hostingBundle, value: "Bonus point", comment: "")
-      }
-      
       /// Base translation: Browsing History
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 浏览历史(_: Void = ()) -> String {
         return NSLocalizedString("浏览历史", bundle: R.hostingBundle, value: "Browsing History", comment: "")
       }
       
       /// Base translation: Camera
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func camera(_: Void = ()) -> String {
         return NSLocalizedString("Camera", bundle: R.hostingBundle, value: "Camera", comment: "")
       }
       
       /// Base translation: Cancel
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func cancel(_: Void = ()) -> String {
         return NSLocalizedString("Cancel", bundle: R.hostingBundle, value: "Cancel", comment: "")
       }
       
       /// Base translation: Cancel
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 取消(_: Void = ()) -> String {
         return NSLocalizedString("取消", bundle: R.hostingBundle, value: "Cancel", comment: "")
       }
       
       /// Base translation: Choose the cup you want to operate
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 选择您想进行操作的杯子(_: Void = ()) -> String {
         return NSLocalizedString("选择您想进行操作的杯子", bundle: R.hostingBundle, value: "Choose the cup you want to operate", comment: "")
       }
       
       /// Base translation: Comment
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 评论(_: Void = ()) -> String {
         return NSLocalizedString("评论", bundle: R.hostingBundle, value: "Comment", comment: "")
       }
       
       /// Base translation: Compliance days
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 达标天数(_: Void = ()) -> String {
         return NSLocalizedString("达标天数", bundle: R.hostingBundle, value: "Compliance days", comment: "")
       }
       
       /// Base translation: Connection is abnormal, please try again
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 连接异常请重试(_: Void = ()) -> String {
         return NSLocalizedString("连接异常，请重试", bundle: R.hostingBundle, value: "Connection is abnormal, please try again", comment: "")
       }
       
       /// Base translation: Cup
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 杯1(_: Void = ()) -> String {
         return NSLocalizedString("杯1", bundle: R.hostingBundle, value: "Cup", comment: "")
       }
       
       /// Base translation: Cup color
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 杯子颜色(_: Void = ()) -> String {
         return NSLocalizedString("杯子颜色", bundle: R.hostingBundle, value: "Cup color", comment: "")
       }
       
       /// Base translation: Cups
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 杯(_: Void = ()) -> String {
         return NSLocalizedString("杯", bundle: R.hostingBundle, value: "Cups", comment: "")
       }
       
       /// Base translation: Day
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 天(_: Void = ()) -> String {
         return NSLocalizedString("天", bundle: R.hostingBundle, value: "Day", comment: "")
       }
       
       /// Base translation: Delete
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 删除(_: Void = ()) -> String {
         return NSLocalizedString("删除", bundle: R.hostingBundle, value: "Delete", comment: "")
       }
       
       /// Base translation: Device
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 设备(_: Void = ()) -> String {
         return NSLocalizedString("设备", bundle: R.hostingBundle, value: "Device", comment: "")
       }
       
       /// Base translation: Device is connected to the network...
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 设备连接网络中(_: Void = ()) -> String {
         return NSLocalizedString("设备连接网络中...", bundle: R.hostingBundle, value: "Device is connected to the network...", comment: "")
       }
       
       /// Base translation: Drinking water statistics this month
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 本月喝水统计(_: Void = ()) -> String {
         return NSLocalizedString("本月喝水统计", bundle: R.hostingBundle, value: "Drinking water statistics this month", comment: "")
       }
       
       /// Base translation: Drinking water statistics this week
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 本周喝水统计(_: Void = ()) -> String {
         return NSLocalizedString("本周喝水统计", bundle: R.hostingBundle, value: "Drinking water statistics this week", comment: "")
       }
       
       /// Base translation: Drinking water statistics today
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 今天喝水统计(_: Void = ()) -> String {
         return NSLocalizedString("今天喝水统计", bundle: R.hostingBundle, value: "Drinking water statistics today", comment: "")
       }
       
       /// Base translation: Drinking water this month
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 本月喝水状况(_: Void = ()) -> String {
         return NSLocalizedString("本月喝水状况", bundle: R.hostingBundle, value: "Drinking water this month", comment: "")
       }
       
       /// Base translation: Drinking water this week
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 本周喝水状况(_: Void = ()) -> String {
         return NSLocalizedString("本周喝水状况", bundle: R.hostingBundle, value: "Drinking water this week", comment: "")
       }
       
       /// Base translation: Email or password is incorrect
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func email或者密码错误(_: Void = ()) -> String {
         return NSLocalizedString("Email或者密码错误", bundle: R.hostingBundle, value: "Email or password is incorrect", comment: "")
       }
       
       /// Base translation: End of cleaning
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 清洗结束(_: Void = ()) -> String {
         return NSLocalizedString("清洗结束", bundle: R.hostingBundle, value: "End of cleaning", comment: "")
       }
       
       /// Base translation: Enter email has been registered
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 输入email已经注册(_: Void = ()) -> String {
         return NSLocalizedString("输入email已经注册", bundle: R.hostingBundle, value: "Enter email has been registered", comment: "")
       }
       
       /// Base translation: Enter the detailed address
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请输入详细地址(_: Void = ()) -> String {
         return NSLocalizedString("请输入详细地址", bundle: R.hostingBundle, value: "Enter the detailed address", comment: "")
       }
       
       /// Base translation: Explore
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 探索(_: Void = ()) -> String {
         return NSLocalizedString("探索", bundle: R.hostingBundle, value: "Explore", comment: "")
       }
       
       /// Base translation: Followed topic
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 关注话题(_: Void = ()) -> String {
         return NSLocalizedString("关注话题", bundle: R.hostingBundle, value: "Followed topic", comment: "")
       }
       
       /// Base translation: Friday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期五(_: Void = ()) -> String {
         return NSLocalizedString("星期五", bundle: R.hostingBundle, value: "Friday", comment: "")
       }
       
       /// Base translation: Gallery
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func gallery(_: Void = ()) -> String {
         return NSLocalizedString("Gallery", bundle: R.hostingBundle, value: "Gallery", comment: "")
       }
       
       /// Base translation: Gold
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 金色(_: Void = ()) -> String {
         return NSLocalizedString("金色", bundle: R.hostingBundle, value: "Gold", comment: "")
       }
       
       /// Base translation: Green
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 绿色(_: Void = ()) -> String {
         return NSLocalizedString("绿色", bundle: R.hostingBundle, value: "Green", comment: "")
       }
       
       /// Base translation: If you don't know what version?
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 如果不知道是什么版本(_: Void = ()) -> String {
         return NSLocalizedString("如果不知道是什么版本？", bundle: R.hostingBundle, value: "If you don't know what version?", comment: "")
       }
       
       /// Base translation: Ignore this version
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 忽略此版本(_: Void = ()) -> String {
         return NSLocalizedString("忽略此版本", bundle: R.hostingBundle, value: "Ignore this version", comment: "")
       }
       
       /// Base translation: Last time drinking
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 最近一次喝水时间(_: Void = ()) -> String {
         return NSLocalizedString("最近一次喝水时间", bundle: R.hostingBundle, value: "Last time drinking", comment: "")
       }
       
       /// Base translation: Latest Collection
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 最新收藏(_: Void = ()) -> String {
         return NSLocalizedString("最新收藏", bundle: R.hostingBundle, value: "Latest Collection", comment: "")
       }
       
       /// Base translation: Light Settings
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 灯光设置(_: Void = ()) -> String {
         return NSLocalizedString("灯光设置", bundle: R.hostingBundle, value: "Light Settings", comment: "")
       }
       
       /// Base translation: Likes
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 我的赞(_: Void = ()) -> String {
         return NSLocalizedString("我的赞", bundle: R.hostingBundle, value: "Likes", comment: "")
       }
       
       /// Base translation: Manual input
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 手动输入(_: Void = ()) -> String {
         return NSLocalizedString("手动输入", bundle: R.hostingBundle, value: "Manual input", comment: "")
       }
       
       /// Base translation: Message
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 消息(_: Void = ()) -> String {
         return NSLocalizedString("消息", bundle: R.hostingBundle, value: "Message", comment: "")
       }
       
       /// Base translation: Monday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期一(_: Void = ()) -> String {
         return NSLocalizedString("星期一", bundle: R.hostingBundle, value: "Monday", comment: "")
       }
       
       /// Base translation: My Favorites
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 我的收藏(_: Void = ()) -> String {
         return NSLocalizedString("我的收藏", bundle: R.hostingBundle, value: "My Favorites", comment: "")
       }
       
       /// Base translation: My comment
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 我的评论(_: Void = ()) -> String {
         return NSLocalizedString("我的评论", bundle: R.hostingBundle, value: "My comment", comment: "")
       }
       
       /// Base translation: My concern
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 我的关注(_: Void = ()) -> String {
         return NSLocalizedString("我的关注", bundle: R.hostingBundle, value: "My concern", comment: "")
       }
       
       /// Base translation: My fans
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 我的粉丝(_: Void = ()) -> String {
         return NSLocalizedString("我的粉丝", bundle: R.hostingBundle, value: "My fans", comment: "")
       }
       
       /// Base translation: Name cannot be empty
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 名字不能为空(_: Void = ()) -> String {
         return NSLocalizedString("名字不能为空", bundle: R.hostingBundle, value: "Name cannot be empty", comment: "")
       }
       
       /// Base translation: New comment
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 新的评论(_: Void = ()) -> String {
         return NSLocalizedString("新的评论", bundle: R.hostingBundle, value: "New comment", comment: "")
       }
       
       /// Base translation: Newly received like
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 新获得的赞(_: Void = ()) -> String {
         return NSLocalizedString("新获得的赞", bundle: R.hostingBundle, value: "Newly received like", comment: "")
       }
       
       /// Base translation: Offline
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 未连接(_: Void = ()) -> String {
         return NSLocalizedString("未连接", bundle: R.hostingBundle, value: "Offline", comment: "")
       }
       
       /// Base translation: Ok
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 确定(_: Void = ()) -> String {
         return NSLocalizedString("确定", bundle: R.hostingBundle, value: "Ok", comment: "")
       }
       
       /// Base translation: Online
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 已连接(_: Void = ()) -> String {
         return NSLocalizedString("已连接", bundle: R.hostingBundle, value: "Online", comment: "")
       }
       
       /// Base translation: Order submitted successfully
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 订单提交成功(_: Void = ()) -> String {
         return NSLocalizedString("订单提交成功", bundle: R.hostingBundle, value: "Order submitted successfully", comment: "")
       }
       
       /// Base translation: Please connect your device
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请链接设备(_: Void = ()) -> String {
         return NSLocalizedString("请链接设备", bundle: R.hostingBundle, value: "Please connect your device", comment: "")
       }
       
       /// Base translation: Please enter correct E-mail
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请输入正确EMail(_: Void = ()) -> String {
         return NSLocalizedString("请输入正确E-mail", bundle: R.hostingBundle, value: "Please enter correct E-mail", comment: "")
       }
       
       /// Base translation: Please enter the activation code
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请输入激活码(_: Void = ()) -> String {
         return NSLocalizedString("请输入激活码", bundle: R.hostingBundle, value: "Please enter the activation code", comment: "")
       }
       
       /// Base translation: Please enter the correct mobile number!
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请输入正确手机号码(_: Void = ()) -> String {
         return NSLocalizedString("请输入正确手机号码!", bundle: R.hostingBundle, value: "Please enter the correct mobile number!", comment: "")
       }
       
       /// Base translation: Please enter the verification code!
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请输入验证码(_: Void = ()) -> String {
         return NSLocalizedString("请输入验证码!", bundle: R.hostingBundle, value: "Please enter the verification code!", comment: "")
       }
       
       /// Base translation: Please enter your password!
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请输入密码(_: Void = ()) -> String {
         return NSLocalizedString("请输入密码!", bundle: R.hostingBundle, value: "Please enter your password!", comment: "")
       }
       
       /// Base translation: Please select the color of your cup
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请选取你杯子的颜色(_: Void = ()) -> String {
         return NSLocalizedString("请选取你杯子的颜色", bundle: R.hostingBundle, value: "Please select the color of your cup", comment: "")
       }
       
       /// Base translation: Please wait...
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请稍候(_: Void = ()) -> String {
         return NSLocalizedString("请稍候...", bundle: R.hostingBundle, value: "Please wait...", comment: "")
       }
       
+      /// Base translation: Points
+      /// 
+      /// Locales: zh-Hans, Base, en
+      static func 积分(_: Void = ()) -> String {
+        return NSLocalizedString("积分", bundle: R.hostingBundle, value: "Points", comment: "")
+      }
+      
       /// Base translation: Points Mall
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 积分商城(_: Void = ()) -> String {
         return NSLocalizedString("积分商城", bundle: R.hostingBundle, value: "Points Mall", comment: "")
       }
       
       /// Base translation: Prompt
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 提示(_: Void = ()) -> String {
         return NSLocalizedString("提示", bundle: R.hostingBundle, value: "Prompt", comment: "")
       }
       
       /// Base translation: Publish
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 发布(_: Void = ()) -> String {
         return NSLocalizedString("发布", bundle: R.hostingBundle, value: "Publish", comment: "")
       }
       
       /// Base translation: Published successfully
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 发布成功(_: Void = ()) -> String {
         return NSLocalizedString("发布成功", bundle: R.hostingBundle, value: "Published successfully", comment: "")
       }
       
       /// Base translation: Read
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 阅读(_: Void = ()) -> String {
         return NSLocalizedString("阅读", bundle: R.hostingBundle, value: "Read", comment: "")
       }
       
       /// Base translation: Red
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 红色(_: Void = ()) -> String {
         return NSLocalizedString("红色", bundle: R.hostingBundle, value: "Red", comment: "")
       }
       
       /// Base translation: Refreshing
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 刷新中(_: Void = ()) -> String {
         return NSLocalizedString("刷新中", bundle: R.hostingBundle, value: "Refreshing", comment: "")
       }
       
       /// Base translation: Reply: 
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 回复(_: Void = ()) -> String {
         return NSLocalizedString("回复:", bundle: R.hostingBundle, value: "Reply: ", comment: "")
       }
       
       /// Base translation: Rose Gold
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 玫瑰金(_: Void = ()) -> String {
         return NSLocalizedString("玫瑰金", bundle: R.hostingBundle, value: "Rose Gold", comment: "")
       }
       
       /// Base translation: Saturday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期六(_: Void = ()) -> String {
         return NSLocalizedString("星期六", bundle: R.hostingBundle, value: "Saturday", comment: "")
       }
       
       /// Base translation: Save
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 保存(_: Void = ()) -> String {
         return NSLocalizedString("保存", bundle: R.hostingBundle, value: "Save", comment: "")
       }
       
       /// Base translation: Save failed
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 保存失败(_: Void = ()) -> String {
         return NSLocalizedString("保存失败", bundle: R.hostingBundle, value: "Save failed", comment: "")
       }
       
       /// Base translation: Saved
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 已保存(_: Void = ()) -> String {
         return NSLocalizedString("已保存", bundle: R.hostingBundle, value: "Saved", comment: "")
       }
       
       /// Base translation: Select a cup
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 选择杯子(_: Void = ()) -> String {
         return NSLocalizedString("选择杯子", bundle: R.hostingBundle, value: "Select a cup", comment: "")
       }
       
       /// Base translation: Select the source
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func selectTheSource(_: Void = ()) -> String {
         return NSLocalizedString("Select the source", bundle: R.hostingBundle, value: "Select the source", comment: "")
       }
       
       /// Base translation: Select your shipping address
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 请选择您的收货地址(_: Void = ()) -> String {
         return NSLocalizedString("请选择您的收货地址", bundle: R.hostingBundle, value: "Select your shipping address", comment: "")
       }
       
       /// Base translation: Start Electrolysis
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 开始电解(_: Void = ()) -> String {
         return NSLocalizedString("开始电解", bundle: R.hostingBundle, value: "Start Electrolysis", comment: "")
       }
       
       /// Base translation: Stop Electrolysis
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 停止电解(_: Void = ()) -> String {
         return NSLocalizedString("停止电解", bundle: R.hostingBundle, value: "Stop Electrolysis", comment: "")
       }
       
       /// Base translation: Sunday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期日(_: Void = ()) -> String {
         return NSLocalizedString("星期日", bundle: R.hostingBundle, value: "Sunday", comment: "")
       }
       
       /// Base translation: System Message
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 系统消息(_: Void = ()) -> String {
         return NSLocalizedString("系统消息", bundle: R.hostingBundle, value: "System Message", comment: "")
       }
       
       /// Base translation: The app is already the latest version
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 氢泡泡应用程序已经是最新版本(_: Void = ()) -> String {
         return NSLocalizedString("氢泡泡应用程序已经是最新版本", bundle: R.hostingBundle, value: "The app is already the latest version", comment: "")
       }
       
       /// Base translation: The battery is below 20% and cannot be cleaned
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 电量低于20不能清洗(_: Void = ()) -> String {
         return NSLocalizedString("电量低于20%，不能清洗", bundle: R.hostingBundle, value: "The battery is below 20% and cannot be cleaned", comment: "")
       }
       
       /// Base translation: The cleaning has been completed, please pour off the water and reopen the cup
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 清洗已经完成請倒掉水和重開水杯(_: Void = ()) -> String {
         return NSLocalizedString("清洗已经完成，請倒掉水和重開水杯", bundle: R.hostingBundle, value: "The cleaning has been completed, please pour off the water and reopen the cup", comment: "")
       }
       
       /// Base translation: The cup connection network timed out, please confirm the wifi password and try again
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 杯子连接网络超时请确定wifi密码后重试(_: Void = ()) -> String {
         return NSLocalizedString("杯子连接网络超时，请确定wifi密码后重试", bundle: R.hostingBundle, value: "The cup connection network timed out, please confirm the wifi password and try again", comment: "")
       }
       
       /// Base translation: The cup has been bound by another account
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 杯子已经被其他账号绑定(_: Void = ()) -> String {
         return NSLocalizedString("杯子已经被其他账号绑定", bundle: R.hostingBundle, value: "The cup has been bound by another account", comment: "")
       }
       
       /// Base translation: The input is incorrect
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 输入有误(_: Void = ()) -> String {
         return NSLocalizedString("输入有误", bundle: R.hostingBundle, value: "The input is incorrect", comment: "")
       }
       
       /// Base translation: The input password is inconsistent!
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 输入密码不一致(_: Void = ()) -> String {
         return NSLocalizedString("输入密码不一致!", bundle: R.hostingBundle, value: "The input password is inconsistent!", comment: "")
       }
       
       /// Base translation: The new mobile number is the same as the current number!
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 新手机号码与当前号码相同(_: Void = ()) -> String {
         return NSLocalizedString("新手机号码与当前号码相同!", bundle: R.hostingBundle, value: "The new mobile number is the same as the current number!", comment: "")
       }
       
       /// Base translation: Thursday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期四(_: Void = ()) -> String {
         return NSLocalizedString("星期四", bundle: R.hostingBundle, value: "Thursday", comment: "")
       }
       
       /// Base translation: Tuesday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期二(_: Void = ()) -> String {
         return NSLocalizedString("星期二", bundle: R.hostingBundle, value: "Tuesday", comment: "")
       }
       
       /// Base translation: Unbound
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 未授权(_: Void = ()) -> String {
         return NSLocalizedString("未授权", bundle: R.hostingBundle, value: "Unbound", comment: "")
       }
       
       /// Base translation: Update
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 更新(_: Void = ()) -> String {
         return NSLocalizedString("更新", bundle: R.hostingBundle, value: "Update", comment: "")
       }
       
       /// Base translation: Version Information
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 版本信息(_: Void = ()) -> String {
         return NSLocalizedString("版本信息", bundle: R.hostingBundle, value: "Version Information", comment: "")
       }
       
       /// Base translation: Water Consumption
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 喝水量(_: Void = ()) -> String {
         return NSLocalizedString("喝水量", bundle: R.hostingBundle, value: "Water Consumption", comment: "")
       }
       
       /// Base translation: Water Consumption
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 总喝水量(_: Void = ()) -> String {
         return NSLocalizedString("总喝水量", bundle: R.hostingBundle, value: "Water Consumption", comment: "")
       }
       
       /// Base translation: Wednesday
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 星期三(_: Void = ()) -> String {
         return NSLocalizedString("星期三", bundle: R.hostingBundle, value: "Wednesday", comment: "")
       }
       
       /// Base translation: You can use the new version of the hydrogen bubble app, please update to the version 
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 可以使用新版本的氢泡泡应用程序请更新至版本(_: Void = ()) -> String {
         return NSLocalizedString("可以使用新版本的氢泡泡应用程序，请更新至版本 ", bundle: R.hostingBundle, value: "You can use the new version of the hydrogen bubble app, please update to the version ", comment: "")
       }
       
       /// Base translation: Your email is not registered
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 您的EMail未注册(_: Void = ()) -> String {
         return NSLocalizedString("您的E-mail未注册", bundle: R.hostingBundle, value: "Your email is not registered", comment: "")
       }
       
       /// Base translation: Yuan
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 元(_: Void = ()) -> String {
         return NSLocalizedString("元", bundle: R.hostingBundle, value: "Yuan", comment: "")
       }
       
       /// Base translation: bind failed
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 绑定失败(_: Void = ()) -> String {
         return NSLocalizedString("绑定失败", bundle: R.hostingBundle, value: "bind failed", comment: "")
       }
       
       /// Base translation: binding success
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 绑定成功(_: Void = ()) -> String {
         return NSLocalizedString("绑定成功", bundle: R.hostingBundle, value: "binding success", comment: "")
       }
       
       /// Base translation: cleaning
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 水杯清洗中(_: Void = ()) -> String {
         return NSLocalizedString("水杯清洗中", bundle: R.hostingBundle, value: "cleaning", comment: "")
       }
       
       /// Base translation: cleaning
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 清洗中(_: Void = ()) -> String {
         return NSLocalizedString("清洗中", bundle: R.hostingBundle, value: "cleaning", comment: "")
       }
       
       /// Base translation: in electrolysis
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 电解中(_: Void = ()) -> String {
         return NSLocalizedString("电解中", bundle: R.hostingBundle, value: "in electrolysis", comment: "")
       }
       
       /// Base translation: sec Resend
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 秒后重发(_: Void = ()) -> String {
         return NSLocalizedString("秒后重发", bundle: R.hostingBundle, value: "sec Resend", comment: "")
       }
       
       /// Base translation: successful save
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 保存成功(_: Void = ()) -> String {
         return NSLocalizedString("保存成功", bundle: R.hostingBundle, value: "successful save", comment: "")
       }
       
       /// Base translation: synchronizing
       /// 
-      /// Locales: zh-Hans, Base
+      /// Locales: zh-Hans, Base, en
       static func 数据同步中(_: Void = ()) -> String {
         return NSLocalizedString("数据同步中", bundle: R.hostingBundle, value: "synchronizing", comment: "")
       }
@@ -2515,6 +2557,10 @@ struct _R: Rswift.Validatable {
       try enLaunchScreen.validate()
       try shop.validate()
       try attachmentDetailsViewController.validate()
+      try main_en.validate()
+      try login_en.validate()
+      try login_cn.validate()
+      try main_cn.validate()
     }
     
     struct attachmentDetailsViewController: Rswift.StoryboardResourceType, Rswift.Validatable {
@@ -2541,6 +2587,462 @@ struct _R: Rswift.Validatable {
       
       static func validate() throws {
         if UIKit.UIImage(named: "750x1334") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '750x1334' is used in storyboard 'EnLaunchScreen', but couldn't be loaded.") }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct login_cn: Rswift.StoryboardResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let changePassword = StoryboardViewControllerResource<ChangePassword>(identifier: "ChangePassword")
+      let loginPage = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "LoginPage")
+      let name = "Login_cn"
+      
+      func changePassword(_: Void = ()) -> ChangePassword? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: changePassword)
+      }
+      
+      func loginPage(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: loginPage)
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "name") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'name' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "qq") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'qq' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "email") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'email' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_1' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "password") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'password' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "weixin") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'weixin' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "sina0") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sina0' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_0") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_0' is used in storyboard 'Login_cn', but couldn't be loaded.") }
+        if _R.storyboard.login_cn().changePassword() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'changePassword' could not be loaded from storyboard 'Login_cn' as 'ChangePassword'.") }
+        if _R.storyboard.login_cn().loginPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'loginPage' could not be loaded from storyboard 'Login_cn' as 'UIKit.UINavigationController'.") }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct login_en: Rswift.StoryboardResourceType, Rswift.Validatable {
+      let bundle = R.hostingBundle
+      let changePassword = StoryboardViewControllerResource<ChangePassword>(identifier: "ChangePassword")
+      let loginPage = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "LoginPage")
+      let name = "Login_en"
+      
+      func changePassword(_: Void = ()) -> ChangePassword? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: changePassword)
+      }
+      
+      func loginPage(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: loginPage)
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "name") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'name' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "qq") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'qq' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "email") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'email' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_1' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "password") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'password' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "weixin") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'weixin' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "sina0") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sina0' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_0") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_0' is used in storyboard 'Login_en', but couldn't be loaded.") }
+        if _R.storyboard.login_en().changePassword() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'changePassword' could not be loaded from storyboard 'Login_en' as 'ChangePassword'.") }
+        if _R.storyboard.login_en().loginPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'loginPage' could not be loaded from storyboard 'Login_en' as 'UIKit.UINavigationController'.") }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct main_cn: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = LandingVC
+      
+      let addDeviceView = StoryboardViewControllerResource<AddDevice>(identifier: "addDeviceView")
+      let addressInfoVC = StoryboardViewControllerResource<AddressInfoVC>(identifier: "AddressInfoVC")
+      let addressListVC = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "AddressListVC")
+      let bindingPhone = StoryboardViewControllerResource<ChangePhoneVC>(identifier: "BindingPhone")
+      let bundle = R.hostingBundle
+      let changeEmailPassword = StoryboardViewControllerResource<ChangeEmailPassword>(identifier: "ChangeEmailPassword")
+      let changePassword = StoryboardViewControllerResource<ChangePassword>(identifier: "ChangePassword")
+      let deliverPageViewController = StoryboardViewControllerResource<DeliverPageViewController>(identifier: "DeliverPageViewController")
+      let deviceInfo = StoryboardViewControllerResource<DeviceInfoVC>(identifier: "deviceInfo")
+      let deviceList = StoryboardViewControllerResource<DeviceListViewController>(identifier: "deviceList")
+      let exchangeOrderDetailVC = StoryboardViewControllerResource<ExchangeOrderDetailVC>(identifier: "ExchangeOrderDetailVC")
+      let exchangePage = StoryboardViewControllerResource<ExchangePage>(identifier: "ExchangePage")
+      let landingPage = StoryboardViewControllerResource<LandingVC>(identifier: "LandingPage")
+      let mainPage = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "MainPage")
+      let name = "Main_cn"
+      let numerousShopPage = StoryboardViewControllerResource<CrowdfundingShopPage>(identifier: "NumerousShopPage")
+      let orderListTopVC = StoryboardViewControllerResource<OrderListTopVC>(identifier: "OrderListTopVC")
+      let postListViewController = StoryboardViewControllerResource<PostListViewController>(identifier: "PostListViewController")
+      let returnOrderNumVC = StoryboardViewControllerResource<ReturnOrderNumVC>(identifier: "ReturnOrderNumVC")
+      let scoresShop = StoryboardViewControllerResource<ScoresShopList>(identifier: "ScoresShop")
+      let wifiConnectPage = StoryboardViewControllerResource<AddWifiControllPage>(identifier: "wifiConnectPage")
+      let wifiScanListVC = StoryboardViewControllerResource<WifiScanListVC>(identifier: "wifiScanListVC")
+      
+      func addDeviceView(_: Void = ()) -> AddDevice? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addDeviceView)
+      }
+      
+      func addressInfoVC(_: Void = ()) -> AddressInfoVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addressInfoVC)
+      }
+      
+      func addressListVC(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addressListVC)
+      }
+      
+      func bindingPhone(_: Void = ()) -> ChangePhoneVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: bindingPhone)
+      }
+      
+      func changeEmailPassword(_: Void = ()) -> ChangeEmailPassword? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: changeEmailPassword)
+      }
+      
+      func changePassword(_: Void = ()) -> ChangePassword? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: changePassword)
+      }
+      
+      func deliverPageViewController(_: Void = ()) -> DeliverPageViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: deliverPageViewController)
+      }
+      
+      func deviceInfo(_: Void = ()) -> DeviceInfoVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: deviceInfo)
+      }
+      
+      func deviceList(_: Void = ()) -> DeviceListViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: deviceList)
+      }
+      
+      func exchangeOrderDetailVC(_: Void = ()) -> ExchangeOrderDetailVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: exchangeOrderDetailVC)
+      }
+      
+      func exchangePage(_: Void = ()) -> ExchangePage? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: exchangePage)
+      }
+      
+      func landingPage(_: Void = ()) -> LandingVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: landingPage)
+      }
+      
+      func mainPage(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: mainPage)
+      }
+      
+      func numerousShopPage(_: Void = ()) -> CrowdfundingShopPage? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: numerousShopPage)
+      }
+      
+      func orderListTopVC(_: Void = ()) -> OrderListTopVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: orderListTopVC)
+      }
+      
+      func postListViewController(_: Void = ()) -> PostListViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: postListViewController)
+      }
+      
+      func returnOrderNumVC(_: Void = ()) -> ReturnOrderNumVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: returnOrderNumVC)
+      }
+      
+      func scoresShop(_: Void = ()) -> ScoresShopList? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: scoresShop)
+      }
+      
+      func wifiConnectPage(_: Void = ()) -> AddWifiControllPage? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: wifiConnectPage)
+      }
+      
+      func wifiScanListVC(_: Void = ()) -> WifiScanListVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: wifiScanListVC)
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "icon2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon2' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "msgIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'msgIcon' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "分享") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '分享' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "arrow") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'arrow' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_normal") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_normal' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "powerOff") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'powerOff' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_selected1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_selected1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon4") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon4' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "profileIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'profileIcon' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "unStar") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'unStar' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_pressed") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_pressed' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "qq-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'qq-1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 12") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 12' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "blueBG") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'blueBG' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "wechat") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'wechat' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "cleanBtn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'cleanBtn' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "star") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'star' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "wifi") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'wifi' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "写评论") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '写评论' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon3") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon3' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 23") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 23' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bg1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bg1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkBox1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkBox1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "comment-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'comment-1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "hand") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'hand' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 2' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "default profile") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'default profile' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "powerOn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'powerOn' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightUI1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightUI1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "cup") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'cup' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "numerous") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'numerous' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bluetouch") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bluetouch' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "back") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'back' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 17") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 17' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 18") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 18' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 11") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 11' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "likeIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'likeIcon' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "unlike") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'unlike' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "like") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'like' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 13") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 13' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "comment") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'comment' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightPowerBtnD") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightPowerBtnD' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bigIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bigIcon' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 16") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 16' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "Qrcode") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'Qrcode' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "email") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'email' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "health") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'health' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightPowerBtn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightPowerBtn' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "name") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'name' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 21") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 21' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 14") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 14' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "device") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'device' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 10") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 10' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "BG1-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'BG1-1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "drinkIcon1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'drinkIcon1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 20") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 20' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "sina") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sina' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "1242-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '1242-1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightBtn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightBtn' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 22") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 22' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 19") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 19' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "qrcode-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'qrcode-1' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 15") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 15' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "msgBtn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'msgBtn' is used in storyboard 'Main_cn', but couldn't be loaded.") }
+        if _R.storyboard.main_cn().changeEmailPassword() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'changeEmailPassword' could not be loaded from storyboard 'Main_cn' as 'ChangeEmailPassword'.") }
+        if _R.storyboard.main_cn().postListViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'postListViewController' could not be loaded from storyboard 'Main_cn' as 'PostListViewController'.") }
+        if _R.storyboard.main_cn().addDeviceView() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addDeviceView' could not be loaded from storyboard 'Main_cn' as 'AddDevice'.") }
+        if _R.storyboard.main_cn().landingPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'landingPage' could not be loaded from storyboard 'Main_cn' as 'LandingVC'.") }
+        if _R.storyboard.main_cn().scoresShop() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'scoresShop' could not be loaded from storyboard 'Main_cn' as 'ScoresShopList'.") }
+        if _R.storyboard.main_cn().addressInfoVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addressInfoVC' could not be loaded from storyboard 'Main_cn' as 'AddressInfoVC'.") }
+        if _R.storyboard.main_cn().orderListTopVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'orderListTopVC' could not be loaded from storyboard 'Main_cn' as 'OrderListTopVC'.") }
+        if _R.storyboard.main_cn().deviceInfo() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'deviceInfo' could not be loaded from storyboard 'Main_cn' as 'DeviceInfoVC'.") }
+        if _R.storyboard.main_cn().bindingPhone() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'bindingPhone' could not be loaded from storyboard 'Main_cn' as 'ChangePhoneVC'.") }
+        if _R.storyboard.main_cn().mainPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'mainPage' could not be loaded from storyboard 'Main_cn' as 'UIKit.UINavigationController'.") }
+        if _R.storyboard.main_cn().exchangePage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'exchangePage' could not be loaded from storyboard 'Main_cn' as 'ExchangePage'.") }
+        if _R.storyboard.main_cn().addressListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addressListVC' could not be loaded from storyboard 'Main_cn' as 'UIKit.UINavigationController'.") }
+        if _R.storyboard.main_cn().returnOrderNumVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'returnOrderNumVC' could not be loaded from storyboard 'Main_cn' as 'ReturnOrderNumVC'.") }
+        if _R.storyboard.main_cn().deliverPageViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'deliverPageViewController' could not be loaded from storyboard 'Main_cn' as 'DeliverPageViewController'.") }
+        if _R.storyboard.main_cn().numerousShopPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'numerousShopPage' could not be loaded from storyboard 'Main_cn' as 'CrowdfundingShopPage'.") }
+        if _R.storyboard.main_cn().wifiConnectPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'wifiConnectPage' could not be loaded from storyboard 'Main_cn' as 'AddWifiControllPage'.") }
+        if _R.storyboard.main_cn().wifiScanListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'wifiScanListVC' could not be loaded from storyboard 'Main_cn' as 'WifiScanListVC'.") }
+        if _R.storyboard.main_cn().deviceList() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'deviceList' could not be loaded from storyboard 'Main_cn' as 'DeviceListViewController'.") }
+        if _R.storyboard.main_cn().exchangeOrderDetailVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'exchangeOrderDetailVC' could not be loaded from storyboard 'Main_cn' as 'ExchangeOrderDetailVC'.") }
+        if _R.storyboard.main_cn().changePassword() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'changePassword' could not be loaded from storyboard 'Main_cn' as 'ChangePassword'.") }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct main_en: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = LandingVC
+      
+      let addDeviceView = StoryboardViewControllerResource<AddDevice>(identifier: "addDeviceView")
+      let addressInfoVC = StoryboardViewControllerResource<AddressInfoVC>(identifier: "AddressInfoVC")
+      let addressListVC = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "AddressListVC")
+      let bindingPhone = StoryboardViewControllerResource<ChangePhoneVC>(identifier: "BindingPhone")
+      let bundle = R.hostingBundle
+      let changeEmailPassword = StoryboardViewControllerResource<ChangeEmailPassword>(identifier: "ChangeEmailPassword")
+      let changePassword = StoryboardViewControllerResource<ChangePassword>(identifier: "ChangePassword")
+      let deliverPageViewController = StoryboardViewControllerResource<DeliverPageViewController>(identifier: "DeliverPageViewController")
+      let deviceInfo = StoryboardViewControllerResource<DeviceInfoVC>(identifier: "deviceInfo")
+      let deviceList = StoryboardViewControllerResource<DeviceListViewController>(identifier: "deviceList")
+      let exchangeOrderDetailVC = StoryboardViewControllerResource<ExchangeOrderDetailVC>(identifier: "ExchangeOrderDetailVC")
+      let exchangePage = StoryboardViewControllerResource<ExchangePage>(identifier: "ExchangePage")
+      let landingPage = StoryboardViewControllerResource<LandingVC>(identifier: "LandingPage")
+      let mainPage = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "MainPage")
+      let name = "Main_en"
+      let numerousShopPage = StoryboardViewControllerResource<CrowdfundingShopPage>(identifier: "NumerousShopPage")
+      let orderListTopVC = StoryboardViewControllerResource<OrderListTopVC>(identifier: "OrderListTopVC")
+      let postListViewController = StoryboardViewControllerResource<PostListViewController>(identifier: "PostListViewController")
+      let returnOrderNumVC = StoryboardViewControllerResource<ReturnOrderNumVC>(identifier: "ReturnOrderNumVC")
+      let scoresShop = StoryboardViewControllerResource<ScoresShopList>(identifier: "ScoresShop")
+      let wifiConnectPage = StoryboardViewControllerResource<AddWifiControllPage>(identifier: "wifiConnectPage")
+      let wifiScanListVC = StoryboardViewControllerResource<WifiScanListVC>(identifier: "wifiScanListVC")
+      
+      func addDeviceView(_: Void = ()) -> AddDevice? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addDeviceView)
+      }
+      
+      func addressInfoVC(_: Void = ()) -> AddressInfoVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addressInfoVC)
+      }
+      
+      func addressListVC(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addressListVC)
+      }
+      
+      func bindingPhone(_: Void = ()) -> ChangePhoneVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: bindingPhone)
+      }
+      
+      func changeEmailPassword(_: Void = ()) -> ChangeEmailPassword? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: changeEmailPassword)
+      }
+      
+      func changePassword(_: Void = ()) -> ChangePassword? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: changePassword)
+      }
+      
+      func deliverPageViewController(_: Void = ()) -> DeliverPageViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: deliverPageViewController)
+      }
+      
+      func deviceInfo(_: Void = ()) -> DeviceInfoVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: deviceInfo)
+      }
+      
+      func deviceList(_: Void = ()) -> DeviceListViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: deviceList)
+      }
+      
+      func exchangeOrderDetailVC(_: Void = ()) -> ExchangeOrderDetailVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: exchangeOrderDetailVC)
+      }
+      
+      func exchangePage(_: Void = ()) -> ExchangePage? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: exchangePage)
+      }
+      
+      func landingPage(_: Void = ()) -> LandingVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: landingPage)
+      }
+      
+      func mainPage(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: mainPage)
+      }
+      
+      func numerousShopPage(_: Void = ()) -> CrowdfundingShopPage? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: numerousShopPage)
+      }
+      
+      func orderListTopVC(_: Void = ()) -> OrderListTopVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: orderListTopVC)
+      }
+      
+      func postListViewController(_: Void = ()) -> PostListViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: postListViewController)
+      }
+      
+      func returnOrderNumVC(_: Void = ()) -> ReturnOrderNumVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: returnOrderNumVC)
+      }
+      
+      func scoresShop(_: Void = ()) -> ScoresShopList? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: scoresShop)
+      }
+      
+      func wifiConnectPage(_: Void = ()) -> AddWifiControllPage? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: wifiConnectPage)
+      }
+      
+      func wifiScanListVC(_: Void = ()) -> WifiScanListVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: wifiScanListVC)
+      }
+      
+      static func validate() throws {
+        if UIKit.UIImage(named: "icon2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon2' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "msgIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'msgIcon' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "分享") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '分享' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "arrow") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'arrow' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_normal") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_normal' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "powerOff") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'powerOff' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_selected1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_selected1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon4") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon4' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "profileIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'profileIcon' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "unStar") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'unStar' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkbox_pressed") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkbox_pressed' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "qq-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'qq-1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 12") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 12' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "blueBG") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'blueBG' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "wechat") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'wechat' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "Lighting_en") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'Lighting_en' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "star") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'star' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "wifi") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'wifi' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "写评论") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '写评论' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon3") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon3' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 23") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 23' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bg1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bg1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "WechatIMG5242") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'WechatIMG5242' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "checkBox1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'checkBox1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "comment-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'comment-1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "device_en") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'device_en' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "hand") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'hand' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "default profile") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'default profile' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 2") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 2' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "powerOn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'powerOn' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightUI1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightUI1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "750x1334") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '750x1334' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "cup") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'cup' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "numerous") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'numerous' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bluetouch") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bluetouch' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "back") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'back' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 17") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 17' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 18") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 18' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 11") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 11' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "likeIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'likeIcon' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "unlike") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'unlike' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "like") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'like' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 13") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 13' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "comment") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'comment' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightPowerBtnD") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightPowerBtnD' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "bigIcon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'bigIcon' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 16") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 16' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "Qrcode") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'Qrcode' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "email") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'email' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "name") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'name' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "lightPowerBtn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'lightPowerBtn' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 21") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 21' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 14") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 14' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "CupCleaning_en") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'CupCleaning_en' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "BG1-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'BG1-1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "drinkIcon1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'drinkIcon1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 10") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 10' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "sina") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'sina' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 20") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 20' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "icon1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'icon1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 22") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 22' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 19") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 19' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "qrcode-1") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'qrcode-1' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "资源 15") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named '资源 15' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if UIKit.UIImage(named: "msgBtn") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'msgBtn' is used in storyboard 'Main_en', but couldn't be loaded.") }
+        if _R.storyboard.main_en().changeEmailPassword() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'changeEmailPassword' could not be loaded from storyboard 'Main_en' as 'ChangeEmailPassword'.") }
+        if _R.storyboard.main_en().postListViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'postListViewController' could not be loaded from storyboard 'Main_en' as 'PostListViewController'.") }
+        if _R.storyboard.main_en().addDeviceView() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addDeviceView' could not be loaded from storyboard 'Main_en' as 'AddDevice'.") }
+        if _R.storyboard.main_en().landingPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'landingPage' could not be loaded from storyboard 'Main_en' as 'LandingVC'.") }
+        if _R.storyboard.main_en().scoresShop() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'scoresShop' could not be loaded from storyboard 'Main_en' as 'ScoresShopList'.") }
+        if _R.storyboard.main_en().addressInfoVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addressInfoVC' could not be loaded from storyboard 'Main_en' as 'AddressInfoVC'.") }
+        if _R.storyboard.main_en().orderListTopVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'orderListTopVC' could not be loaded from storyboard 'Main_en' as 'OrderListTopVC'.") }
+        if _R.storyboard.main_en().deviceInfo() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'deviceInfo' could not be loaded from storyboard 'Main_en' as 'DeviceInfoVC'.") }
+        if _R.storyboard.main_en().bindingPhone() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'bindingPhone' could not be loaded from storyboard 'Main_en' as 'ChangePhoneVC'.") }
+        if _R.storyboard.main_en().mainPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'mainPage' could not be loaded from storyboard 'Main_en' as 'UIKit.UINavigationController'.") }
+        if _R.storyboard.main_en().exchangePage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'exchangePage' could not be loaded from storyboard 'Main_en' as 'ExchangePage'.") }
+        if _R.storyboard.main_en().addressListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addressListVC' could not be loaded from storyboard 'Main_en' as 'UIKit.UINavigationController'.") }
+        if _R.storyboard.main_en().returnOrderNumVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'returnOrderNumVC' could not be loaded from storyboard 'Main_en' as 'ReturnOrderNumVC'.") }
+        if _R.storyboard.main_en().deliverPageViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'deliverPageViewController' could not be loaded from storyboard 'Main_en' as 'DeliverPageViewController'.") }
+        if _R.storyboard.main_en().numerousShopPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'numerousShopPage' could not be loaded from storyboard 'Main_en' as 'CrowdfundingShopPage'.") }
+        if _R.storyboard.main_en().wifiConnectPage() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'wifiConnectPage' could not be loaded from storyboard 'Main_en' as 'AddWifiControllPage'.") }
+        if _R.storyboard.main_en().wifiScanListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'wifiScanListVC' could not be loaded from storyboard 'Main_en' as 'WifiScanListVC'.") }
+        if _R.storyboard.main_en().deviceList() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'deviceList' could not be loaded from storyboard 'Main_en' as 'DeviceListViewController'.") }
+        if _R.storyboard.main_en().exchangeOrderDetailVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'exchangeOrderDetailVC' could not be loaded from storyboard 'Main_en' as 'ExchangeOrderDetailVC'.") }
+        if _R.storyboard.main_en().changePassword() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'changePassword' could not be loaded from storyboard 'Main_en' as 'ChangePassword'.") }
       }
       
       fileprivate init() {}

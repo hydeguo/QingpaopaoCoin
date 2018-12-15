@@ -20,14 +20,19 @@ class LandingVC: UIViewController {
     func pushTo(viewController: ViewControllerType)  {
         switch viewController {
         case .conversations:
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainPage")
-            self.present(vc!, animated: false, completion: nil)
+            gotoMainScene()
             break
         case .welcome:
            
-            let storyboard = UIStoryboard(name: "Login", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "LoginPage")
-            self.present(vc, animated: false, completion: nil)
+            if let lang =  Language.currentAppleLanguage(), lang.contains("zh-Hans")  {
+                
+                let vc = UIStoryboard(name: "Login_cn", bundle: nil).instantiateViewController(withIdentifier: "LoginPage") as! UINavigationController
+                self.present(vc, animated: false, completion: nil)
+            } else {
+                
+                let vc = UIStoryboard(name: "Login_en", bundle: nil).instantiateViewController(withIdentifier: "LoginPage") as! UINavigationController
+                self.present(vc, animated: false, completion: nil)
+            }
             break
         }
     }
@@ -93,9 +98,19 @@ class LandingVC: UIViewController {
     
     @objc func gotoMainScene()
     {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "MainPage") as! UINavigationController
-        self.present(vc, animated: false, completion: nil)
+        
+        
+        if let lang =  Language.currentAppleLanguage(), lang.contains("zh-Hans")  {
+            
+            let vc = UIStoryboard(name: "Main_cn", bundle: nil).instantiateViewController(withIdentifier: "MainPage") as! UINavigationController
+            self.present(vc, animated: false, completion: nil)
+        } else {
+            
+            let vc = UIStoryboard(name: "Main_en", bundle: nil).instantiateViewController(withIdentifier: "MainPage") as! UINavigationController
+            self.present(vc, animated: false, completion: nil)
+        }
+        
+        
     }
     
     override func viewDidLoad() {

@@ -112,9 +112,15 @@ class RegisterVC: UIViewController  , UITextFieldDelegate{
 
     @objc func gotoMainScene()
     {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "MainPage") as! UINavigationController
-        self.present(vc, animated: false, completion: nil)
+        if let lang =  Language.currentAppleLanguage(), lang.contains("zh-Hans")  {
+            
+            let vc = UIStoryboard(name: "Main_cn", bundle: nil).instantiateViewController(withIdentifier: "MainPage") as! UINavigationController
+            self.present(vc, animated: false, completion: nil)
+        } else {
+            
+            let vc = UIStoryboard(name: "Main_en", bundle: nil).instantiateViewController(withIdentifier: "MainPage") as! UINavigationController
+            self.present(vc, animated: false, completion: nil)
+        }
     }
     
     @IBAction func sendVerify()
