@@ -28,7 +28,7 @@ class ChangeName: UITableViewController ,UITextFieldDelegate{
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         self.tableView.tableFooterView=UIView(frame: CGRect.zero)
         
-        let rightBtn = UIBarButtonItem(title: Language.getString("已保存"), style: .plain, target: self, action: #selector(save(_:)))
+        let rightBtn = UIBarButtonItem(title: Language.getString("保存"), style: .plain, target: self, action: #selector(save(_:)))
         navigationItem.rightBarButtonItem = rightBtn
         
     }

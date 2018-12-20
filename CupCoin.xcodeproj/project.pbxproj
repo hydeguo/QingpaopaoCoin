@@ -27,6 +27,7 @@
 		C12A8C27214D4A24009511DC /* MyFansList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A8C26214D4A24009511DC /* MyFansList.swift */; };
 		C1315F6E20DB6740000DB991 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1315F6D20DB6740000DB991 /* User.swift */; };
 		C133C1F920F5B25800771FE6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C133C1F820F5B25800771FE6 /* R.generated.swift */; };
+		C13595B721CBBFCF006551B0 /* CoinLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13595B621CBBFCF006551B0 /* CoinLinkViewController.swift */; };
 		C1383A3220DF856D00F1EBE6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1383A3420DF856D00F1EBE6 /* Localizable.strings */; };
 		C1383A4220DF896200F1EBE6 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1383A4120DF896200F1EBE6 /* iconfont.ttf */; };
 		C1383A4620DF985100F1EBE6 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1383A4520DF985100F1EBE6 /* ChangePassword.swift */; };
@@ -247,6 +248,7 @@
 		C12A8C26214D4A24009511DC /* MyFansList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFansList.swift; sourceTree = "<group>"; };
 		C1315F6D20DB6740000DB991 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C133C1F820F5B25800771FE6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		C13595B621CBBFCF006551B0 /* CoinLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLinkViewController.swift; sourceTree = "<group>"; };
 		C1383A3720DF85DA00F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C1383A3820DF862300F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		C1383A3920DF862F00F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
@@ -684,6 +686,7 @@
 				C17862CD20E2869F008F4042 /* BaseInfo.swift */,
 				C17862CB20E27C63008F4042 /* ChangeBaseInfo.swift */,
 				C195073521855E76008F88CF /* AvatarViewController.swift */,
+				C13595B621CBBFCF006551B0 /* CoinLinkViewController.swift */,
 				C187D38821C1443E00474510 /* LanguageController.swift */,
 				C17D45F220F8A85A00029CAE /* ProfileEditVC.swift */,
 				C11A100020E9CC50000979B3 /* MyHealth.swift */,
@@ -1392,6 +1395,7 @@
 				C14063582104680200AB8914 /* ExchangeList.swift in Sources */,
 				C112268A20D3655E007282F1 /* Moya.swift in Sources */,
 				C1F226EE21295AFC0066C9EC /* ScoresShopList.swift in Sources */,
+				C13595B721CBBFCF006551B0 /* CoinLinkViewController.swift in Sources */,
 				C192AA4420C23EB7004EE98D /* Vos.swift in Sources */,
 				C15AEF8D20F0A0EC009F4A0E /* ExchangeBuyVC.swift in Sources */,
 				C192AAAA20C4C8FA004EE98D /* Cells.swift in Sources */,

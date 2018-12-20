@@ -12,6 +12,8 @@ import Foundation
 
 class ProfileEditVC: UITableViewController {
 
+    @IBOutlet var emailLabel:UILabel?
+    
     //MARK: Check if user is signed in or not
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -29,6 +31,7 @@ class ProfileEditVC: UITableViewController {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         self.tableView.tableFooterView=UIView(frame: CGRect.zero)
         
+        self.emailLabel?.text = myClientVo?.email
     }
     
     
