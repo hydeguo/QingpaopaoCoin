@@ -149,7 +149,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 100 images.
+  /// This `R.image` struct is generated, and contains static references to 101 images.
   struct image {
     /// Image `750x1334`.
     static let x1334 = Rswift.ImageResource(bundle: R.hostingBundle, name: "750x1334")
@@ -171,6 +171,8 @@ struct R: Rswift.Validatable {
     static let wechatIMG5245 = Rswift.ImageResource(bundle: R.hostingBundle, name: "WechatIMG5245")
     /// Image `WechatIMG5246`.
     static let wechatIMG5246 = Rswift.ImageResource(bundle: R.hostingBundle, name: "WechatIMG5246")
+    /// Image `ahead_splash`.
+    static let ahead_splash = Rswift.ImageResource(bundle: R.hostingBundle, name: "ahead_splash")
     /// Image `arrow`.
     static let arrow = Rswift.ImageResource(bundle: R.hostingBundle, name: "arrow")
     /// Image `back`.
@@ -400,6 +402,11 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "WechatIMG5246", bundle: ..., traitCollection: ...)`
     static func wechatIMG5246(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.wechatIMG5246, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "ahead_splash", bundle: ..., traitCollection: ...)`
+    static func ahead_splash(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.ahead_splash, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "arrow", bundle: ..., traitCollection: ...)`
@@ -1206,23 +1213,12 @@ struct R: Rswift.Validatable {
   
   /// This `R.string` struct is generated, and contains static references to 2 localization tables.
   struct string {
-    /// This `R.string.infoPlist` struct is generated, and contains static references to 2 localization keys.
+    /// This `R.string.infoPlist` struct is generated, and contains static references to 1 localization keys.
     struct infoPlist {
-      /// en translation: EnLaunchScreen
-      /// 
-      /// Locales: en, zh-Hans
-      static let uiLaunchStoryboardName = Rswift.StringResource(key: "UILaunchStoryboardName", tableName: "InfoPlist", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
       /// en translation: H-POPO
       /// 
       /// Locales: en, zh-Hans
       static let cfBundleDisplayName = Rswift.StringResource(key: "CFBundleDisplayName", tableName: "InfoPlist", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
-      
-      /// en translation: EnLaunchScreen
-      /// 
-      /// Locales: en, zh-Hans
-      static func uiLaunchStoryboardName(_: Void = ()) -> String {
-        return NSLocalizedString("UILaunchStoryboardName", tableName: "InfoPlist", bundle: R.hostingBundle, comment: "")
-      }
       
       /// en translation: H-POPO
       /// 
