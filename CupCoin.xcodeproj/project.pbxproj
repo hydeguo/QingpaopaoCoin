@@ -178,6 +178,7 @@
 		C1D0AF732147A2A1005C682B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */; };
 		C1D5B60220F3B54F004DCE83 /* ReturnOrderNumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5B60120F3B54E004DCE83 /* ReturnOrderNumVC.swift */; };
 		C1D5B60520F46104004DCE83 /* ExchangeOrderDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D5B60420F46104004DCE83 /* ExchangeOrderDetailVC.swift */; };
+		C1EDFEAA21D385FB00F24EFA /* ShareSDKUI_Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1EDFEAC21D385FB00F24EFA /* ShareSDKUI_Localizable.strings */; };
 		C1F128292139150300BBD457 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F128282139150200BBD457 /* Toast.swift */; };
 		C1F1282B213A4A1E00BBD457 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F1282A213A4A1E00BBD457 /* CoreMotion.framework */; };
 		C1F226EE21295AFC0066C9EC /* ScoresShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F226ED21295AFC0066C9EC /* ScoresShopList.swift */; };
@@ -424,6 +425,8 @@
 		C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C1D5B60120F3B54E004DCE83 /* ReturnOrderNumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnOrderNumVC.swift; sourceTree = "<group>"; };
 		C1D5B60420F46104004DCE83 /* ExchangeOrderDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeOrderDetailVC.swift; sourceTree = "<group>"; };
+		C1EDFEAB21D385FB00F24EFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareSDKUI_Localizable.strings; sourceTree = "<group>"; };
+		C1EDFEAD21D385FD00F24EFA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareSDKUI_Localizable.strings"; sourceTree = "<group>"; };
 		C1F128282139150200BBD457 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		C1F1282A213A4A1E00BBD457 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		C1F226ED21295AFC0066C9EC /* ScoresShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresShopList.swift; sourceTree = "<group>"; };
@@ -761,6 +764,7 @@
 				C192AA1B20C23771004EE98D /* LaunchScreen.storyboard */,
 				C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */,
 				C1C428CB20D651FE0071532F /* Mywopin-Bridging-Header.h */,
+				C1EDFEAC21D385FB00F24EFA /* ShareSDKUI_Localizable.strings */,
 				C1383A3420DF856D00F1EBE6 /* Localizable.strings */,
 				C1C9966E21ACD7CE00E9B754 /* InfoPlist.strings */,
 			);
@@ -1192,6 +1196,7 @@
 				C192AAA120C3EF66004EE98D /* mui.ttf in Resources */,
 				C1C4294020D6AA1D0071532F /* WeiboSDK.bundle in Resources */,
 				C168FA4521C1E934009143F7 /* Main_en.storyboard in Resources */,
+				C1EDFEAA21D385FB00F24EFA /* ShareSDKUI_Localizable.strings in Resources */,
 				C12878D121A4EC8A00F0DD9E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1527,6 +1532,15 @@
 				C1C9966F21ACD7D000E9B754 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1EDFEAC21D385FB00F24EFA /* ShareSDKUI_Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1EDFEAB21D385FB00F24EFA /* en */,
+				C1EDFEAD21D385FD00F24EFA /* zh-Hans */,
+			);
+			name = ShareSDKUI_Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

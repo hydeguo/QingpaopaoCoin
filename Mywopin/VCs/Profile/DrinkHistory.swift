@@ -165,6 +165,8 @@ class DrinkHistory: UIViewController {
                 {
                     self.data_month.append(0)
                 }
+                
+                self.updateSelecttion()
             }
             Log(self.data_week.count)
             Log(self.data_month.count)
@@ -190,6 +192,11 @@ class DrinkHistory: UIViewController {
     }
     
     @objc func segmentedControlAction(sender: AnyObject) {
+        updateSelecttion()
+    }
+    
+    func updateSelecttion()
+    {
         if(segmentedControl.selectedSegmentIndex == 0)
         {
             partOneTitle.text = Language.getString("今天喝水统计")
@@ -206,7 +213,7 @@ class DrinkHistory: UIViewController {
                 }
                 partOneLine2Value.text = lastDrink.time
             }
-           partTwoView.isHidden = true
+            partTwoView.isHidden = true
         }
         else if(segmentedControl.selectedSegmentIndex == 1)
         {

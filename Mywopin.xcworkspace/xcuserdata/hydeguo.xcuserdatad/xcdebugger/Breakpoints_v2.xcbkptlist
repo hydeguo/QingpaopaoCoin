@@ -362,13 +362,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.294453"
+            timestampString = "567179416.753929"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "102"
             endingLineNumber = "102"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
+            landmarkName = "LanguageController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -378,7 +378,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.294526"
+            timestampString = "567179416.7540081"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
@@ -394,7 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.29458"
+            timestampString = "567179416.754056"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.294631"
+            timestampString = "567179416.754099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.294682"
+            timestampString = "567179416.754142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
@@ -474,7 +474,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.294731"
+            timestampString = "567179416.754194"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
@@ -490,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.2947789"
+            timestampString = "567179416.754233"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -506,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.294829"
+            timestampString = "567179416.754276"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -522,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mywopin/VCs/Profile/LanguageController.swift"
-            timestampString = "566447588.2948771"
+            timestampString = "567179416.754316"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
@@ -545,6 +545,70 @@
             endingLineNumber = "21"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mywopin/VCs/Profile/DrinkHistory.swift"
+            timestampString = "567609009.523766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mywopin/VCs/Profile/DrinkHistory.swift"
+            timestampString = "567609009.524428"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CupCoin.DrinkHistory.viewDidLoad() -&gt; ()"
+                  moduleName = "CupCoin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hydeguo/Documents/git/swift/QingpaopaoCoin/Mywopin/VCs/Profile/DrinkHistory.swift"
+                  timestampString = "567608975.887288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "21889">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;CupCoin.OneDayDrinks&gt;&gt;, Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in CupCoin.DrinkHistory.viewDidLoad() -&gt; ()"
+                  moduleName = "CupCoin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hydeguo/Documents/git/swift/QingpaopaoCoin/Mywopin/VCs/Profile/DrinkHistory.swift"
+                  timestampString = "567608975.889322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

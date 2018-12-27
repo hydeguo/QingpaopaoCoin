@@ -1211,7 +1211,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.string` struct is generated, and contains static references to 2 localization tables.
+  /// This `R.string` struct is generated, and contains static references to 3 localization tables.
   struct string {
     /// This `R.string.infoPlist` struct is generated, and contains static references to 1 localization keys.
     struct infoPlist {
@@ -2523,6 +2523,683 @@ struct R: Rswift.Validatable {
       fileprivate init() {}
     }
     
+    /// This `R.string.shareSDKUI_Localizable` struct is generated, and contains static references to 61 localization keys.
+    struct shareSDKUI_Localizable {
+      /// en translation: Alert
+      /// 
+      /// Locales: en, zh-Hans
+      static let alert = Rswift.StringResource(key: "Alert", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: AliSocial
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_50 = Rswift.StringResource(key: "ShareType_50", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: AliSocial moments
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_51 = Rswift.StringResource(key: "ShareType_51", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Any
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_999 = Rswift.StringResource(key: "ShareType_999", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Authorize failed
+      /// 
+      /// Locales: en, zh-Hans
+      static let authorizeFailed = Rswift.StringResource(key: "AuthorizeFailed", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Cancel
+      /// 
+      /// Locales: en, zh-Hans
+      static let cancel = Rswift.StringResource(key: "Cancel", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Copy
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_21 = Rswift.StringResource(key: "ShareType_21", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: DingTalk
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_52 = Rswift.StringResource(key: "ShareType_52", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Douban
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_5 = Rswift.StringResource(key: "ShareType_5", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Dropbox
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_35 = Rswift.StringResource(key: "ShareType_35", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Evernote
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_12 = Rswift.StringResource(key: "ShareType_12", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Evernote
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_996 = Rswift.StringResource(key: "ShareType_996", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Facebook
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_10 = Rswift.StringResource(key: "ShareType_10", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Flickr
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_34 = Rswift.StringResource(key: "ShareType_34", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Foursquare
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_13 = Rswift.StringResource(key: "ShareType_13", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Google+
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_14 = Rswift.StringResource(key: "ShareType_14", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Instagram
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_15 = Rswift.StringResource(key: "ShareType_15", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Instapaper
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_25 = Rswift.StringResource(key: "ShareType_25", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Kaixin
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_8 = Rswift.StringResource(key: "ShareType_8", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Kakao
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_995 = Rswift.StringResource(key: "ShareType_995", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: KakaoStory
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_45 = Rswift.StringResource(key: "ShareType_45", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: KakaoTalk
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_44 = Rswift.StringResource(key: "ShareType_44", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Line
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_42 = Rswift.StringResource(key: "ShareType_42", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: LinkedIn
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_16 = Rswift.StringResource(key: "ShareType_16", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Mail
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_18 = Rswift.StringResource(key: "ShareType_18", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Meipai
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_54 = Rswift.StringResource(key: "ShareType_54", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Messenger
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_46 = Rswift.StringResource(key: "ShareType_46", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Mingdao
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_41 = Rswift.StringResource(key: "ShareType_41", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: OK
+      /// 
+      /// Locales: en, zh-Hans
+      static let oK = Rswift.StringResource(key: "OK", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Pengyou
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_9 = Rswift.StringResource(key: "ShareType_9", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Pinterest
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_30 = Rswift.StringResource(key: "ShareType_30", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Please input the share content
+      /// 
+      /// Locales: en, zh-Hans
+      static let inputTheShareContent = Rswift.StringResource(key: "InputTheShareContent", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Pocket
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_26 = Rswift.StringResource(key: "ShareType_26", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Print
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_20 = Rswift.StringResource(key: "ShareType_20", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: QQ
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_24 = Rswift.StringResource(key: "ShareType_24", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: QQ
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_998 = Rswift.StringResource(key: "ShareType_998", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: QZone
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_6 = Rswift.StringResource(key: "ShareType_6", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Renren
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_7 = Rswift.StringResource(key: "ShareType_7", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: SMS
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_19 = Rswift.StringResource(key: "ShareType_19", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Share
+      /// 
+      /// Locales: en, zh-Hans
+      static let share = Rswift.StringResource(key: "Share", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Share Content
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareContent = Rswift.StringResource(key: "ShareContent", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Share to
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareTo = Rswift.StringResource(key: "ShareTo", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Sina Weibo
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_1 = Rswift.StringResource(key: "ShareType_1", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Soho Kan
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_28 = Rswift.StringResource(key: "ShareType_28", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Tencent Weibo
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_2 = Rswift.StringResource(key: "ShareType_2", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: There is no valid platform to show.The reason may be that the active platform need app client to share but the iOS device do not have that app client.
+      /// 
+      /// Locales: en, zh-Hans
+      static let noValidPlatform = Rswift.StringResource(key: "NoValidPlatform", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Tumblr
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_17 = Rswift.StringResource(key: "ShareType_17", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Twitter
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_11 = Rswift.StringResource(key: "ShareType_11", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Unknown
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_0 = Rswift.StringResource(key: "ShareType_0", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: VKontakte
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_36 = Rswift.StringResource(key: "ShareType_36", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Wechat
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_997 = Rswift.StringResource(key: "ShareType_997", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Wechat contacts
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_22 = Rswift.StringResource(key: "ShareType_22", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Wechat favorites
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_37 = Rswift.StringResource(key: "ShareType_37", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Wechat moments
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_23 = Rswift.StringResource(key: "ShareType_23", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: WhatsApp
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_43 = Rswift.StringResource(key: "ShareType_43", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Yixin
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_994 = Rswift.StringResource(key: "ShareType_994", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Yixin contacts
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_38 = Rswift.StringResource(key: "ShareType_38", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Yixin favorites
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_40 = Rswift.StringResource(key: "ShareType_40", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: Yixin moments
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_39 = Rswift.StringResource(key: "ShareType_39", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: YouDao Notes
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_27 = Rswift.StringResource(key: "ShareType_27", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      /// en translation: YouTube
+      /// 
+      /// Locales: en, zh-Hans
+      static let shareType_53 = Rswift.StringResource(key: "ShareType_53", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
+      
+      /// en translation: Alert
+      /// 
+      /// Locales: en, zh-Hans
+      static func alert(_: Void = ()) -> String {
+        return NSLocalizedString("Alert", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: AliSocial
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_50(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_50", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: AliSocial moments
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_51(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_51", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Any
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_999(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_999", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Authorize failed
+      /// 
+      /// Locales: en, zh-Hans
+      static func authorizeFailed(_: Void = ()) -> String {
+        return NSLocalizedString("AuthorizeFailed", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Cancel
+      /// 
+      /// Locales: en, zh-Hans
+      static func cancel(_: Void = ()) -> String {
+        return NSLocalizedString("Cancel", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Copy
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_21(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_21", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: DingTalk
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_52(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_52", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Douban
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_5(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_5", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Dropbox
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_35(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_35", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Evernote
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_12(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_12", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Evernote
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_996(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_996", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Facebook
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_10(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_10", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Flickr
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_34(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_34", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Foursquare
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_13(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_13", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Google+
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_14(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_14", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Instagram
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_15(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_15", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Instapaper
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_25(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_25", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Kaixin
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_8(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_8", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Kakao
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_995(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_995", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: KakaoStory
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_45(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_45", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: KakaoTalk
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_44(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_44", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Line
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_42(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_42", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: LinkedIn
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_16(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_16", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Mail
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_18(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_18", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Meipai
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_54(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_54", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Messenger
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_46(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_46", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Mingdao
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_41(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_41", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: OK
+      /// 
+      /// Locales: en, zh-Hans
+      static func oK(_: Void = ()) -> String {
+        return NSLocalizedString("OK", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Pengyou
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_9(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_9", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Pinterest
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_30(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_30", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Please input the share content
+      /// 
+      /// Locales: en, zh-Hans
+      static func inputTheShareContent(_: Void = ()) -> String {
+        return NSLocalizedString("InputTheShareContent", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Pocket
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_26(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_26", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Print
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_20(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_20", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: QQ
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_24(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_24", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: QQ
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_998(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_998", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: QZone
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_6(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_6", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Renren
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_7(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_7", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: SMS
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_19(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_19", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Share
+      /// 
+      /// Locales: en, zh-Hans
+      static func share(_: Void = ()) -> String {
+        return NSLocalizedString("Share", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Share Content
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareContent(_: Void = ()) -> String {
+        return NSLocalizedString("ShareContent", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Share to
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareTo(_: Void = ()) -> String {
+        return NSLocalizedString("ShareTo", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Sina Weibo
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_1(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_1", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Soho Kan
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_28(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_28", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Tencent Weibo
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_2(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_2", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: There is no valid platform to show.The reason may be that the active platform need app client to share but the iOS device do not have that app client.
+      /// 
+      /// Locales: en, zh-Hans
+      static func noValidPlatform(_: Void = ()) -> String {
+        return NSLocalizedString("NoValidPlatform", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Tumblr
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_17(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_17", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Twitter
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_11(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_11", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Unknown
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_0(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_0", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: VKontakte
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_36(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_36", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Wechat
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_997(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_997", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Wechat contacts
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_22(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_22", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Wechat favorites
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_37(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_37", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Wechat moments
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_23(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_23", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: WhatsApp
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_43(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_43", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Yixin
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_994(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_994", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Yixin contacts
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_38(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_38", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Yixin favorites
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_40(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_40", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: Yixin moments
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_39(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_39", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: YouDao Notes
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_27(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_27", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      /// en translation: YouTube
+      /// 
+      /// Locales: en, zh-Hans
+      static func shareType_53(_: Void = ()) -> String {
+        return NSLocalizedString("ShareType_53", tableName: "ShareSDKUI_Localizable", bundle: R.hostingBundle, comment: "")
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   
@@ -2648,9 +3325,7 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct main_cn: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = LandingVC
-      
+    struct main_cn: Rswift.StoryboardResourceType, Rswift.Validatable {
       let addDeviceView = StoryboardViewControllerResource<AddDevice>(identifier: "addDeviceView")
       let addressInfoVC = StoryboardViewControllerResource<AddressInfoVC>(identifier: "AddressInfoVC")
       let addressListVC = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "AddressListVC")
@@ -2846,9 +3521,7 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct main_en: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = LandingVC
-      
+    struct main_en: Rswift.StoryboardResourceType, Rswift.Validatable {
       let addDeviceView = StoryboardViewControllerResource<AddDevice>(identifier: "addDeviceView")
       let addressInfoVC = StoryboardViewControllerResource<AddressInfoVC>(identifier: "AddressInfoVC")
       let addressListVC = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "AddressListVC")

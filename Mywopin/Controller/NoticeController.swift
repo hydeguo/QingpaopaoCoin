@@ -30,9 +30,21 @@ class NoticeController
                 [20,00,"排毒养颜喝一杯"],
                 [22,00,"放松、减压，离不开多喝富氢水哦！"]]
     
+    let drinkNoticeNormal_en = [[7,30,"A cup of hydrogen-rich water in the morning, beautiful mood all day long"],
+                                [9,00,"Work hard, harvest, drink a cup of hydrogen-rich water."],
+                             [11,00,"Drinking hydrogen-rich water to maintain a healthy body, beautiful face"],
+                             [13,00,"Refresh your mind and have a drink"],
+                             [15,00,"Tired? Drink a cup of hydrogen-rich water！"],
+                             [17,30,"To celebrate today's successful work, cheers! ^_^"],
+                             [20,00,"Detoxifying and drinking a cup of hydrogen-rich water"],
+                             [22,00,"Relax, decompression, can not be separated from drinking rich hydrogen water!"]]
+    
     func createLocalNotice()
     {
-        for item in drinkNoticeNormal
+        let lang = Language.currentAppleLanguage()
+        let drinkNoteList = lang == "zh-Hans" ? drinkNoticeNormal : drinkNoticeNormal_en
+        
+        for item in drinkNoteList
         {
             var dateComponents = DateComponents()
             dateComponents.hour = item[0] as? Int

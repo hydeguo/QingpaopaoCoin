@@ -216,6 +216,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         
         
+        let lang = Language.currentAppleLanguage()
+        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+        if lang == "zh-Hans" {
+            rootviewcontroller.rootViewController = UIStoryboard(name: "Main_cn", bundle: nil).instantiateViewController(withIdentifier: "LandingPage")
+        } else {
+            rootviewcontroller.rootViewController = UIStoryboard(name: "Main_en", bundle: nil).instantiateViewController(withIdentifier: "LandingPage")
+        }
         
         
         return true

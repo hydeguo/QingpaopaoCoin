@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UserNotifications
 
 
 class LanguageController: UITableViewController {
@@ -79,6 +80,15 @@ class LanguageController: UITableViewController {
             } else {
                 rootviewcontroller.rootViewController = UIStoryboard(name: "Main_cn", bundle: nil).instantiateViewController(withIdentifier: "LandingPage")
             }
+            
+            if switchNotice
+            {
+                
+                UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+                NoticeController().createLocalNotice()
+
+            }
+            
             
             let mainwindow = (UIApplication.shared.delegate?.window!)!
             mainwindow.backgroundColor = UIColor.white
