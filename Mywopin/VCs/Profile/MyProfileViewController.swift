@@ -83,6 +83,7 @@ class MyProfileViewController: AvatarViewController {
         let myScores = myClientVo?.scores != nil ? Int(myClientVo!.scores!) : 0
         scoreLabel.text = "\(myScores) \(Language.getString("积分"))"
         
+        attendanceBtn.isHidden = true
         if(self.getDayString(day:Date()) == myClientVo?.lastAttendance)
         {
             attendanceBtn.isEnabled = false
