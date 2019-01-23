@@ -7,8 +7,8 @@
 */
 
 "灯光设置"="Light Settings";
-"开始电解"="Start Electrolysis";
-"停止电解"="Stop Electrolysis";
+"开始制氢"="Start Electrolysis";
+"停止制氢"="Stop Electrolysis";
 "如果不知道是什么版本？"="If you don't know what version?";
 "保存成功"="successful save";
 "保存失败"="Save failed";
@@ -93,7 +93,7 @@
 "红色" = "Red";
 "绿色" = "Green";
 "清洗中" = "cleaning";
-"电解中" = "in electrolysis";
+"制氢中" = "in electrolysis";
 "提示" = "Prompt";
 "是否断开连接?" = "Are you disconnected?";
 "取消" = "Cancel";

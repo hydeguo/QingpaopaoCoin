@@ -134,15 +134,15 @@
 		<true/>
 	</dict>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>App need to use your Bluetooth</string>
+	<string>App need to use your Bluetooth  to connect devices</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Camera access needed for QRcode</string>
+	<string>Request camera for scanning Qrcode  to connect wifi devices</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>App need to know your location</string>
+	<string>App will get your location for recording users drinking activity</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>App need to know your location</string>
+	<string>App will get your location for recording users drinking activity</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>此 App 需要您的同意才能读取媒体资料库</string>
+	<string>This app requires your consent to read the media library</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>bluetooth-central</string>

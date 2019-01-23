@@ -1215,12 +1215,12 @@ struct R: Rswift.Validatable {
   struct string {
     /// This `R.string.infoPlist` struct is generated, and contains static references to 1 localization keys.
     struct infoPlist {
-      /// en translation: H-POPO
+      /// en translation: H2POPO
       /// 
       /// Locales: en, zh-Hans
       static let cfBundleDisplayName = Rswift.StringResource(key: "CFBundleDisplayName", tableName: "InfoPlist", bundle: R.hostingBundle, locales: ["en", "zh-Hans"], comment: nil)
       
-      /// en translation: H-POPO
+      /// en translation: H2POPO
       /// 
       /// Locales: en, zh-Hans
       static func cfBundleDisplayName(_: Void = ()) -> String {
@@ -1579,11 +1579,11 @@ struct R: Rswift.Validatable {
       /// Base translation: Start Electrolysis
       /// 
       /// Locales: zh-Hans, Base, en
-      static let 开始电解 = Rswift.StringResource(key: "开始电解", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
+      static let 开始制氢 = Rswift.StringResource(key: "开始制氢", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Stop Electrolysis
       /// 
       /// Locales: zh-Hans, Base, en
-      static let 停止电解 = Rswift.StringResource(key: "停止电解", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
+      static let 停止制氢 = Rswift.StringResource(key: "停止制氢", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: Sunday
       /// 
       /// Locales: zh-Hans, Base, en
@@ -1687,7 +1687,7 @@ struct R: Rswift.Validatable {
       /// Base translation: in electrolysis
       /// 
       /// Locales: zh-Hans, Base, en
-      static let 电解中 = Rswift.StringResource(key: "电解中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
+      static let 制氢中 = Rswift.StringResource(key: "制氢中", tableName: "Localizable", bundle: R.hostingBundle, locales: ["zh-Hans", "Base", "en"], comment: nil)
       /// Base translation: sec Resend
       /// 
       /// Locales: zh-Hans, Base, en
@@ -2306,15 +2306,15 @@ struct R: Rswift.Validatable {
       /// Base translation: Start Electrolysis
       /// 
       /// Locales: zh-Hans, Base, en
-      static func 开始电解(_: Void = ()) -> String {
-        return NSLocalizedString("开始电解", bundle: R.hostingBundle, value: "Start Electrolysis", comment: "")
+      static func 开始制氢(_: Void = ()) -> String {
+        return NSLocalizedString("开始制氢", bundle: R.hostingBundle, value: "Start Electrolysis", comment: "")
       }
       
       /// Base translation: Stop Electrolysis
       /// 
       /// Locales: zh-Hans, Base, en
-      static func 停止电解(_: Void = ()) -> String {
-        return NSLocalizedString("停止电解", bundle: R.hostingBundle, value: "Stop Electrolysis", comment: "")
+      static func 停止制氢(_: Void = ()) -> String {
+        return NSLocalizedString("停止制氢", bundle: R.hostingBundle, value: "Stop Electrolysis", comment: "")
       }
       
       /// Base translation: Sunday
@@ -2495,8 +2495,8 @@ struct R: Rswift.Validatable {
       /// Base translation: in electrolysis
       /// 
       /// Locales: zh-Hans, Base, en
-      static func 电解中(_: Void = ()) -> String {
-        return NSLocalizedString("电解中", bundle: R.hostingBundle, value: "in electrolysis", comment: "")
+      static func 制氢中(_: Void = ()) -> String {
+        return NSLocalizedString("制氢中", bundle: R.hostingBundle, value: "in electrolysis", comment: "")
       }
       
       /// Base translation: sec Resend
