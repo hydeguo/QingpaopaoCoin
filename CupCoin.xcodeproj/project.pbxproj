@@ -252,7 +252,6 @@
 		C13595B621CBBFCF006551B0 /* CoinLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLinkViewController.swift; sourceTree = "<group>"; };
 		C1383A3720DF85DA00F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C1383A3820DF862300F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
-		C1383A3920DF862F00F1EBE6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		C1383A4120DF896200F1EBE6 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		C1383A4520DF985100F1EBE6 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
 		C1406352210460C800AB8914 /* GoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsModel.swift; sourceTree = "<group>"; };
@@ -341,7 +340,6 @@
 		C187D38821C1443E00474510 /* LanguageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageController.swift; sourceTree = "<group>"; };
 		C187D38A21C14AB100474510 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C187D38D21C14B8400474510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C187D39021C1501200474510 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C192AA0D20C23770004EE98D /* CupCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C192AA1020C23770004EE98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C192AA1220C23770004EE98D /* DrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
@@ -1508,9 +1506,7 @@
 		C192AA1620C23770004EE98D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1383A3920DF862F00F1EBE6 /* zh-Hans */,
 				C1C9966921ABB50500E9B754 /* Base */,
-				C187D39021C1501200474510 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
