@@ -11,10 +11,24 @@ import RxSwift
 import RxCocoa
 import CoreLocation
 
+class MySlide: UISlider {
+    
+    @IBInspectable var _height: CGFloat = 5
+    override func trackRect(forBounds bounds: CGRect) -> CGRect {
+        return CGRect(origin: bounds.origin, size: CGSize(width: bounds.width, height: _height))
+    }
+    
+    var thumbCenterX: CGFloat {
+        let trackRect = self.trackRect(forBounds: frame)
+        let thumbRect = self.thumbRect(forBounds: bounds, trackRect: trackRect, value: value)
+        return thumbRect.midX
+    }
+}
+
 class DrinkViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet var bgView:UIView?
-    @IBOutlet var slider:UISlider!
+    @IBOutlet var slider:MySlide!
     
     @IBOutlet var actionBtn:UIButton?
     @IBOutlet var changeCupBtn:UIButton?
@@ -26,6 +40,13 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet var drinkCupLabel:UILabel!
     @IBOutlet var drinkCupTotalLabel:UILabel!
+    
+    @IBOutlet var lightingBtn:UIButton?
+    @IBOutlet var deviceBtn:UIButton?
+    @IBOutlet var cleaningBtn:UIButton?
+    
+    @IBOutlet var toolTibsView:UIView?
+    @IBOutlet var topView:UIView?
     
     var currentCup:CupItem?{
         didSet  {
@@ -51,7 +72,8 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
         
         _ = WifiController.shared;  //init
         
-        slider?.setThumbImage(UIImage(named:"slider"),for:.normal)
+        slider?.setThumbImage(UIImage(named:"thumb"),for:.normal)
+      
 
         sliderNum.asObservable().subscribe(onNext: {
             let m = Int($0)
@@ -61,6 +83,7 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
             self.sliderLabel10?.scale = $0 > 7.5 && $0 <= 12.5 ? 1.5 : 1;
             self.sliderLabel15?.scale = $0 > 12.5 && $0 <= 17.5 ? 1.5 : 1;
             self.sliderLabel20?.scale = $0 > 17.5 ? 1.5 : 1;
+            self.toolTibsView?.x = self.slider.thumbCenterX - ((self.toolTibsView?.width ?? 0) / 2)
         }).disposed(by: 👜)
       
         sliderNum.value = 5
@@ -80,6 +103,28 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
         changeCupBtn?.layer.masksToBounds = true;
         changeCupBtn?.layer.borderColor = UIColor.white.cgColor
         changeCupBtn?.layer.borderWidth = 1;//边框宽度
+        
+        lightingBtn?.layer.cornerRadius = (lightingBtn?.height ?? 0)/2;
+        lightingBtn?.layer.masksToBounds = true;
+        lightingBtn?.layer.borderColor = textBlue_color.cgColor
+        lightingBtn?.layer.borderWidth = 1;//边框宽度
+        deviceBtn?.layer.cornerRadius = (deviceBtn?.height ?? 0)/2;
+        deviceBtn?.layer.masksToBounds = true;
+        deviceBtn?.layer.borderColor = textBlue_color.cgColor
+        deviceBtn?.layer.borderWidth = 1;//边框宽度
+        cleaningBtn?.layer.cornerRadius = (cleaningBtn?.height ?? 0)/2;
+        cleaningBtn?.layer.masksToBounds = true;
+        cleaningBtn?.layer.borderColor = textBlue_color.cgColor
+        cleaningBtn?.layer.borderWidth = 1;//边框宽度
+        
+        
+        let whiteRoundedView : UIView = UIView(frame: self.topView!.frame)
+        whiteRoundedView.layer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 1.0, 0.8])
+        whiteRoundedView.layer.masksToBounds = false
+        whiteRoundedView.layer.cornerRadius = 10.0
+        whiteRoundedView.layer.shadowOffset = CGSize(width: -1, height: 1)
+        whiteRoundedView.layer.shadowOpacity = 0.2
+        self.topView?.superview?.insertSubview(whiteRoundedView, at: 2)
         
         initCupList()
         
@@ -244,10 +289,11 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
     
     private func startElectrolyUI()
     {
-        actionBtn?.backgroundColor = UIColor.lightGray
-        actionBtn?.setTitle(Language.getString("停止制氢"), for: .normal)
+//        actionBtn?.backgroundColor = UIColor.lightGray
+//        actionBtn?.setTitle(Language.getString("停止制氢"), for: .normal)
 //        self.slider.isEnabled = false
         startElectrolyFlag = true
+        actionBtn?.isSelected = true
         _timer?.invalidate()
         _timer = setInterval(interval: 1, block: {
             self.updateTimeLabel()
@@ -257,10 +303,11 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
     {
         _timer?.invalidate()
         sliderNum.value = sliderNum.value
-        actionBtn?.backgroundColor = UIColor.colorFromRGB(0x49BBFF)
-        actionBtn?.setTitle(Language.getString("开始制氢"), for: .normal)
+//        actionBtn?.backgroundColor = UIColor.colorFromRGB(0x49BBFF)
+//        actionBtn?.setTitle(Language.getString("开始制氢"), for: .normal)
 //        self.slider.isEnabled = true
         startElectrolyFlag = false
+        actionBtn?.isSelected = false
     }
     
     func updateDrinkText()
@@ -524,6 +571,8 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
             }
             #endif
         }
+        
+        sliderNum.value = Float(_showTime / 60)
     }
 
     
