@@ -18,8 +18,6 @@ class MyProfileViewController: AvatarViewController {
     @IBOutlet var scoreLabel:UILabel!
     @IBOutlet var topPofileImage:UIImageView!
     @IBOutlet var topView:UIView!
-    @IBOutlet var drinkCupLabel:UILabel!
-    @IBOutlet var drinkCupTotalLabeL:UILabel!
     @IBOutlet var attendanceBtn:UIButton!
     
 
@@ -45,7 +43,6 @@ class MyProfileViewController: AvatarViewController {
         
         updateUI()
         
-        updateDrinkText()
         
         updateMsgAlertUI()
     }
@@ -110,14 +107,7 @@ class MyProfileViewController: AvatarViewController {
     override func viewDidLayoutSubviews() {
         
         
-        drinkCupLabel.layer.cornerRadius = drinkCupLabel.height/2;
-        drinkCupLabel.layer.masksToBounds = true;
-        drinkCupLabel.layer.borderColor = UIColor.white.cgColor
-        drinkCupLabel.layer.borderWidth = 1;//边框宽度
-        drinkCupTotalLabeL.layer.cornerRadius = drinkCupTotalLabeL.height/2;
-        drinkCupTotalLabeL.layer.masksToBounds = true;
-        drinkCupTotalLabeL.layer.borderColor = UIColor.white.cgColor
-        drinkCupTotalLabeL.layer.borderWidth = 1;//边框宽度
+        
     }
     
     @IBAction func clickAvatar()
@@ -126,24 +116,7 @@ class MyProfileViewController: AvatarViewController {
     }
     
     
-    func updateDrinkText()
-    {
-        if let _todayDrinks = todayDrinks
-        {
-            if _todayDrinks.drinks!.count > 1{
-                self.drinkCupLabel.text = "\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯"))"
-            }else{
-                self.drinkCupLabel.text = "\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯1"))"
-            }
-            
-        }
-        if Int(myClientVo?.drinks ?? 0) > 1{
-            self.drinkCupTotalLabeL.text = "\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯"))"
-        }else{
-            self.drinkCupTotalLabeL.text = "\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯1"))"
-        }
-        
-    }
+  
     
     @IBAction func attendance()
     {

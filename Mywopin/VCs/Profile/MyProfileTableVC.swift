@@ -15,6 +15,8 @@ class MyProfileTableVC: UITableViewController{
     
     
 
+    @IBOutlet var drinkCupLabel:UILabel!
+    @IBOutlet var drinkCupTotalLabeL:UILabel!
     
     
     override func viewDidLoad() {
@@ -40,6 +42,7 @@ class MyProfileTableVC: UITableViewController{
         if let selectionIndexPath = self.tableView.indexPathForSelectedRow {
             self.tableView.deselectRow(at: selectionIndexPath, animated: animated)
         }
+        updateDrinkText()
     }
     
 
@@ -48,7 +51,24 @@ class MyProfileTableVC: UITableViewController{
         // Dispose of any resources that can be recreated.
     }
     
-
+    func updateDrinkText()
+    {
+        if let _todayDrinks = todayDrinks
+        {
+            if _todayDrinks.drinks!.count > 1{
+                self.drinkCupLabel.text = String(_todayDrinks.drinks!.count)//"\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯"))"
+            }else{
+                self.drinkCupLabel.text = String(_todayDrinks.drinks!.count)//"\(String(_todayDrinks.drinks!.count)) \(Language.getString("杯1"))"
+            }
+            
+        }
+        if Int(myClientVo?.drinks ?? 0) > 1{
+            self.drinkCupTotalLabeL.text = String(Int(myClientVo?.drinks ?? 0))//"\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯"))"
+        }else{
+            self.drinkCupTotalLabeL.text = String(Int(myClientVo?.drinks ?? 0))//"\(String(Int(myClientVo?.drinks ?? 0))) \(Language.getString("杯1"))"
+        }
+        
+    }
     
     // MARK: - Segues
     
@@ -76,59 +96,24 @@ class MyProfileTableVC: UITableViewController{
             let controller = segue.destination as! PostListViewController
             controller.mode = .collect
         }
+        if segue.identifier == "history"{
+            let controller = segue.destination as! PostListViewController
+            controller.mode = .history
+        }
+        if segue.identifier == "collectionPosts"{
+            let controller = segue.destination  as! PostListViewController
+            controller.mode = .collect
+        }
+        if segue.identifier == "followingPosts"{
+            let controller = segue.destination  as! PostListViewController
+            controller.mode = .following
+        }
         
     }
     
     // MARK: - Table View
   
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int)
-        -> Int {
-           return 3
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = super.tableView(tableView, cellForRowAt: indexPath) as! ProfileCell
-        
-        cell.iconText?.font = UIFont.iconfont(size: 20)
-        if(indexPath.row == 0)
-        {
-            cell.iconText?.text = "\u{e620}"
-        }
-        else if(indexPath.row == 1)
-        {
-            cell.iconText?.text = "\u{e600}"
-        }
-        else if(indexPath.row == 2)
-        {
-            cell.iconText?.text = "\u{e616}"
-        }
-//        else if(indexPath.row == 3)
-//        {
-//            cell.iconText?.text = "\u{e686}"
-//        }
-//        else if(indexPath.row == 4)
-//        {
-//            cell.iconText?.text = "\u{e611}"
-//        }
-//        else if(indexPath.row == 5)
-//        {
-//            cell.iconText?.text = "\u{e641}"
-//        }
-//        cell.iconText?.text = String(indexPath.row)
 
-//        let object = rArr[indexPath.row]
-//        cell.nameLable?.text = object.restaurantName
-//        cell.detailLable?.text = object.des
-//        cell.editBtn?.tag = indexPath.row
-//        cell.magageBtn?.tag = indexPath.row
-//        cell.picImage?.image = UIImage()
-//        if(object.imageLink != nil)
-//        {
-//            cell.picImage?.image(fromUrl: object.imageLink!)
-//        }
-//         print(indexPath.row)
-        return cell
-    }
     
     override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCellEditingStyle {
         return .none
