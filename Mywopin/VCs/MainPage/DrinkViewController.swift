@@ -99,10 +99,10 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
         drinkCupTotalLabel.layer.borderColor = UIColor.white.cgColor
         drinkCupTotalLabel.layer.borderWidth = 1;//边框宽度
         
-        changeCupBtn?.layer.cornerRadius = drinkCupTotalLabel.height/2;
-        changeCupBtn?.layer.masksToBounds = true;
-        changeCupBtn?.layer.borderColor = UIColor.white.cgColor
-        changeCupBtn?.layer.borderWidth = 1;//边框宽度
+//        changeCupBtn?.layer.cornerRadius = drinkCupTotalLabel.height/2;
+//        changeCupBtn?.layer.masksToBounds = true;
+//        changeCupBtn?.layer.borderColor = UIColor.white.cgColor
+//        changeCupBtn?.layer.borderWidth = 1;//边框宽度
         
         lightingBtn?.layer.cornerRadius = (lightingBtn?.height ?? 0)/2;
         lightingBtn?.layer.masksToBounds = true;
@@ -568,11 +568,13 @@ class DrinkViewController: UIViewController, CLLocationManagerDelegate {
             if BLEController.shared.connectedDevice?.identifier.uuidString != currentCup?.uuid
             {
                 self.timeLabel?.text = "\(String(format: "%02d", Int(_showTime / 60))):\(String(format: "%02d", Int(CGFloat(_showTime).truncatingRemainder(dividingBy: 60))))"
+               
             }
             #endif
         }
         
-        sliderNum.value = Float(_showTime / 60)
+        self.slider.value = Float(CGFloat(_showTime) / 60.0)
+        self.toolTibsView?.x = self.slider.thumbCenterX - ((self.toolTibsView?.width ?? 0) / 2)
     }
 
     

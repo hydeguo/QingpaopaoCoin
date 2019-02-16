@@ -33,7 +33,7 @@ class MyProfileTableVC: UITableViewController{
 //        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
         navigationItem.titleView?.tintColor = UIColor.colorFromRGB(0x7b43d1)
         
-       
+       tableView.tableFooterView = UIView(frame: CGRect.zero)
 
     }
     
