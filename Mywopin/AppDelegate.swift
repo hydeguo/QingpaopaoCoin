@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
 //        Language.share.setLanguage("en")
         
-        PaySDK.wxAppid = "wxf42ec50449767feb"
+        PaySDK.wxAppid = "wxbfc22ac6a3d013b3"
         PaySDK.instance.signUrl = server_url+"/getWeChatPaySign"
         
         
@@ -105,15 +105,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 {
                 case SSDKPlatformType.typeSinaWeibo:
                     //设置新浪微博应用信息,其中authType设置为使用SSO＋Web形式授权
-                    appInfo?.ssdkSetupSinaWeibo(byAppKey: "1871771910",
-                                                appSecret: "b255a1185ff2d6255b076db56a6823b3",
+                    appInfo?.ssdkSetupSinaWeibo(byAppKey: "402887743",
+                                                appSecret: "9dc19a255ee91c19882eaba013f33717",
                                                 redirectUri: "http://sns.whalecloud.com",
                                                 authType: SSDKAuthTypeBoth)
                     
                 case SSDKPlatformType.typeWechat:
                     //设置微信应用信息
-                    appInfo?.ssdkSetupWeChat(byAppId: "wxf42ec50449767feb",
-                                             appSecret: "7fd977698fed0ac469207abf358222a5")
+                    appInfo?.ssdkSetupWeChat(byAppId: "wxbfc22ac6a3d013b3",
+                                             appSecret: "f07e8800957ebf9a3faca5b9dba1ec8b")
                     
 //                case SSDKPlatformType.typeTencentWeibo:
 //                    //设置腾讯微博应用信息，其中authType设置为只用Web形式授权
@@ -137,8 +137,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     
                 case SSDKPlatformType.typeQQ:
                     //设置QQ应用信息
-                    appInfo?.ssdkSetupQQ(byAppId: "1105931776",
-                                         appKey: "c4dPgCZjcuf5dEPx",
+                    appInfo?.ssdkSetupQQ(byAppId: "1108242116",
+                                         appKey: "dWGXx7BA9ihN14as",
                                          authType: SSDKAuthTypeWeb)
                     
                     

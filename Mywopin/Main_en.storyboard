@@ -8511,12 +8511,12 @@ consumption </string>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggx-oR-sq1">
-                                                    <rect key="frame" x="125" y="21" width="1" height="60"/>
+                                                    <rect key="frame" x="125" y="22" width="1" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.28627450980000002" green="0.73333333329999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjK-CW-JIc">
-                                                    <rect key="frame" x="250" y="21" width="1" height="60"/>
+                                                    <rect key="frame" x="250" y="22" width="1" height="60"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.28627450980000002" green="0.73333333329999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
