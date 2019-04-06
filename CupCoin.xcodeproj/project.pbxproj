@@ -12,6 +12,7 @@
 		20327AE12111943D006935FB /* WifiScanListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20327AE02111943D006935FB /* WifiScanListVC.swift */; };
 		20327AE32111AE1A006935FB /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20327AE22111AE1A006935FB /* NetworkExtension.framework */; };
 		20327AE52111AE21006935FB /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20327AE42111AE21006935FB /* ExternalAccessory.framework */; };
+		7F67580CA95E8C007FC03D59 /* Pods_CupCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897C2AD4DBD58DB36626748D /* Pods_CupCoin.framework */; };
 		C1008E0920C5669000E73F8F /* PostListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1008E0820C5668F00E73F8F /* PostListViewController.swift */; };
 		C11160EC20EBC61C00921C37 /* DeviceInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11160EB20EBC61C00921C37 /* DeviceInfoVC.swift */; };
 		C112268A20D3655E007282F1 /* Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = C112268920D3655D007282F1 /* Moya.swift */; };
@@ -33,13 +34,9 @@
 		C1383A4620DF985100F1EBE6 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1383A4520DF985100F1EBE6 /* ChangePassword.swift */; };
 		C1406353210460C800AB8914 /* GoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406352210460C800AB8914 /* GoodsModel.swift */; };
 		C14063552104637C00AB8914 /* MoyaWoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14063542104637C00AB8914 /* MoyaWoo.swift */; };
-		C14063582104680200AB8914 /* ExchangeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14063572104680200AB8914 /* ExchangeList.swift */; };
-		C140635A21054F2200AB8914 /* ExchangePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C140635921054F2200AB8914 /* ExchangePage.swift */; };
 		C140635F2105692D00AB8914 /* FlexiblePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C140635D2105692C00AB8914 /* FlexiblePageControl.swift */; };
 		C14063602105692D00AB8914 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C140635E2105692C00AB8914 /* Info.plist */; };
-		C1406362210619E900AB8914 /* ExchangeBuyBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406361210619E900AB8914 /* ExchangeBuyBtnVC.swift */; };
 		C1406364210A084500AB8914 /* WooCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406363210A084500AB8914 /* WooCommand.swift */; };
-		C1406366210D9D7800AB8914 /* ShopMainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1406365210D9D7800AB8914 /* ShopMainPageVC.swift */; };
 		C146CB3320FC9E2F00AED9B2 /* BindingThirdpartAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146CB3220FC9E2F00AED9B2 /* BindingThirdpartAccountVC.swift */; };
 		C14DC3D5215F28D500DA4574 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14DC3D4215F28D500DA4574 /* NotificationService.swift */; };
 		C14DC3D9215F28D500DA4574 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C14DC3D2215F28D500DA4574 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -53,18 +50,11 @@
 		C158F729213BB0470090EE1A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C158F728213BB0470090EE1A /* PostModel.swift */; };
 		C15AEF3720EDAF4D009F4A0E /* NoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF3620EDAF4D009F4A0E /* NoticeController.swift */; };
 		C15AEF8820F07EE9009F4A0E /* TGDropBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF8720F07EE9009F4A0E /* TGDropBoxView.swift */; };
-		C15AEF8B20F07F22009F4A0E /* ExchangeShopDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF8A20F07F22009F4A0E /* ExchangeShopDetailVC.swift */; };
-		C15AEF8D20F0A0EC009F4A0E /* ExchangeBuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF8C20F0A0EC009F4A0E /* ExchangeBuyVC.swift */; };
 		C15AEF9120F0D4C6009F4A0E /* AddressPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF8F20F0D4C5009F4A0E /* AddressPickerView.swift */; };
 		C15AEF9220F0D4C6009F4A0E /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = C15AEF9020F0D4C5009F4A0E /* address.json */; };
 		C15AEF9420F0F087009F4A0E /* AddressInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF9320F0F087009F4A0E /* AddressInfoVC.swift */; };
 		C15AEF9620F1990D009F4A0E /* AddressListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF9520F1990D009F4A0E /* AddressListVC.swift */; };
 		C15AEF9820F2114C009F4A0E /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AEF9720F2114C009F4A0E /* OrderListVC.swift */; };
-		C15D2679213243E400C6B1BF /* CrowdfundingShopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D2678213243E400C6B1BF /* CrowdfundingShopPage.swift */; };
-		C15D267B2132445000C6B1BF /* CrowdfundingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D267A2132445000C6B1BF /* CrowdfundingList.swift */; };
-		C15D267D2132F59500C6B1BF /* CrowdfundingShopDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D267C2132F59500C6B1BF /* CrowdfundingShopDetailVC.swift */; };
-		C15D267F2132F64500C6B1BF /* CrowdfoudingBuyBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D267E2132F64500C6B1BF /* CrowdfoudingBuyBtnVC.swift */; };
-		C15D26812132F6A800C6B1BF /* CrowfoudingBuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D26802132F6A800C6B1BF /* CrowfoudingBuyVC.swift */; };
 		C16439742196BEF6005D01A5 /* BlogMsgCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16439732196BEF6005D01A5 /* BlogMsgCells.swift */; };
 		C16439762196CC94005D01A5 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16439752196CC94005D01A5 /* MessageViewController.swift */; };
 		C164397821971F65005D01A5 /* NewMsgListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164397721971F65005D01A5 /* NewMsgListController.swift */; };
@@ -72,7 +62,6 @@
 		C1662AF82150FA17008DA143 /* PaySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662AF42150FA16008DA143 /* PaySDK.swift */; };
 		C1662AF92150FA17008DA143 /* WechatAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662AF52150FA16008DA143 /* WechatAuth.swift */; };
 		C1662AFA2150FA17008DA143 /* AlipayPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1662AF62150FA17008DA143 /* AlipayPay.swift */; };
-		C1663459219F982300018097 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C166345B219F982300018097 /* Shop.storyboard */; };
 		C168FA4221C1E934009143F7 /* Main_cn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA3E21C1E931009143F7 /* Main_cn.storyboard */; };
 		C168FA4321C1E934009143F7 /* Login_cn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA3F21C1E932009143F7 /* Login_cn.storyboard */; };
 		C168FA4421C1E934009143F7 /* Login_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C168FA4021C1E932009143F7 /* Login_en.storyboard */; };
@@ -108,7 +97,6 @@
 		C187D38921C1443E00474510 /* LanguageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C187D38821C1443E00474510 /* LanguageController.swift */; };
 		C192AA1120C23770004EE98D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192AA1020C23770004EE98D /* AppDelegate.swift */; };
 		C192AA1320C23770004EE98D /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192AA1220C23770004EE98D /* DrinkViewController.swift */; };
-		C192AA1820C23770004EE98D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C192AA1620C23770004EE98D /* Main.storyboard */; };
 		C192AA1A20C23771004EE98D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C192AA1920C23771004EE98D /* Assets.xcassets */; };
 		C192AA1D20C23771004EE98D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C192AA1B20C23771004EE98D /* LaunchScreen.storyboard */; };
 		C192AA2F20C23EA9004EE98D /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192AA2520C23EA9004EE98D /* UIView+Extensions.swift */; };
@@ -135,6 +123,7 @@
 		C195073621855E76008F88CF /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195073521855E76008F88CF /* AvatarViewController.swift */; };
 		C197D3FF20D74EA700E3FBEE /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197D3FE20D74EA700E3FBEE /* RegisterVC.swift */; };
 		C197D40120D74EC300E3FBEE /* ThirdPartLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197D40020D74EC300E3FBEE /* ThirdPartLoginVC.swift */; };
+		C1A4890922329E1D009DC0A4 /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A4890822329E1D009DC0A4 /* Root.storyboard */; };
 		C1AB2BD22149210000CE6A2D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB2BD12149210000CE6A2D /* TabBarController.swift */; };
 		C1B9744D20FA3FE000BC2EB9 /* ChangeDeviceNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B9744C20FA3FDF00BC2EB9 /* ChangeDeviceNameVC.swift */; };
 		C1BA806D20D7679A007D2B48 /* SwiftRx(Extension).swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA806C20D7679A007D2B48 /* SwiftRx(Extension).swift */; };
@@ -181,14 +170,9 @@
 		C1EDFEAA21D385FB00F24EFA /* ShareSDKUI_Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1EDFEAC21D385FB00F24EFA /* ShareSDKUI_Localizable.strings */; };
 		C1F128292139150300BBD457 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F128282139150200BBD457 /* Toast.swift */; };
 		C1F1282B213A4A1E00BBD457 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F1282A213A4A1E00BBD457 /* CoreMotion.framework */; };
-		C1F226EE21295AFC0066C9EC /* ScoresShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F226ED21295AFC0066C9EC /* ScoresShopList.swift */; };
-		C1F226F021295DE20066C9EC /* ScoresShopDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F226EF21295DE20066C9EC /* ScoresShopDetailVC.swift */; };
-		C1F226F4212963AF0066C9EC /* ScoresBuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F226F3212963AF0066C9EC /* ScoresBuyVC.swift */; };
-		C1F226F6212964510066C9EC /* ScoresBuyBtnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F226F5212964510066C9EC /* ScoresBuyBtnVC.swift */; };
 		C1F6E04420C6CE580031200D /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E04320C6CE580031200D /* InfoDetailViewController.swift */; };
 		C1F6E04720C6D0060031200D /* WordPressWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6E04620C6D0060031200D /* WordPressWebServices.swift */; };
 		C1FC3502213909D10052DD6D /* InternetReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC3501213909D10052DD6D /* InternetReachability.swift */; };
-		CDD4DBDEF63152BF994876A2 /* Pods_Mywopin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCB3A9CE3429E550758934F /* Pods_Mywopin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,14 +208,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1EEF0B486383DDD511A4B204 /* Pods-CupCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-CupCoin/Pods-CupCoin.release.xcconfig"; sourceTree = "<group>"; };
 		20327AD821115788006935FB /* WifiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiController.swift; sourceTree = "<group>"; };
 		20327ADA21116227006935FB /* WifiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiTableViewController.swift; sourceTree = "<group>"; };
 		20327AE02111943D006935FB /* WifiScanListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiScanListVC.swift; sourceTree = "<group>"; };
 		20327AE22111AE1A006935FB /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		20327AE42111AE21006935FB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		49C666C054DC915694535D33 /* Pods-CupCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CupCoin/Pods-CupCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		674F6E814A63FC5F6CB12224 /* Pods-Mywopin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mywopin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mywopin/Pods-Mywopin.debug.xcconfig"; sourceTree = "<group>"; };
 		6BCB3A9CE3429E550758934F /* Pods_Mywopin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mywopin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB0F5E2C575BF26786D94E /* Pods-Mywopin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mywopin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mywopin/Pods-Mywopin.release.xcconfig"; sourceTree = "<group>"; };
+		897C2AD4DBD58DB36626748D /* Pods_CupCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CupCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1008E0820C5668F00E73F8F /* PostListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListViewController.swift; sourceTree = "<group>"; };
 		C11160EB20EBC61C00921C37 /* DeviceInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoVC.swift; sourceTree = "<group>"; };
 		C112268920D3655D007282F1 /* Moya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moya.swift; sourceTree = "<group>"; };
@@ -256,14 +243,10 @@
 		C1383A4520DF985100F1EBE6 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
 		C1406352210460C800AB8914 /* GoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsModel.swift; sourceTree = "<group>"; };
 		C14063542104637C00AB8914 /* MoyaWoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaWoo.swift; sourceTree = "<group>"; };
-		C14063572104680200AB8914 /* ExchangeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeList.swift; sourceTree = "<group>"; };
-		C140635921054F2200AB8914 /* ExchangePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePage.swift; sourceTree = "<group>"; };
 		C140635C2105692C00AB8914 /* FlexiblePageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexiblePageControl.h; sourceTree = "<group>"; };
 		C140635D2105692C00AB8914 /* FlexiblePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexiblePageControl.swift; sourceTree = "<group>"; };
 		C140635E2105692C00AB8914 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1406361210619E900AB8914 /* ExchangeBuyBtnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeBuyBtnVC.swift; sourceTree = "<group>"; };
 		C1406363210A084500AB8914 /* WooCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooCommand.swift; sourceTree = "<group>"; };
-		C1406365210D9D7800AB8914 /* ShopMainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopMainPageVC.swift; sourceTree = "<group>"; };
 		C146CB3220FC9E2F00AED9B2 /* BindingThirdpartAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingThirdpartAccountVC.swift; sourceTree = "<group>"; };
 		C14DC3D2215F28D500DA4574 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14DC3D4215F28D500DA4574 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
@@ -278,20 +261,12 @@
 		C158F720213B7A220090EE1A /* DeliverPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverPageViewController.swift; sourceTree = "<group>"; };
 		C158F728213BB0470090EE1A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		C15AEF3620EDAF4D009F4A0E /* NoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeController.swift; sourceTree = "<group>"; };
-		C15AEF5720EDCAA5009F4A0E /* Mywopin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mywopin.entitlements; sourceTree = "<group>"; };
 		C15AEF8720F07EE9009F4A0E /* TGDropBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGDropBoxView.swift; sourceTree = "<group>"; };
-		C15AEF8A20F07F22009F4A0E /* ExchangeShopDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeShopDetailVC.swift; sourceTree = "<group>"; };
-		C15AEF8C20F0A0EC009F4A0E /* ExchangeBuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeBuyVC.swift; sourceTree = "<group>"; };
 		C15AEF8F20F0D4C5009F4A0E /* AddressPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressPickerView.swift; sourceTree = "<group>"; };
 		C15AEF9020F0D4C5009F4A0E /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
 		C15AEF9320F0F087009F4A0E /* AddressInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInfoVC.swift; sourceTree = "<group>"; };
 		C15AEF9520F1990D009F4A0E /* AddressListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListVC.swift; sourceTree = "<group>"; };
 		C15AEF9720F2114C009F4A0E /* OrderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
-		C15D2678213243E400C6B1BF /* CrowdfundingShopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdfundingShopPage.swift; sourceTree = "<group>"; };
-		C15D267A2132445000C6B1BF /* CrowdfundingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdfundingList.swift; sourceTree = "<group>"; };
-		C15D267C2132F59500C6B1BF /* CrowdfundingShopDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdfundingShopDetailVC.swift; sourceTree = "<group>"; };
-		C15D267E2132F64500C6B1BF /* CrowdfoudingBuyBtnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdfoudingBuyBtnVC.swift; sourceTree = "<group>"; };
-		C15D26802132F6A800C6B1BF /* CrowfoudingBuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowfoudingBuyVC.swift; sourceTree = "<group>"; };
 		C16439732196BEF6005D01A5 /* BlogMsgCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogMsgCells.swift; sourceTree = "<group>"; };
 		C16439752196CC94005D01A5 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		C164397721971F65005D01A5 /* NewMsgListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMsgListController.swift; sourceTree = "<group>"; };
@@ -299,7 +274,6 @@
 		C1662AF42150FA16008DA143 /* PaySDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaySDK.swift; sourceTree = "<group>"; };
 		C1662AF52150FA16008DA143 /* WechatAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatAuth.swift; sourceTree = "<group>"; };
 		C1662AF62150FA17008DA143 /* AlipayPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlipayPay.swift; sourceTree = "<group>"; };
-		C166345A219F982300018097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Shop.storyboard; sourceTree = "<group>"; };
 		C168FA3E21C1E931009143F7 /* Main_cn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_cn.storyboard; sourceTree = "<group>"; };
 		C168FA3F21C1E932009143F7 /* Login_cn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login_cn.storyboard; sourceTree = "<group>"; };
 		C168FA4021C1E932009143F7 /* Login_en.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login_en.storyboard; sourceTree = "<group>"; };
@@ -368,6 +342,9 @@
 		C195073521855E76008F88CF /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
 		C197D3FE20D74EA700E3FBEE /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		C197D40020D74EC300E3FBEE /* ThirdPartLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartLoginVC.swift; sourceTree = "<group>"; };
+		C1A4890822329E1D009DC0A4 /* Root.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Root.storyboard; sourceTree = "<group>"; };
+		C1A4890A22335021009DC0A4 /* CupCoin.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CupCoin.entitlements; sourceTree = "<group>"; };
+		C1A4890B22335033009DC0A4 /* CupCoin-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CupCoin-Bridging-Header.h"; sourceTree = "<group>"; };
 		C1AB2BD12149210000CE6A2D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C1B9744C20FA3FDF00BC2EB9 /* ChangeDeviceNameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDeviceNameVC.swift; sourceTree = "<group>"; };
 		C1BA806C20D7679A007D2B48 /* SwiftRx(Extension).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftRx(Extension).swift"; sourceTree = "<group>"; };
@@ -381,7 +358,6 @@
 		C1C428C520D6500D0071532F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		C1C428C720D650190071532F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C1C428C920D650260071532F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		C1C428CB20D651FE0071532F /* Mywopin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mywopin-Bridging-Header.h"; sourceTree = "<group>"; };
 		C1C428CE20D65E490071532F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C1C428D220D670DE0071532F /* UserAgreementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementVC.swift; sourceTree = "<group>"; };
 		C1C4291D20D6AA1D0071532F /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
@@ -416,7 +392,6 @@
 		C1C9955B21AB7E8A00E9B754 /* AddWifiControllPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWifiControllPage.swift; sourceTree = "<group>"; };
 		C1C9966721ABB2F000E9B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		C1C9966821ABB46E00E9B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C1C9966921ABB50500E9B754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1C9966D21ACD7CE00E9B754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1C9966F21ACD7D000E9B754 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		C1CB58B12199706900DE1D4B /* MyCommentListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCommentListController.swift; sourceTree = "<group>"; };
@@ -427,10 +402,6 @@
 		C1EDFEAD21D385FD00F24EFA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareSDKUI_Localizable.strings"; sourceTree = "<group>"; };
 		C1F128282139150200BBD457 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		C1F1282A213A4A1E00BBD457 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		C1F226ED21295AFC0066C9EC /* ScoresShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresShopList.swift; sourceTree = "<group>"; };
-		C1F226EF21295DE20066C9EC /* ScoresShopDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresShopDetailVC.swift; sourceTree = "<group>"; };
-		C1F226F3212963AF0066C9EC /* ScoresBuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresBuyVC.swift; sourceTree = "<group>"; };
-		C1F226F5212964510066C9EC /* ScoresBuyBtnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresBuyBtnVC.swift; sourceTree = "<group>"; };
 		C1F6E04320C6CE580031200D /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
 		C1F6E04620C6D0060031200D /* WordPressWebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordPressWebServices.swift; sourceTree = "<group>"; };
 		C1FC3501213909D10052DD6D /* InternetReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetReachability.swift; sourceTree = "<group>"; };
@@ -484,8 +455,8 @@
 				20327AE32111AE1A006935FB /* NetworkExtension.framework in Frameworks */,
 				C1C4294A20D6AA1D0071532F /* ShareSDKExtension.framework in Frameworks */,
 				C1C4295020D6AA1D0071532F /* CopyConnector.framework in Frameworks */,
-				CDD4DBDEF63152BF994876A2 /* Pods_Mywopin.framework in Frameworks */,
 				C1C4294720D6AA1D0071532F /* ShareSDKConnector.framework in Frameworks */,
+				7F67580CA95E8C007FC03D59 /* Pods_CupCoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +480,7 @@
 				6BCB3A9CE3429E550758934F /* Pods_Mywopin.framework */,
 				C14DC3E3215F28E600DA4574 /* UserNotifications.framework */,
 				C14DC3E5215F28E600DA4574 /* UserNotificationsUI.framework */,
+				897C2AD4DBD58DB36626748D /* Pods_CupCoin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -561,18 +533,6 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		C1406356210467B500AB8914 /* ExchangeShop */ = {
-			isa = PBXGroup;
-			children = (
-				C15AEF8A20F07F22009F4A0E /* ExchangeShopDetailVC.swift */,
-				C15AEF8C20F0A0EC009F4A0E /* ExchangeBuyVC.swift */,
-				C14063572104680200AB8914 /* ExchangeList.swift */,
-				C1406361210619E900AB8914 /* ExchangeBuyBtnVC.swift */,
-				C140635921054F2200AB8914 /* ExchangePage.swift */,
-			);
-			path = ExchangeShop;
-			sourceTree = "<group>";
-		};
 		C140635B2105692C00AB8914 /* FlexiblePageControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,18 +569,6 @@
 				C15AEF9020F0D4C5009F4A0E /* address.json */,
 			);
 			path = AddressPickerView;
-			sourceTree = "<group>";
-		};
-		C15D2677213243A600C6B1BF /* CrowdfundingShop */ = {
-			isa = PBXGroup;
-			children = (
-				C15D2678213243E400C6B1BF /* CrowdfundingShopPage.swift */,
-				C15D267C2132F59500C6B1BF /* CrowdfundingShopDetailVC.swift */,
-				C15D267E2132F64500C6B1BF /* CrowdfoudingBuyBtnVC.swift */,
-				C15D267A2132445000C6B1BF /* CrowdfundingList.swift */,
-				C15D26802132F6A800C6B1BF /* CrowfoudingBuyVC.swift */,
-			);
-			path = CrowdfundingShop;
 			sourceTree = "<group>";
 		};
 		C1662AF22150F9F9008DA143 /* Payment */ = {
@@ -713,7 +661,7 @@
 		C192AA0420C23770004EE98D = {
 			isa = PBXGroup;
 			children = (
-				C192AA0F20C23770004EE98D /* Mywopin */,
+				C192AA0F20C23770004EE98D /* CupCoin */,
 				C14DC3D3215F28D500DA4574 /* NotificationService */,
 				C14DC3E7215F28E600DA4574 /* NotificationContent */,
 				C192AA0E20C23770004EE98D /* Products */,
@@ -732,7 +680,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C192AA0F20C23770004EE98D /* Mywopin */ = {
+		C192AA0F20C23770004EE98D /* CupCoin */ = {
 			isa = PBXGroup;
 			children = (
 				C12878D321A4EC8A00F0DD9E /* Info.plist */,
@@ -740,7 +688,7 @@
 				C133C1F820F5B25800771FE6 /* R.generated.swift */,
 				C192AA1020C23770004EE98D /* AppDelegate.swift */,
 				C1662AF22150F9F9008DA143 /* Payment */,
-				C15AEF5720EDCAA5009F4A0E /* Mywopin.entitlements */,
+				C1A4890A22335021009DC0A4 /* CupCoin.entitlements */,
 				C16E04D520DDBEAA009ED462 /* BLE */,
 				C1C4291720D6AA1D0071532F /* Share */,
 				C192AA9B20C3EF66004EE98D /* fonts */,
@@ -750,23 +698,22 @@
 				C192AA4E20C37FA5004EE98D /* VCs */,
 				C192AA3920C23EB7004EE98D /* Models */,
 				C192AA2420C23EA9004EE98D /* Common */,
-				C192AA1620C23770004EE98D /* Main.storyboard */,
 				C1803E102144084B0078D94C /* AttachmentDetailsViewController.storyboard */,
-				C166345B219F982300018097 /* Shop.storyboard */,
 				C168FA3F21C1E932009143F7 /* Login_cn.storyboard */,
 				C168FA4021C1E932009143F7 /* Login_en.storyboard */,
 				C168FA3E21C1E931009143F7 /* Main_cn.storyboard */,
+				C1A4890822329E1D009DC0A4 /* Root.storyboard */,
 				C168FA4121C1E933009143F7 /* Main_en.storyboard */,
 				C117144621AFE73F006FD6F2 /* EnLaunchScreen.storyboard */,
 				C192AA1920C23771004EE98D /* Assets.xcassets */,
 				C192AA1B20C23771004EE98D /* LaunchScreen.storyboard */,
 				C1D0AF722147A2A1005C682B /* GoogleService-Info.plist */,
-				C1C428CB20D651FE0071532F /* Mywopin-Bridging-Header.h */,
+				C1A4890B22335033009DC0A4 /* CupCoin-Bridging-Header.h */,
 				C1EDFEAC21D385FB00F24EFA /* ShareSDKUI_Localizable.strings */,
 				C1383A3420DF856D00F1EBE6 /* Localizable.strings */,
 				C1C9966E21ACD7CE00E9B754 /* InfoPlist.strings */,
 			);
-			path = Mywopin;
+			path = CupCoin;
 			sourceTree = "<group>";
 		};
 		C192AA2420C23EA9004EE98D /* Common */ = {
@@ -810,9 +757,6 @@
 		C192AA4E20C37FA5004EE98D /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				C15D2677213243A600C6B1BF /* CrowdfundingShop */,
-				C1F226EC21295A630066C9EC /* ScoresShop */,
-				C1406356210467B500AB8914 /* ExchangeShop */,
 				C1383A4420DF97F400F1EBE6 /* Login */,
 				C17862C620E1218B008F4042 /* Profile */,
 				C1D5B60320F460B7004DCE83 /* Orders */,
@@ -992,18 +936,6 @@
 			path = Orders;
 			sourceTree = "<group>";
 		};
-		C1F226EC21295A630066C9EC /* ScoresShop */ = {
-			isa = PBXGroup;
-			children = (
-				C1F226ED21295AFC0066C9EC /* ScoresShopList.swift */,
-				C1F226F5212964510066C9EC /* ScoresBuyBtnVC.swift */,
-				C1F226EF21295DE20066C9EC /* ScoresShopDetailVC.swift */,
-				C1406365210D9D7800AB8914 /* ShopMainPageVC.swift */,
-				C1F226F3212963AF0066C9EC /* ScoresBuyVC.swift */,
-			);
-			path = ScoresShop;
-			sourceTree = "<group>";
-		};
 		C1F6E04520C6CFDB0031200D /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -1024,6 +956,8 @@
 			children = (
 				674F6E814A63FC5F6CB12224 /* Pods-Mywopin.debug.xcconfig */,
 				74BB0F5E2C575BF26786D94E /* Pods-Mywopin.release.xcconfig */,
+				49C666C054DC915694535D33 /* Pods-CupCoin.debug.xcconfig */,
+				1EEF0B486383DDD511A4B204 /* Pods-CupCoin.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1183,10 +1117,9 @@
 				C1C9966C21ACD7CE00E9B754 /* InfoPlist.strings in Resources */,
 				C1383A4220DF896200F1EBE6 /* iconfont.ttf in Resources */,
 				C14063602105692D00AB8914 /* Info.plist in Resources */,
-				C192AA1820C23770004EE98D /* Main.storyboard in Resources */,
-				C1663459219F982300018097 /* Shop.storyboard in Resources */,
 				C1803E112144084B0078D94C /* AttachmentDetailsViewController.storyboard in Resources */,
 				C1383A3220DF856D00F1EBE6 /* Localizable.strings in Resources */,
+				C1A4890922329E1D009DC0A4 /* Root.storyboard in Resources */,
 				C15AEF9220F0D4C6009F4A0E /* address.json in Resources */,
 				C192AAA220C3EF66004EE98D /* SourceHanSans-Light.otf in Resources */,
 				C1D0AF732147A2A1005C682B /* GoogleService-Info.plist in Resources */,
@@ -1213,7 +1146,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mywopin-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CupCoin-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1226,7 +1159,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Mywopin/Pods-Mywopin-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CupCoin/Pods-CupCoin-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
@@ -1234,6 +1167,7 @@
 				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Gridicons/Gridicons.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
@@ -1243,7 +1177,6 @@
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/WordPress-Aztec-iOS/Aztec.framework",
 				"${BUILT_PRODUCTS_DIR}/WordPress-Editor-iOS/WordPressEditor.framework",
@@ -1258,6 +1191,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gridicons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
@@ -1267,7 +1201,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aztec.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WordPressEditor.framework",
@@ -1275,7 +1208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mywopin/Pods-Mywopin-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupCoin/Pods-CupCoin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C133C1F720F5B20500771FE6 /* R.swift */ = {
@@ -1283,14 +1216,18 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
 			);
 			name = R.swift;
 			outputPaths = (
+				$SRCROOT/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
 		C1D0AF742147A38B005C682B /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1342,12 +1279,9 @@
 				C164397821971F65005D01A5 /* NewMsgListController.swift in Sources */,
 				C17FB87021452BAE001F0030 /* BlogCells.swift in Sources */,
 				C17862C320DBDD5E008F4042 /* WopinCommand.swift in Sources */,
-				C15D267D2132F59500C6B1BF /* CrowdfundingShopDetailVC.swift in Sources */,
 				C11A100120E9CC50000979B3 /* MyHealth.swift in Sources */,
-				C140635A21054F2200AB8914 /* ExchangePage.swift in Sources */,
 				20327ADB21116227006935FB /* WifiTableViewController.swift in Sources */,
 				C1D5B60220F3B54F004DCE83 /* ReturnOrderNumVC.swift in Sources */,
-				C1406366210D9D7800AB8914 /* ShopMainPageVC.swift in Sources */,
 				C17862CE20E2869F008F4042 /* BaseInfo.swift in Sources */,
 				C11A100320EA0D2C000979B3 /* AddDevice.swift in Sources */,
 				C192AA3520C23EA9004EE98D /* PopupController.swift in Sources */,
@@ -1362,7 +1296,6 @@
 				C1D5B60520F46104004DCE83 /* ExchangeOrderDetailVC.swift in Sources */,
 				C192AA3120C23EA9004EE98D /* View(Extension).swift in Sources */,
 				C1C428D320D670DE0071532F /* UserAgreementVC.swift in Sources */,
-				C15AEF8B20F07F22009F4A0E /* ExchangeShopDetailVC.swift in Sources */,
 				20327AE12111943D006935FB /* WifiScanListVC.swift in Sources */,
 				C1C9955C21AB7E8A00E9B754 /* AddWifiControllPage.swift in Sources */,
 				C1BA807520D7980A007D2B48 /* WolfNetwork.swift in Sources */,
@@ -1370,7 +1303,6 @@
 				C192AA5020C37FCF004EE98D /* ColorPicker.swift in Sources */,
 				C1C428CF20D65E490071532F /* LoginVC.swift in Sources */,
 				C15AEF9120F0D4C6009F4A0E /* AddressPickerView.swift in Sources */,
-				C15D2679213243E400C6B1BF /* CrowdfundingShopPage.swift in Sources */,
 				C192AA3320C23EA9004EE98D /* UIAlertController+Extensions.swift in Sources */,
 				C17862CA20E277ED008F4042 /* ChangeName.swift in Sources */,
 				C197D3FF20D74EA700E3FBEE /* RegisterVC.swift in Sources */,
@@ -1385,28 +1317,20 @@
 				C11160EC20EBC61C00921C37 /* DeviceInfoVC.swift in Sources */,
 				C192AA3020C23EA9004EE98D /* DatePickerViewController.swift in Sources */,
 				C15AEF9620F1990D009F4A0E /* AddressListVC.swift in Sources */,
-				C15D26812132F6A800C6B1BF /* CrowfoudingBuyVC.swift in Sources */,
 				C17D45F320F8A85A00029CAE /* ProfileEditVC.swift in Sources */,
 				C192AA5420C3D54E004EE98D /* InfosViewController.swift in Sources */,
 				C1179A5C20C7E7B50049BE67 /* MyProfileViewController.swift in Sources */,
-				C1F226F4212963AF0066C9EC /* ScoresBuyVC.swift in Sources */,
 				C192AA4A20C23EB7004EE98D /* Const.swift in Sources */,
 				C133C1F920F5B25800771FE6 /* R.generated.swift in Sources */,
 				C192AA4520C23EB7004EE98D /* Helper Files.swift in Sources */,
-				C15D267B2132445000C6B1BF /* CrowdfundingList.swift in Sources */,
 				C192AA4C20C23EB7004EE98D /* Codables.swift in Sources */,
-				C14063582104680200AB8914 /* ExchangeList.swift in Sources */,
 				C112268A20D3655E007282F1 /* Moya.swift in Sources */,
-				C1F226EE21295AFC0066C9EC /* ScoresShopList.swift in Sources */,
 				C13595B721CBBFCF006551B0 /* CoinLinkViewController.swift in Sources */,
 				C192AA4420C23EB7004EE98D /* Vos.swift in Sources */,
-				C15AEF8D20F0A0EC009F4A0E /* ExchangeBuyVC.swift in Sources */,
 				C192AAAA20C4C8FA004EE98D /* Cells.swift in Sources */,
 				C14063552104637C00AB8914 /* MoyaWoo.swift in Sources */,
 				C16E052D20DE4827009ED462 /* OtherExtensions.swift in Sources */,
 				C16E273A2143BD1900E26D8A /* EditorViewController.swift in Sources */,
-				C15D267F2132F64500C6B1BF /* CrowdfoudingBuyBtnVC.swift in Sources */,
-				C1F226F021295DE20066C9EC /* ScoresShopDetailVC.swift in Sources */,
 				C15AEF9820F2114C009F4A0E /* OrderListVC.swift in Sources */,
 				C1B9744D20FA3FE000BC2EB9 /* ChangeDeviceNameVC.swift in Sources */,
 				C16E052820DE36DF009ED462 /* BLEProgressView.swift in Sources */,
@@ -1416,7 +1340,6 @@
 				C17D45F120F8A74300029CAE /* SystemSettingVC.swift in Sources */,
 				C146CB3320FC9E2F00AED9B2 /* BindingThirdpartAccountVC.swift in Sources */,
 				C15AEF8820F07EE9009F4A0E /* TGDropBoxView.swift in Sources */,
-				C1F226F6212964510066C9EC /* ScoresBuyBtnVC.swift in Sources */,
 				C158F721213B7A220090EE1A /* DeliverPageViewController.swift in Sources */,
 				C1803E0F2143F6980078D94C /* MediaRequest.swift in Sources */,
 				C16439742196BEF6005D01A5 /* BlogMsgCells.swift in Sources */,
@@ -1444,7 +1367,6 @@
 				C15206232144D2D100F660B6 /* BlogVos.swift in Sources */,
 				C197D40120D74EC300E3FBEE /* ThirdPartLoginVC.swift in Sources */,
 				C192AA3720C23EA9004EE98D /* Utils.swift in Sources */,
-				C1406362210619E900AB8914 /* ExchangeBuyBtnVC.swift in Sources */,
 				C1315F6E20DB6740000DB991 /* User.swift in Sources */,
 				C12878D621A4F3BC00F0DD9E /* SignUpCup.swift in Sources */,
 				C1FC3502213909D10052DD6D /* InternetReachability.swift in Sources */,
@@ -1495,22 +1417,6 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
-		C166345B219F982300018097 /* Shop.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C166345A219F982300018097 /* Base */,
-			);
-			name = Shop.storyboard;
-			sourceTree = "<group>";
-		};
-		C192AA1620C23770004EE98D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1C9966921ABB50500E9B754 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C192AA1B20C23771004EE98D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1557,7 +1463,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.qingpaopaocoin.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.HPOPO.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1579,7 +1485,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.qingpaopaocoin.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.HPOPO.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1602,7 +1508,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.qingpaopaocoin.NotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.HPOPO.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1624,7 +1530,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.qingpaopaocoin.NotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.HPOPO.NotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -1750,31 +1656,31 @@
 		};
 		C192AA2220C23771004EE98D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 674F6E814A63FC5F6CB12224 /* Pods-Mywopin.debug.xcconfig */;
+			baseConfigurationReference = 49C666C054DC915694535D33 /* Pods-CupCoin.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Mywopin/Mywopin.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CupCoin/CupCoin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6796P8E27Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/Required",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/Optional",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformConnector",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/Required",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/QQSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/Required",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/Optional",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformConnector",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/Required",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK",
 				);
-				INFOPLIST_FILE = Mywopin/Info.plist;
+				INFOPLIST_FILE = CupCoin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1782,14 +1688,14 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/WeChatSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/APSocialSDK",
-					"$(PROJECT_DIR)/Mywopin/BLE",
-					"$(PROJECT_DIR)/Mywopin/WechtSDK1.8.2",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/APSocialSDK",
+					"$(PROJECT_DIR)/CupCoin/BLE",
+					"$(PROJECT_DIR)/CupCoin/WechtSDK1.8.2",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1808,11 +1714,11 @@
 					"-framework",
 					"\"RxSwift\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.qingpaopaocoin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.HPOPO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Mywopin/Mywopin-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "CupCoin/CupCoin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1821,31 +1727,31 @@
 		};
 		C192AA2320C23771004EE98D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74BB0F5E2C575BF26786D94E /* Pods-Mywopin.release.xcconfig */;
+			baseConfigurationReference = 1EEF0B486383DDD511A4B204 /* Pods-CupCoin.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Mywopin/Mywopin.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CupCoin/CupCoin.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6796P8E27Y;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/Required",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/Optional",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformConnector",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/Required",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/QQSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/Required",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/Optional",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformConnector",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/Required",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK",
 				);
-				INFOPLIST_FILE = Mywopin/Info.plist;
+				INFOPLIST_FILE = CupCoin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1853,14 +1759,14 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
-					"$(PROJECT_DIR)/Mywopin/share/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/WeChatSDK",
-					"$(PROJECT_DIR)/Mywopin/ShareSDK/Support/PlatformSDK/APSocialSDK",
-					"$(PROJECT_DIR)/Mywopin/BLE",
-					"$(PROJECT_DIR)/Mywopin/WechtSDK1.8.2",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/CupCoin/share/SDK/ShareSDK/Support/PlatformSDK/APSocialSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/SinaWeiboSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/WeChatSDK",
+					"$(PROJECT_DIR)/CupCoin/ShareSDK/Support/PlatformSDK/APSocialSDK",
+					"$(PROJECT_DIR)/CupCoin/BLE",
+					"$(PROJECT_DIR)/CupCoin/WechtSDK1.8.2",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1879,10 +1785,10 @@
 					"-framework",
 					"\"RxSwift\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.qingpaopaocoin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wopin.HPOPO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Mywopin/Mywopin-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "CupCoin/CupCoin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -1,89 +1,89 @@
 PODS:
-  - Alamofire (4.7.3)
-  - ChromaColorPicker (1.7)
+  - Alamofire (4.8.2)
+  - ChromaColorPicker (1.7.2)
   - CocoaAsyncSocket (7.6.3)
-  - CocoaMQTT (1.1.2):
-    - CocoaAsyncSocket (~> 7.6.1)
-    - SwiftyTimer (~> 2.0.0)
-  - Crashlytics (3.10.8):
-    - Fabric (~> 1.7.12)
+  - CocoaMQTT (1.1.3):
+    - CocoaAsyncSocket (~> 7.6.3)
+  - Crashlytics (3.10.9):
+    - Fabric (~> 1.7.13)
   - Disk (0.3.3)
-  - Fabric (1.7.12)
-  - Firebase/Core (5.9.0):
+  - Fabric (1.7.13)
+  - Firebase/Core (5.20.1):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 5.2.0)
-  - Firebase/CoreOnly (5.9.0):
-    - FirebaseCore (= 5.1.4)
-  - FirebaseAnalytics (5.2.0):
-    - FirebaseCore (~> 5.1)
-    - FirebaseInstanceID (~> 3.2)
-    - GoogleAppMeasurement (~> 5.2)
+    - FirebaseAnalytics (= 5.8.0)
+  - Firebase/CoreOnly (5.20.1):
+    - FirebaseCore (= 5.4.1)
+  - FirebaseAnalytics (5.8.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
     - GoogleUtilities/MethodSwizzler (~> 5.2)
     - GoogleUtilities/Network (~> 5.2)
     - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
-  - FirebaseCore (5.1.4):
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
     - GoogleUtilities/Logger (~> 5.2)
-  - FirebaseInstanceID (3.2.2):
-    - FirebaseCore (~> 5.1)
-    - GoogleUtilities/Environment (~> 5.3)
-    - GoogleUtilities/UserDefaults (~> 5.3)
-  - GoogleAppMeasurement (5.2.0):
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - GoogleAppMeasurement (5.8.0):
     - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
     - GoogleUtilities/MethodSwizzler (~> 5.2)
     - GoogleUtilities/Network (~> 5.2)
     - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
-  - GoogleUtilities/AppDelegateSwizzler (5.3.0):
+  - GoogleUtilities/AppDelegateSwizzler (5.5.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (5.3.0)
-  - GoogleUtilities/Logger (5.3.0):
+  - GoogleUtilities/Environment (5.5.0)
+  - GoogleUtilities/Logger (5.5.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (5.3.0):
+  - GoogleUtilities/MethodSwizzler (5.5.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (5.3.0):
+  - GoogleUtilities/Network (5.5.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (5.3.0)"
-  - GoogleUtilities/Reachability (5.3.0):
+  - "GoogleUtilities/NSData+zlib (5.5.0)"
+  - GoogleUtilities/Reachability (5.5.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (5.3.0):
+  - GoogleUtilities/UserDefaults (5.5.0):
     - GoogleUtilities/Logger
-  - Gridicons (0.17)
-  - IHKeyboardAvoiding (4.3)
-  - Kingfisher (4.10.0)
-  - mob_paysdk/Channels/WeChat (1.0.0):
+  - Gridicons (0.18)
+  - Hero (1.4.0)
+  - IHKeyboardAvoiding (4.6)
+  - Kingfisher (5.3.1)
+  - mob_paysdk/Channels/WeChat (1.2.0):
     - mob_paysdk/PaySDK
     - MOBFoundation
-  - mob_paysdk/PaySDK (1.0.0):
+  - mob_paysdk/PaySDK (1.2.0):
     - MOBFoundation
-  - MOBFoundation (3.1.9)
-  - Moya/Core (11.0.2):
+  - MOBFoundation (3.2.2)
+  - Moya/Core (12.0.1):
     - Alamofire (~> 4.1)
-    - Result (~> 3.0)
-  - Moya/RxSwift (11.0.2):
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
-  - nanopb (0.3.8):
-    - nanopb/decode (= 0.3.8)
-    - nanopb/encode (= 0.3.8)
-  - nanopb/decode (0.3.8)
-  - nanopb/encode (0.3.8)
-  - PKHUD (5.2.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - PKHUD (5.2.1)
   - QRCodeReader.swift (8.2.0)
-  - R.swift (4.0.0):
-    - R.swift.Library (~> 4.0.0)
-  - R.swift.Library (4.0.0)
-  - Result (3.2.4)
-  - RxCocoa (4.3.1):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.3.1)
-  - SwiftyTimer (2.0.0)
-  - Toast-Swift (4.0.0)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - Toast-Swift (4.0.1)
   - WordPress-Aztec-iOS (1.0.2)
   - WordPress-Editor-iOS (1.0.2):
     - WordPress-Aztec-iOS (= 1.0.2)
@@ -97,6 +97,7 @@ DEPENDENCIES:
   - Fabric (~> 1.7.11)
   - Firebase/Core
   - Gridicons
+  - Hero
   - IHKeyboardAvoiding (~> 4.0)
   - Kingfisher
   - mob_paysdk/Channels/WeChat
@@ -125,6 +126,7 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - Gridicons
+    - Hero
     - IHKeyboardAvoiding
     - Kingfisher
     - mob_paysdk
@@ -138,44 +140,43 @@ SPEC REPOS:
     - Result
     - RxCocoa
     - RxSwift
-    - SwiftyTimer
     - Toast-Swift
     - WordPress-Aztec-iOS
     - WordPress-Editor-iOS
 
 SPEC CHECKSUMS:
-  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
-  ChromaColorPicker: 33efa67b17cca51dd253689d18b83ac7e05642c2
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  ChromaColorPicker: 78194fbae9f342d3781ac178c4d92c7652197d18
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
-  CocoaMQTT: d33ab3cd4e329f9f1cfbb62e25306a318a606616
-  Crashlytics: 058dc1ba579f6c100bc60a6878703779bff383c4
+  CocoaMQTT: b506d38ad3bbe1c55a4f8ee8c9fd02c35da1a7d8
+  Crashlytics: 55e24fc23989680285a21cb1146578d9d18e432c
   Disk: d1f55cd61f6ca20f368232d0c6e37e3c3dfcb63e
-  Fabric: d7387db9a31aadff63b147a4b91d982c53afaa4f
-  Firebase: 383fa29aca93e371cab776b48a5c66544d3c2003
-  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
-  FirebaseCore: 2a84b6b325792a4319ef71ee18819dcba08d2fd7
-  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
-  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
-  GoogleUtilities: 760ccb53b7c7f40f9c02d8c241f76f841a7a6162
-  Gridicons: 574d8bd9bad4027cbb5e4e3cde995570fc325345
-  IHKeyboardAvoiding: e6a8f06434baf4c3b45825c3eedb35cea5d0d76b
-  Kingfisher: 43c4b802d8b5256cf1f4379e9cd10b329be6d3e2
-  mob_paysdk: 6ca4412389736281c0876726bca11617d14a38ae
-  MOBFoundation: 11500153c10d83e4ac341f6ad6301b3998ce6db2
-  Moya: a725035953bc1c0eb1be505ab903984501d82440
-  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
+  Fabric: 25d0963b691fc97be566392243ff0ecef5a68338
+  Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
+  FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
+  GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
+  Gridicons: 04261236382e9c62c62c9a104f2f532c1bdf6a78
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  IHKeyboardAvoiding: 2a664fdb5f964359fa7ec8fc5c9aebb447583ff8
+  Kingfisher: d9e7e0b209b59b8f9873aa2f37654e81a7beea51
+  mob_paysdk: d28d26d9eb201a6183e38552d178e04be24bea5f
+  MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
   QRCodeReader.swift: 003eb32f18a5a675b936ec82ba0ff368cddbff45
-  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
-  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
-  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
-  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
-  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
-  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
   WordPress-Aztec-iOS: a736985cc6de6ffceb30a03e380d849b4956ae51
   WordPress-Editor-iOS: 571e9a168881af4cbe6cc909af603c278a5f0fe3
 
-PODFILE CHECKSUM: e6556b6da95d9112ee00cbdf0fa729fabb6a6f9e
+PODFILE CHECKSUM: 1915759b380d4473d049dc7064702e3512efb3d7
 
 COCOAPODS: 1.5.3
